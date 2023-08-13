@@ -70,7 +70,7 @@ export const featuredProjects = [
     {
         name:'Dellacorte House',
         kitchen:'dellacorte-house/kitchen.png',
-        bathroom:'dellacorte-house/bathroom-2.png',
+        bathroom:'dellacorte-house/bathroom.png',
         livingRoom:'dellacorte-house/living-room.png',
         bathroom2:'dellacorte-house/bathroom-2.png'
     }
