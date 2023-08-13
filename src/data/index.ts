@@ -1,21 +1,21 @@
 export const featuredProperties = [
     {
-        image:'nomaden-omah-sekut',
+        image:'nomaden-omah-sekut.png',
         name:'Nomaden Omah Sekut',
         address:'San Diego, California. USA'
     },
     {
-        image:'real-bluestyle-house',
+        image:'real-bluestyle-house.png',
         name:'Real Bluestyle House',
         address:'San Diego, California. USA'
     },
     {
-        image:'gubuque-apique',
+        image:'gubuque-apique.png',
         name:'Gubuque Apique',
         address:'San Diego, California. USA'
     },
     {
-        image:'luxury-umahu-mantappu',
+        image:'luxury-umahu-mantappu.png',
         name:'Luxury Umahu Mantappu',
         address:'San Diego, California. USA'
     }

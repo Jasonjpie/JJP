@@ -8,13 +8,20 @@ const Testmonials = (props: Props) => {
   const testmony = testmonials[0]
   return (
     <div className='w-full'>
-      <div className='relative mx-auto w-[80%] -mb-44 z-10 space-y-16'>
-        <div className='text-6xl pt-16 font-bold font-poppins text-center'>TESTMONIALS</div>
+      <div className='relative mx-auto lg:w-[80%] -mb-44 z-10 space-y-16'>
+        <div className='text-4xl lg:text-6xl pt-16 font-bold font-poppins text-center'>TESTMONIALS</div>
         <div className='grid grid-cols-1 lg:grid-cols-2 w-full bg-gradient-to-br from-[#142C63] to-[#131C31] '>
            <div className='p-16'>
-            <div className='relative self-center'>
+            <div className='relative flex flex-col gap-10 items-center self-center'>
               <Image src={`/images/testmonials/${testmony.image}`} width={300} height={500} alt={testmony.name} />
-              <div className='flex flex-col gap-1 items-center absolute top-64 left-40 w-[300px] h-[200px] bg-white px-2 pt-10'>
+              <div className=' flex-col gap-1 items-center hidden lg:flex absolute top-64 left-52 w-[300px] h-[200px] bg-white px-2 pt-10'>
+                  <div className='text-3xl font-bold font-poppins text-center'>{testmony.name}</div>
+                  <div className='w-[300px] font-poppins leading-loose text-gray-500 p-5'>{testmony.testmony}</div>
+                  <div className='absolute -top-8 bg-white p-6 rounded-full shadow-xl'>
+                    <BiSolidQuoteLeft className='text-[#0A72AD]' />
+                  </div>
+              </div>
+              <div className='flex flex-col relative lg:hidden gap-1 items-center w-[300px] h-[200px] bg-white px-2 pt-10'>
                   <div className='text-3xl font-bold font-poppins text-center'>{testmony.name}</div>
                   <div className='w-[300px] font-poppins leading-loose text-gray-500 p-5'>{testmony.testmony}</div>
                   <div className='absolute -top-8 bg-white p-6 rounded-full shadow-xl'>

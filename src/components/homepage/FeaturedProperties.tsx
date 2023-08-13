@@ -5,8 +5,8 @@ type Props = {}
 
 const FeaturedProperties = (props: Props) => {
   return (
-    <div className="w-full bg-[#F5F5FF] p-24 space-y-10">
-        <div className="grid grid-cols-3 gap-5">
+    <div className="w-full bg-[#F5F5FF] lg:p-24 p-5 space-y-10">
+        <div className="grid lg:grid-cols-3 gap-5">
             <div className="font-bold text-6xl leading-normal">Featured Properties</div>
             <div className=" leading-loose">
             Take a look at our wide range of featured properties. We provide the best and quality housing at very affordable prices for you and your family
@@ -20,11 +20,11 @@ const FeaturedProperties = (props: Props) => {
                 </button>
             </div>
         </div>
-        <div className='grid grid-cols-4 gap-3'>
+        <div className='grid lg:grid-cols-4 grid-cols-2 gap-3'>
             {
                 featuredProperties.map((property, index) => (
                     <div key={index} className='flex flex-col gap-3 bg-white rounded-3xl p-3'>
-                        <Image src={`/images/featured-properties/${property.image}.png`} width={500} height={800} alt={property.name}/>
+                        <Image src={`/images/featured-properties/${property.image}`} width={500} height={800} alt={property.name}/>
                         <div className='font-bold'>{property.name}</div>
                         <div className='text-gray-400'>{property.address}</div>
                     </div>
