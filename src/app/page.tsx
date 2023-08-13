@@ -6,6 +6,7 @@ import Footer from '@/components/common/Footer'
 import Benefits from '@/components/homepage/Benefits'
 import FeaturedProjects from '@/components/homepage/FeaturedProjects'
 import Projects from '@/components/homepage/Projects'
+import ContactUs from '@/components/homepage/ContactUs'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <FeaturedProjects />
       <Benefits/>
       <Projects />
+      <ContactUs />
       <Footer />
     </div>
   )

@@ -16,8 +16,8 @@ const config: Config = {
       fontFamily: {
         'montserrat': ['Montserrat'],
         'playfair': ['Playfair Display'],
-        'lato': ['Lato'],
-        'garamond': ['Garamond']
+        'poppins': ['Poppins', 'sans-serif']
+
     },
       colors:{
         primary:'#7275F0'
