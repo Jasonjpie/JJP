@@ -75,3 +75,11 @@ export const featuredProjects = [
         bathroom2:'dellacorte-house/bathroom-2.png'
     }
 ]
+
+export const testmonials = [
+    {
+        name:'Jacob Molen',
+        image:'jacob-molen.png',
+        testmony:'We like the final result this project, in extraordinary and also provides the best service to the client '
+    }
+]

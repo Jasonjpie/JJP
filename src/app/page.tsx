@@ -7,6 +7,7 @@ import Benefits from '@/components/homepage/Benefits'
 import FeaturedProjects from '@/components/homepage/FeaturedProjects'
 import Projects from '@/components/homepage/Projects'
 import ContactUs from '@/components/homepage/ContactUs'
+import Testmonials from '@/components/homepage/Testmonials'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Benefits/>
       <Projects />
       <ContactUs />
+      <Testmonials />
       <Footer />
     </div>
   )
