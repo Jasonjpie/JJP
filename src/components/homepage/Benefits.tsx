@@ -15,7 +15,7 @@ const Benefits = (props: Props) => {
                 benefits.map((benefit, index) => (
                     <div key={index} className="flex flex-col items-center gap-5">
                         <div className="bg-[#52D3FD] bg-opacity-10 px-5 py-5 rounded-2xl">
-                          <Image src={`/icons/${benefit.icon}`} width={50} height={50} alt={benefit.name}/>
+                          <Image src={`/Icons/${benefit.icon}`} width={50} height={50} alt={benefit.name}/>
                         </div>
                      <div className="text-center">{benefit.name}</div>
                      <div className="text-gray-400 text-center p-3">{benefit.detail}</div>

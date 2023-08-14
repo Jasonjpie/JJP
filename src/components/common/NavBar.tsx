@@ -35,7 +35,7 @@ const NavBar = (props: Props) => {
     const path = usePathname()
   return (
     <div className="flex w-full bg-[#101C3D] py-3 px-16">
-        <Image  src='/icons/logo-light.svg'  width={200} height={20} alt="JJP's Logo"/>
+        <Image  src='/Icons/logo-light.svg'  width={200} height={20} alt="JJP's Logo"/>
         <div className="hidden lg:flex items-center gap-2 ml-auto">
             {
             navigation.map((bar, index) => (

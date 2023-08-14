@@ -28,8 +28,8 @@ const ContactUs = (props: Props) => {
             </form>
         </div>
         <div className="relative lg:block hidden w-[40%]">
-            <Image src='/icons/world.svg' fill alt="World Map"/>
-            <Image className="absolute top-64 left-32" src='/icons/location-pointer.svg' width={50} height={50} alt="World Map"/>
+            <Image src='/Icons/world.svg' fill alt="World Map"/>
+            <Image className="absolute top-64 left-32" src='/Icons/location-pointer.svg' width={50} height={50} alt="World Map"/>
         </div>
     </div>
   )
