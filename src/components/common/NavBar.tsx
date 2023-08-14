@@ -2,10 +2,12 @@ import Image from "next/image"
 import { Routes } from "../../../Routes"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import  { MdKeyboardArrowDown } from 'react-icons/md'
+type Props = {
+    dark?:boolean
+}
 
-type Props = {}
-
-const NavBar = (props: Props) => {
+const NavBar = ({dark = true}: Props) => {
     const navigation = [
         {
             name:'Home',
@@ -34,14 +36,23 @@ const NavBar = (props: Props) => {
     ]
     const path = usePathname()
   return (
-    <div className="flex w-full bg-[#101C3D] py-3 px-16">
-        <Image  src='/icons/logo-light.svg'  width={200} height={20} alt="JJP's Logo"/>
+    <div className={`flex w-full ${dark && 'bg-[#101C3D]'} py-3 px-16`}>
+        <Image  src={`/icons/logo-${dark ? 'light':'color'}.svg`}  width={200} height={20} alt="JJP's Logo"/>
         <div className="hidden lg:flex items-center gap-2 ml-auto">
-            {
+            {dark ? 
             navigation.map((bar, index) => (
-                <Link key={index} href={bar.route} className={`px-4 py-2 rounded-md  ${path === bar.route ? 'bg-white text-primary':'text-white'}`}>
-                    {bar.name}
+                <Link key={index} href={bar.route} className={`flex items-center gap-3 px-4 py-2 rounded-md  ${path === bar.route ? 'bg-white text-primary':'text-white'}`}>
+                    <div>{bar.name}</div> 
+                    {bar.route === '/projects' && <MdKeyboardArrowDown className='text-white' />}
                 </Link>
+               
+            )):
+            navigation.map((bar, index) => (
+                    <Link key={index} href={bar.route} className={`flex items-center gap-3 px-4 py-2 rounded-md  ${path === bar.route && 'bg-primary bg-opacity-10 text-primary'}`}>
+                        <div>{bar.name}</div> 
+                        {bar.route === '/projects' && <MdKeyboardArrowDown  />}
+                    </Link>
+                
             ))
             }
         </div>
