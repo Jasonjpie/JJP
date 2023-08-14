@@ -83,3 +83,16 @@ export const testmonials = [
         testmony:'We like the final result this project, in extraordinary and also provides the best service to the client '
     }
 ]
+
+export const Projects = [
+    'project-1.png',
+    'project-2.png',
+    'project-3.png',
+    'project-4.png',
+    'project-5.png',
+    'project-6.png',
+    'project-7.png',
+    'project-8.png',
+    'project-9.png',
+
+]
