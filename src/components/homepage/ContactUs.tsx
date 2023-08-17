@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { useState } from "react"
+import Container from "../common/Container"
 type Props = {}
 
 const ContactUs = (props: Props) => {
@@ -9,7 +10,8 @@ const ContactUs = (props: Props) => {
     const [ message, setMessage ] = useState('')
 
   return (
-    <div className="w-full flex columns-2 bg-[#F5F5FF]">
+    <Container>
+ <div className="w-full flex columns-2 bg-[#F5F5FF]">
         <div className="flex flex-col gap-5 lg:w-[60%] p-10">
             <div className="text-5xl lg:text-6xl font-bold font-poppins">Contact Us</div>
             <div className="leading-loose font-poppins ">
@@ -32,6 +34,8 @@ const ContactUs = (props: Props) => {
             <Image className="absolute top-64 left-32" src='/icons/location-pointer.svg' width={50} height={50} alt="World Map"/>
         </div>
     </div>
+    </Container>
+   
   )
 }
 
