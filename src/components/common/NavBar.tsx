@@ -6,10 +6,11 @@ import  { MdKeyboardArrowDown } from 'react-icons/md'
 import { useEffect, useState } from "react"
 import Container from "./Container"
 type Props = {
-    dark?:boolean
+    dark?:boolean;
+    transparent?:boolean;
 }
 
-const NavBar = ({dark = true}: Props) => {
+const NavBar = ({dark = true, transparent = false}: Props) => {
     const navigation = [
         {
             name:'Home',
@@ -37,22 +38,22 @@ const NavBar = ({dark = true}: Props) => {
         }
     ]
     const path = usePathname()
-    const [ temp, setTemp ] = useState(true)
+    const [ transparency, setTransparency ] = useState(true)
     useEffect(() =>{
        const handleScroll = () => {
          if(window.scrollY > 200){
-            setTemp(false)
+            setTransparency(false)
         }else{
-            setTemp(true)
+            setTransparency(true)
         }
        }
-       window.addEventListener('scroll', handleScroll)
+       window.addEventListener('scroll', handleScroll) 
        return () =>{
         window.removeEventListener('scroll', handleScroll)
        }
     },[])
   return (
-    <div className={`w-full  fixed top-0 z-50 ${temp && dark && 'bg-opacity-0'}  ${dark ? 'bg-[#101C3D]':'bg-white'} py-3 `}>
+    <div className={`w-full  fixed top-0 z-50 ${transparency && dark && transparent && 'bg-opacity-0'}  ${dark ? 'bg-[#101C3D]':'bg-white'} py-3 `}>
         <Container>
             <div className="flex w-full">
                 <Image  src={`/icons/logo-${dark ? 'light':'color'}.svg`}  width={200} height={20} alt="JJP's Logo"/>

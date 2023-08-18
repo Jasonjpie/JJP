@@ -1,16 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
+import Container from "./Container";
 type Props = {};
 
 const Footer = (props: Props) => {
   return (
-    <>
-      <div className="grid lg:grid-cols-5 gap-16 p-20 bg-[#091020]">
+    
+    <div className="w-full bg-[#091020]">
+      <Container>
+      <div className="grid lg:grid-cols-5 gap-16 p-20">
         <div className="text-white text-4xl self-end">JJP</div>
         <div className="flex flex-col gap-2 text-white font-bold">
           <div className="mb-3">Useful Links</div>
           <Link href="">About</Link>
-          <Link href="">Project</Link>
+          <Link href="">Project</Link> 
           <Link href="">Services</Link>
           <Link href="">Testimonials</Link>
         </div>
@@ -66,7 +69,9 @@ const Footer = (props: Props) => {
           </div>
         </div>
       </div>
-    </>
+      </Container>
+      
+    </div>
   );
 };
 

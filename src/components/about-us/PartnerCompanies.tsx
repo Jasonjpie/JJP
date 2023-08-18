@@ -4,7 +4,7 @@ type Props = {}
 
 const PartnerCompanies = (props: Props) => {
   return (
-    <div className="flex flex-col items-center gap-10 my-16">
+    <div className="flex flex-col items-center gap-10 my-44">
       <div className="font-poppins font-semibold text-4xl">Partner Companies</div>
       <div className="flex flex-wrap items-center justify-center gap-16">
         {

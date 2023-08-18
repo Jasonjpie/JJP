@@ -8,18 +8,20 @@ import FeaturedProjects from '@/components/homepage/FeaturedProjects'
 import Projects from '@/components/homepage/Projects'
 import ContactUs from '@/components/homepage/ContactUs'
 import Testmonials from '@/components/homepage/Testmonials'
-
+import Container from '@/components/common/Container'
 export default function Home() {
   return (
     <div>
       <NavBar />
       <HeroSection />
-      <FeaturedProperties />
-      <FeaturedProjects />
-      <Benefits/>
-      <Projects />
-      <ContactUs />
-      <Testmonials />
+      <Container>
+        <FeaturedProperties />
+        <FeaturedProjects />
+        <Benefits/>
+        <Projects />
+        <ContactUs />
+        <Testmonials /> 
+      </Container>
       <Footer />
     </div>
   )

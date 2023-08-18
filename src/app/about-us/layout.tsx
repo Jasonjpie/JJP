@@ -2,7 +2,6 @@
 
 import NavBar from "@/components/common/NavBar"
 import Footer from "@/components/common/Footer"
-import Container from "@/components/common/Container"
 export default function Layout({
   children,
 }: {
@@ -10,8 +9,8 @@ export default function Layout({
 }) {
   return (
     <div>
-      <NavBar dark={false} />
-      <Container>{children}</Container>
+      <NavBar dark={true} transparent={true}/>
+      <div>{children}</div>
       <Footer />
     </div>
   )
