@@ -48,7 +48,7 @@ const Testmonials = (props: Props) => {
            </div>
         </div>
       </div>
-      <div className='relative bg-[#091020] h-[300px] z-0'/>
+      <div className='relative bg-[#101C3D] h-[300px] z-0'/>
 
       
     </div>

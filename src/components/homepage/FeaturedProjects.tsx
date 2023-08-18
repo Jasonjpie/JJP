@@ -1,6 +1,7 @@
 import { featuredProjects } from "@/data"
 import Image from "next/image"
 import Link from "next/link"
+import { RiArrowLeftFill, RiArrowRightFill } from "react-icons/ri"
 
 type Props = {}
 
@@ -62,6 +63,14 @@ const FeaturedProjects = (props: Props) => {
 
         </div>
 
+      <div className="flex justify-between mt-10 z-5">
+            <div className="p-4 rounded-2xl bg-white cursor-pointer">
+               <RiArrowLeftFill className="text-primary" size={30} />
+           </div>
+           <div className="p-4 rounded-2xl bg-white cursor-pointer">
+               <RiArrowRightFill className="text-primary" size={30} />
+            </div>
+       </div>
     </div>
   )
 }
