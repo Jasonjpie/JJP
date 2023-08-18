@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Container from "./Container"
 type Props = {}
 
 const Footer = (props: Props) => {
@@ -33,17 +34,20 @@ const Footer = (props: Props) => {
         <div className="flex items-center gap-3">
           <Image src='/Icons/email.svg' width={30} height={20} alt='Email Address'/>
           <div> hello@mandor.com </div>
+
         </div>
-      </div>
-      <div className="flex flex-col text-white">
-      <div className="mb-3 font-bold mt-auto">Stay Connect</div>
-      <div className="flex gap-3">
-          <div className="flex items-center justify-center w-12 h-12 border border-white rounded-full">Fb</div>
-          <div className="flex items-center justify-center w-12 h-12 border border-white rounded-full">lg</div>
-          <div className="flex items-center justify-center w-12 h-12 border border-white rounded-full">Li</div>
-      </div>
-      </div>  
+        <div className="flex flex-col text-white">
+        <div className="mb-3 font-bold mt-auto">Stay Connect</div>
+        <div className="flex gap-3">
+            <div className="flex items-center justify-center w-12 h-12 border border-white rounded-full">Fb</div>
+            <div className="flex items-center justify-center w-12 h-12 border border-white rounded-full">lg</div>
+            <div className="flex items-center justify-center w-12 h-12 border border-white rounded-full">Li</div>
+        </div>
+        </div>  
+        </div>
+      </Container>
     </div>
+    
   )
 }
 
