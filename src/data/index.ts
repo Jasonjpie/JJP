@@ -1,3 +1,15 @@
+import { Beck } from "@/images/Beck"
+import { Fiske } from "@/images/Fiske"
+import { Hortense } from "@/images/Hortense"
+import { Iliff } from "@/images/Iliff"
+import { Rancho_st } from "@/images/RanchoSt"
+import { Sancola } from "@/images/Sancola"
+import { Shadyglade } from "@/images/Shadyglade"
+import { Sunswept_Dr } from "@/images/SunsweptDr"
+import { ValleyVista } from "@/images/ValleyVista"
+import { Woodbridge } from "@/images/Woodbridge"
+import { Project } from "@/types"
+
 export const featuredProperties = [
     {
         image:'nomaden-omah-sekut.png',
@@ -84,16 +96,77 @@ export const testmonials = [
     }
 ]
 
-export const Projects = [
-    'project-1.png',
-    'project-2.png',
-    'project-3.png',
-    'project-4.png',
-    'project-5.png',
-    'project-6.png',
-    'project-7.png',
-    'project-8.png',
-    'project-9.png',
+export const Projects:Project[] = [
+{
+    id:'1',
+    name:'Beck',
+    year:'2023',
+    frontview:"https://res.cloudinary.com/desqmglcs/image/upload/v1692280528/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_47_of_50_ze4rn1.jpg",
+    images: Beck
+},
+{
+    id:'2',
+    name:'Fiske',
+    year:'2023',
+    frontview:"https://res.cloudinary.com/desqmglcs/image/upload/v1692282219/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-53_xmzbbu.jpg",
+    images:Fiske
+},
+{   id:'3',
+    name:'Hortense',
+    year:'2023',
+    frontview:"https://res.cloudinary.com/desqmglcs/image/upload/v1692282127/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/DJI_0231_sttgjr.jpg",
+    images:Hortense      
+},
+{
+    id:'4',
+    name:'lliff',
+    year:'2023',
+    frontview:"https://res.cloudinary.com/desqmglcs/image/upload/v1692281677/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/770%20Iliff%20%282018%29/SkyFilm_65_d1ubjx.jpg",
+    images:Iliff
+},
+{
+    id:'5',
+    name:'RanchoSt',
+    year:'2023',
+    frontview:"https://res.cloudinary.com/desqmglcs/image/upload/v1692282373/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/17320%20Rancho%20st/1-1024x683_ir4drj.jpg",
+    images:Rancho_st
+},
+{
+    id:'6',
+    name:'Sancola',
+    year:'2023',
+    frontview:"https://res.cloudinary.com/desqmglcs/image/upload/v1692281531/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4405%20Sancola/4405SancolaAve_TolucaLake_CA91602_USAPre-Twilights-1_ttfutx.jpg",
+    images:Sancola
+},
+{
+    id:'7',
+    name:'Shadyglade',
+    year:'2023',
+    frontview:"https://res.cloudinary.com/desqmglcs/image/upload/v1692282384/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-02-1024x684_l1cnti.jpg",
+    images:Shadyglade
+},
+
+{
+    id:'8',
+    name:'SunsweptDr',
+    year:'2023',
+    frontview:"https://res.cloudinary.com/desqmglcs/image/upload/v1692280591/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/3958%20Sunswept%20Dr/SKY_PHOTOGRAPHY_LA-2Y_wa8nk0.jpg",
+    images:Sunswept_Dr
+},
+{
+    id:'9',
+    name:'Valley Vista',
+    year:'2023',
+    frontview:"https://res.cloudinary.com/desqmglcs/image/upload/v1692282367/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/15125%20Valley%20Vista/15125_Valley_Vista_Boulevard_-_High_Resolution_4_km3fms.jpg",
+    images:ValleyVista
+},
+{
+    id:'10',
+    name:'WoodBridge',
+    year:'2023',
+    frontview:"https://res.cloudinary.com/desqmglcs/image/upload/v1692280587/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12005%20Woodbridge/SKY_PHOTOGRAPHY_LA-RR2_dl3fao.jpg",
+    images:Woodbridge
+},
 
 ]
 
