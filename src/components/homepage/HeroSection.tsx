@@ -11,7 +11,7 @@ const HeroSection = (props: Props) => {
                   <div className="text-white text-5xl lg:text-6xl font-bold lg:max-w-xl leading-snug">
                   UNLEASH THE <span className="text-primary">POTENTIAL</span>  OF YOUR NEW SPACE
                   </div>
-                  <div className="max-w-md text-white leading-loose">
+                  <div className="max-w-md text-white leading-loose font-montserrat">
                     ​More than 100 building and housing projects that we have built. The building owner chose us over other contractors in USA, because our work is different
                   </div>
                   <div className="px-5 py-4 w-fit rounded-full text-white bg-[#416FF4]">

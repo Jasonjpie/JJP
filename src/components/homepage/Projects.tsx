@@ -7,7 +7,9 @@ const Projects = (props: Props) => {
   return (
     <div className="w-full flex flex-col gap-5 my-44 md:px-32">
         <div className="font-bold text-5xl text-center">OUR PROJECTS</div>
-        <div className="text-center max-w-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</div>
+        <div className="text-center max-w-lg mx-auto font-montserrat text-gray-500 text-xl p-5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+          </div>
         <div className="grid lg:grid-cols-3 grid-cols-2 gap-5 p-2">
             {
                 projects.map((project, index) => (
