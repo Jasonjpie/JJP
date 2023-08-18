@@ -6,7 +6,7 @@ type Props = {};
 const Footer = (props: Props) => {
   return (
     
-    <div className="w-full bg-[#091020]">
+    <div className="w-full md:px-32 bg-[#091020]">
       <Container>
       <div className="grid lg:grid-cols-5 gap-16 p-20">
         <div className="text-white text-4xl self-end">JJP</div>
