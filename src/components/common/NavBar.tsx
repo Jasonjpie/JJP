@@ -36,9 +36,9 @@ const NavBar = ({dark = true}: Props) => {
     ]
     const path = usePathname()
   return (
-    <div className={`flex w-full ${dark && 'bg-[#101C3D]'} py-3 px-16`}>
+    <div className={`relative flex justify-start gap-52 w-full ${dark && 'bg-[#101C3D]'} py-3 px-16`}>
         <Image  src={`/icons/logo-${dark ? 'light':'color'}.svg`}  width={200} height={20} alt="JJP's Logo"/>
-        <div className="hidden lg:flex items-center gap-2 ml-auto">
+        <div className="hidden lg:flex items-center gap-2 ">
             {dark ? 
             navigation.map((bar, index) => (
                 <Link key={index} href={bar.route} className={`flex items-center gap-3 px-4 py-2 rounded-md  ${path === bar.route ? 'bg-white text-primary':'text-white'}`}>
