@@ -96,3 +96,11 @@ export const Projects = [
     'project-9.png',
 
 ]
+
+export const companies = [
+    'adhimix.svg',
+    'adirafinance.svg',
+    'holcim.svg',
+    'mnc.svg',
+    'telkomsel.svg',
+]
