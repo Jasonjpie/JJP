@@ -3,6 +3,8 @@ import { Routes } from "../../../Routes"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import  { MdKeyboardArrowDown } from 'react-icons/md'
+import { useEffect, useState } from "react"
+import Container from "./Container"
 type Props = {
     dark?:boolean
 }
@@ -35,27 +37,45 @@ const NavBar = ({dark = true}: Props) => {
         }
     ]
     const path = usePathname()
+    const [ temp, setTemp ] = useState(true)
+    useEffect(() =>{
+       const handleScroll = () => {
+         if(window.scrollY > 200){
+            setTemp(false)
+        }else{
+            setTemp(true)
+        }
+       }
+       window.addEventListener('scroll', handleScroll)
+       return () =>{
+        window.removeEventListener('scroll', handleScroll)
+       }
+    },[])
   return (
-    <div className={`relative flex justify-start gap-52 w-full ${dark && 'bg-[#101C3D]'} py-3 px-16`}>
-        <Image  src={`/icons/logo-${dark ? 'light':'color'}.svg`}  width={200} height={20} alt="JJP's Logo"/>
-        <div className="hidden lg:flex items-center gap-2 ">
-            {dark ? 
-            navigation.map((bar, index) => (
-                <Link key={index} href={bar.route} className={`flex items-center gap-3 px-4 py-2 rounded-md  ${path === bar.route ? 'bg-white text-primary':'text-white'}`}>
-                    <div>{bar.name}</div> 
-                    {bar.route === '/projects' && <MdKeyboardArrowDown className='text-white' />}
-                </Link>
-               
-            )):
-            navigation.map((bar, index) => (
-                    <Link key={index} href={bar.route} className={`flex items-center gap-3 px-4 py-2 rounded-md  ${path === bar.route && 'bg-primary bg-opacity-10 text-primary'}`}>
-                        <div>{bar.name}</div> 
-                        {bar.route === '/projects' && <MdKeyboardArrowDown  />}
-                    </Link>
-                
-            ))
-            }
-        </div>
+    <div className={`w-full  fixed top-0 z-50 ${temp && dark && 'bg-opacity-0'}  ${dark ? 'bg-[#101C3D]':'bg-white'} py-3 `}>
+        <Container>
+            <div className="flex w-full">
+                <Image  src={`/icons/logo-${dark ? 'light':'color'}.svg`}  width={200} height={20} alt="JJP's Logo"/>
+                <div className="hidden lg:flex items-center gap-2 ml-auto">
+                    {dark ? 
+                    navigation.map((bar, index) => (
+                        <Link key={index} href={bar.route} className={`flex items-center gap-3 px-4 py-2 rounded-md  ${path === bar.route ? 'bg-white text-black':'text-white'}`}>
+                            <div>{bar.name}</div> 
+                            {bar.route === '/projects' && <MdKeyboardArrowDown className='text-white' />}
+                        </Link>
+                    
+                    )):
+                    navigation.map((bar, index) => (
+                            <Link key={index} href={bar.route} className={`flex items-center gap-3 px-4 py-2 rounded-md  ${path === bar.route && 'bg-primary bg-opacity-10 text-primary'}`}>
+                                <div>{bar.name}</div> 
+                                {bar.route === '/projects' && <MdKeyboardArrowDown  />}
+                            </Link>
+                        
+                    ))
+                    }
+                </div>
+            </div>
+        </Container>
     </div>
   )
 }
