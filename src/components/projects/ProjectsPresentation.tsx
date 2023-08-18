@@ -21,7 +21,7 @@ const ProjectsPresentation = (props: Props) => {
         <div className="overflow-hidden after:clear-both">
             {
                 photos.map(photo => 
-                <Image className="hidden duration-700 ease-in-out" src={`/images/projects/${photos[index - 1]}`} fill alt=""/>
+                <Image className="hidden duration-700 ease-in-out" src={`/images/projects/${photos[index - 1]}`} fill alt="" key={""} />
                     )
             }
         </div>
@@ -35,7 +35,7 @@ const ProjectsPresentation = (props: Props) => {
             <div className="flex gap-3">
                 {
                    photos.map((photo, _index) => 
-                   <button onClick={() => setIndex(_index + 1)} className={`rounded-md relative w-[100px] h-[100px] border-2 ${index === _index + 1 ? 'border-[#3AA39F]':'border-[#D1D1D8]'}`}>
+                   <button onClick={() => setIndex(_index + 1)} className={`rounded-md relative w-[100px] h-[100px] border-2 ${index === _index + 1 ? 'border-[#3AA39F]':'border-[#D1D1D8]'}`} key={index}>
                      <Image className="p-2 rounded-md aspect-square" src={`/images/projects/${photo}`} fill alt=""/>
                     </button>
                    ) 

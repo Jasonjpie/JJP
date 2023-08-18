@@ -9,7 +9,7 @@ const PartnerCompanies = (props: Props) => {
       <div className="flex flex-wrap items-center justify-center gap-16">
         {
           companies.map((company, index) => 
-          <Image src={`/icons/${company}`} width={200} height={100} alt="logo" />
+          <Image src={`/icons/${company}`} width={200} height={100} alt="logo" key={index} />
           )
         }
       </div>

@@ -16,7 +16,7 @@ const FeaturedProjects = (props: Props) => {
 
             </div>
             <div className='col-span-2 leading-loose font-montserrat text-gray-500 text-2xl max-w-[850px] p-5'>
-                 Take a look at our many finished projects that have been so amazing, we're sure you'll want them too. Projects completed with a very experienced and professional team.
+                 Take a look at our many finished projects that have been so amazing, we&apos;re sure you&apos;ll want them too. Projects completed with a very experienced and professional team.
             </div>
         </div>
         <div className="grid lg:grid-cols-4 grid-cols-2 gap-10 h-[1100px] ">
