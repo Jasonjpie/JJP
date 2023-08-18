@@ -15,7 +15,7 @@ const HeroSection = (props: Props) => {
                 Explore our projects
             </div>
         </div>
-        <Image className="relative z-10" src='/images/house-livingroom.png' width={700} height={1200} alt=""/>
+        <Image className="relative z-10" src='/images/house-livingroom.png' width={500} height={1000} alt=""/>
         <div className="absolute bottom-0 hidden 2xl:block left-0 w-0 h-0
           border-t-[20vw] border-t-transparent
           border-r-[94vw] border-r-white

@@ -5,38 +5,36 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <div className="bg-[#091020]">
-      <Container>
-        <div className="grid lg:grid-cols-5 gap-16 p-16 ">
-        <div className="text-white text-4xl self-end">JJP</div>
-        <div className="flex flex-col gap-2 text-white font-bold">
-          <div className="mb-3">Useful Links</div>
-          <Link href=''>About</Link>
-          <Link href=''>Project</Link>
-          <Link href=''>Services</Link>
-          <Link href=''>Testimonials</Link>
+    <div className="grid lg:grid-cols-5 gap-16 p-16 bg-[#091020]">
+      <div className="text-white text-4xl self-end">JJP</div>
+      <div className="flex flex-col gap-2 text-white font-bold">
+        <div className="mb-3">Useful Links</div>
+        <Link href=''>About</Link>
+        <Link href=''>Project</Link>
+        <Link href=''>Services</Link>
+        <Link href=''>Testimonials</Link>
+      </div>
+      <div className="flex flex-col gap-2 text-white font-bold">
+        <div className="mb-3">Support</div>
+        <Link href=''>Blog</Link>
+        <Link href=''>FAQ</Link>
+        <Link href=''>Contact</Link>
+        <Link href=''>Team</Link>
+      </div>
+      <div className="flex flex-col gap-5 text-white">
+        <div className="mb-1 font-bold">Get in Touch</div>
+        <div className="flex items-center gap-3">
+          <Image src='/Icons/location.svg' width={30} height={50} alt='Address'/>
+          <div> Domino Street, District 456, Los angeles USA </div>
         </div>
-        <div className="flex flex-col gap-2 text-white font-bold">
-          <div className="mb-3">Support</div>
-          <Link href=''>Blog</Link>
-          <Link href=''>FAQ</Link>
-          <Link href=''>Contact</Link>
-          <Link href=''>Team</Link>
+        <div className="flex items-center gap-3">
+          <Image src='/Icons/phone.svg' width={30} height={20} alt='Phone Number'/>
+          <div> +44 652 762 887 </div>
         </div>
-        <div className="flex flex-col gap-5 text-white">
-          <div className="mb-1 font-bold">Get in Touch</div>
-          <div className="flex items-center gap-3">
-            <Image src='/icons/location.svg' width={30} height={50} alt='Address'/>
-            <div> Domino Street, District 456, Los angeles USA </div>
-          </div>
-          <div className="flex items-center gap-3">
-            <Image src='/icons/phone.svg' width={30} height={20} alt='Phone Number'/>
-            <div> +44 652 762 887 </div>
-          </div>
-          <div className="flex items-center gap-3">
-            <Image src='/icons/email.svg' width={30} height={20} alt='Email Address'/>
-            <div> hello@mandor.com </div>
-          </div>
+        <div className="flex items-center gap-3">
+          <Image src='/Icons/email.svg' width={30} height={20} alt='Email Address'/>
+          <div> hello@mandor.com </div>
+
         </div>
         <div className="flex flex-col text-white">
         <div className="mb-3 font-bold mt-auto">Stay Connect</div>

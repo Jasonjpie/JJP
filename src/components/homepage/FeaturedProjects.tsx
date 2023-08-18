@@ -12,7 +12,7 @@ const FeaturedProjects = (props: Props) => {
             <div className="flex flex-col relative col-span-1 mx-auto ml-10 p-5">
                 <div className="text-md font-bold text-gray-600 tracking-[8px] font-montserrat">/ PROJECT</div>
                 <div className="font-bold text-6xl max-w-[200px] leading-relaxed">Featured <span className="text-primary">Project</span></div>
-                <Image className="absolute -bottom-5 -left-5" src={`/icons/ellipse.svg`} width={400} height={100} alt={project.name}/>
+                <Image className="absolute -bottom-5 -left-5" src={`/Icons/ellipse.svg`} width={400} height={100} alt={project.name}/>
 
             </div>
             <div className='col-span-2 leading-loose font-montserrat text-gray-500 text-2xl max-w-[850px] p-5'>
