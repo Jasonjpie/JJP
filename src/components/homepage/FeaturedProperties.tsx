@@ -46,7 +46,7 @@ const FeaturedProperties = (props: Props) => {
   }, []);
 
   return (
-    <div className="w-full bg-[#F5F5FF] lg:px-32 py-24 md:px-32 space-y-10 ">
+    <div className="w-full bg-[#F5F5FF] p-5 py-24  space-y-10 ">
       <div className="grid lg:grid-cols-3 gap-5">
         <div className="font-bold text-6xl leading-normal">
           Featured Properties
@@ -68,14 +68,17 @@ const FeaturedProperties = (props: Props) => {
         {displayedProjects.map((property, index) => (
           <div
             key={index}
-            className="flex flex-col gap-3 bg-white p-3 animate-slide-left"
+            className="flex flex-col gap-3 rounded-md bg-white p-3 animate-slide-left"
           >
-            <Image
-              src={property.frontview}
-              width={500}
-              height={800}
-              alt={property.name}
-            />
+            <div className="w-full relative h-64">
+              <Image
+                className="rounded-md aspect-video"
+                src={property.frontview}
+                fill
+                alt={property.name}
+              />
+            </div>
+            
             <div className="font-bold">{property.name}</div>
             <div className="text-gray-400">{property.address}</div>
           </div>
