@@ -6,7 +6,7 @@ type Props = {}
 const FilterProjects = (props: Props) => {
     const [ category, setCategory ] = useState<Category>('all')
   return (
-    <div className="flex md:px-32 flex-wrap gap-10 justify-between">
+    <div className="flex  flex-wrap gap-10 justify-between">
         <button className="flex items-center gap-5 px-8 py-3 border border-black rounded-lg">
             <BiFilter /> 
             <div>Filter</div>

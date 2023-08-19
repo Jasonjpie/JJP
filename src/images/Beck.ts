@@ -4,6 +4,22 @@
 //4054 Beck
 export const Beck = [
     {
+        "name" : "Beck_fronthouse_view",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280540/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_1_of_50_kjljkp.jpg"
+    },
+    {
+        "name" : "Beck_house_front",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280531/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_50_of_50_bg94tu.jpg"
+    },
+    {
+        "name" : "Beck_house_front_street",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280528/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_46_of_50_z6maer.jpg"
+    },
+    {
+        "name" : "Beck_garden",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280513/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_44_of_50_cqxcgk.jpg"
+    },
+    {
         "name" : "Beck_livingroom",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280552/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_23_of_50_ho2u5g.jpg"
     },
@@ -32,10 +48,6 @@ export const Beck = [
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280543/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_15_of_50_wsxzkg.jpg"
     },
     {
-        "name" : "Beck_fronthouse_view",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280540/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_1_of_50_kjljkp.jpg"
-    },
-    {
         "name" : "Beck_livingroom",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280540/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_28_of_50_ta0mko.jpg"
     },
@@ -56,16 +68,8 @@ export const Beck = [
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280534/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_13_of_50_mj9fu9.jpg"
     },
     {
-        "name" : "Beck_house_front",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280531/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_50_of_50_bg94tu.jpg"
-    },
-    {
         "name" : "Beck_house_front_view",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280528/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_47_of_50_ze4rn1.jpg"
-    },
-    {
-        "name" : "Beck_house_front_street",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280528/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_46_of_50_z6maer.jpg"
     },
     {
         "name" : "Beck_oven",
@@ -98,10 +102,6 @@ export const Beck = [
     {
         "name" : "Beck_oven",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280515/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_19_of_50_yyx2jv.jpg"
-    },
-        {
-        "name" : "Beck_garden",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280513/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_44_of_50_cqxcgk.jpg"
     },
     {
         "name" : "Beck_diningroom",

@@ -2,20 +2,20 @@
 //15125 Valley Vista
 export const ValleyVista  = [
     {
-        "name" : "ValleyVista_pool",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282371/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/15125%20Valley%20Vista/15125_Valley_Vista_Boulevard_-_High_Resolution_53_gtvwf3.jpg"
-    },
-    {
-        "name" : "ValleyVista_diningtable",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282368/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/15125%20Valley%20Vista/15125_Valley_Vista_Boulevard_-_High_Resolution_9_evgh8t.jpg"
-    },
-    {
         "name" : "ValleyVista_house_frontview",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282367/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/15125%20Valley%20Vista/15125_Valley_Vista_Boulevard_-_High_Resolution_4_km3fms.jpg"
     },
     {
         "name" : "ValleyVista_house_sideview",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282367/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/15125%20Valley%20Vista/15125_Valley_Vista_Boulevard_-_High_Resolution_58_vheppj.jpg"
+    },
+    {
+        "name" : "ValleyVista_pool",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282371/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/15125%20Valley%20Vista/15125_Valley_Vista_Boulevard_-_High_Resolution_53_gtvwf3.jpg"
+    },
+    {
+        "name" : "ValleyVista_diningtable",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282368/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/15125%20Valley%20Vista/15125_Valley_Vista_Boulevard_-_High_Resolution_9_evgh8t.jpg"
     },
     {
         "name" : "ValleyVista_dressingroom",

@@ -4,7 +4,7 @@ type Props = {}
 
 const OurTeam = (props: Props) => {
   return (
-    <div className="flex flex-col gap-5 md:px-32 items-center font-poppins w-full mt-16">
+    <div className="flex flex-col gap-5  items-center font-poppins w-full mt-16">
       <div className="font-semibold text-2xl text-gray-500">MEET JJP CONSTRUCTION</div>
       <div className="font-semibold text-4xl lg:text-5xl">Our Amazing Team</div>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-y-12 lg:gap-y-24 gap-x-12 lg:gap-x-32 mt-16">

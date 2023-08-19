@@ -46,7 +46,7 @@ const FeaturedProperties = (props: Props) => {
   }, []);
 
   return (
-    <div className="w-full bg-[#F5F5FF] lg:px-32 py-24 md:px-32 space-y-10 ">
+    <div className="w-full bg-[#F5F5FF] p-5 py-24  space-y-10 ">
       <div className="grid lg:grid-cols-3 gap-5">
         <div className="font-bold text-6xl leading-normal">
           Featured Properties
