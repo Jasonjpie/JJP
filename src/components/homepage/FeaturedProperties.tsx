@@ -64,20 +64,23 @@ const FeaturedProperties = (props: Props) => {
           </button>
         </div>
       </div>
-      <div className="grid lg:grid-cols-4 grid-cols-2 gap-3">
+      <div className="grid lg:grid-cols-4 grid-cols-2 gap-8">
         {displayedProjects.map((property, index) => (
           <div
             key={index}
-            className="flex flex-col gap-3 bg-white p-3 animate-slide-left"
+            className="flex flex-col gap-3 bg-white animate-slide-left overflow-hidden transition duration-300 ease-in-out hover:scale-110 shadow-lg p-3 rounded-md"
           >
             <Image
+              className="transition duration-300 ease-in-out hover:scale-110 object-cover rounded-md"
               src={property.frontview}
               width={500}
               height={800}
               alt={property.name}
             />
-            <div className="font-bold">{property.name}</div>
-            <div className="text-gray-400">{property.address}</div>
+            <div>
+              <div className="font-bold">{property.name}</div>
+              <div className="text-gray-400">{property.address}</div>
+            </div>
           </div>
         ))}
       </div>
