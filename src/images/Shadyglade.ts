@@ -6,6 +6,18 @@ export const Shadyglade = [
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282384/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-02-1024x684_l1cnti.jpg",
     },
     {
+        "name" : "Shadyglade_fronthouse_view",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282382/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-04-1024x684_gx3ti5.jpg",
+    },
+    {
+        "name" : "Shadyglade_stairs",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282382/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-24-1024x684_jjgqo7.jpg",
+    },
+    {
+        "name" : "Shadyglade_livingroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282381/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-07-1024x684_qqegmj.jpg",
+    },   
+    {
         "name" : "Shadyglade_toilet+handwash",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282384/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-56-1024x684_rpdtao.jpg",
     },
@@ -57,19 +69,7 @@ export const Shadyglade = [
     {
         "name" : "Shadyglade_bathtub",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282382/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-46-1024x684_t2zw8x.jpg",
-    },
-    {
-        "name" : "Shadyglade_fronthouse_view",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282382/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-04-1024x684_gx3ti5.jpg",
-    },
-    {
-        "name" : "Shadyglade_stairs",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282382/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-24-1024x684_jjgqo7.jpg",
-    },
-    {
-        "name" : "Shadyglade_livingroom",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282381/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-07-1024x684_qqegmj.jpg",
-    },    
+    }, 
     {
         "name" : "Shadyglade_stairs",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282381/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-21-1024x684_atuzhx.jpg",
