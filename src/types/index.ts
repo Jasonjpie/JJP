@@ -6,5 +6,6 @@ export interface Project {
     year:string,
     frontview:string,
     images:{name:string, url:string}[]
-    address: string
+    address: string,
+    category: string
 }
