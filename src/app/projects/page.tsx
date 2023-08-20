@@ -6,7 +6,7 @@ import ProjectsList from "@/components/projects/ProjectsList"
 
 type Props = {}
 
-const page = (props: Props) => {
+const Page = (props: Props) => {
   return (
     <div className="flex flex-col gap-10 mt-24 p-3">
         <div className="text-6xl md:px-32  font-bold ">Our Projects</div>
@@ -17,4 +17,4 @@ const page = (props: Props) => {
   )
 }
 
-export default page
+export default Page

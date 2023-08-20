@@ -27,23 +27,25 @@ const FeaturedProperties = (props: Props) => {
      setEndIndex(endIndex - 4);
     }
   };
-  const handleScroll = () => {
-    if (
-      window.innerHeight + document.documentElement.scrollTop >=
-      document.documentElement.offsetHeight
-    ) {
-      handleNext();
-    }
-  };
+
 
   const displayedProjects = Projects.slice(startIndex, endIndex);
 
   useEffect(() => {
+    const handleScroll = () => {
+      if (
+        window.innerHeight + document.documentElement.scrollTop >=
+        document.documentElement.offsetHeight
+      ) {
+        handleNext();
+      }
+    };
+    
     window.addEventListener("scroll", handleScroll);
     setTimeout(() => {
       window.removeEventListener("scroll", handleScroll);
     }, 5000);
-  }, []);
+  });
 
   return (
     <div className="w-full md:px-32  bg-[#F5F5FF] p-5 py-24  space-y-10 ">
