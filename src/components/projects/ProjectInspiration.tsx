@@ -14,7 +14,7 @@ const ProjectInspiration = (props: Props) => {
             </button>
         </div>
         <div className="w-full flex justify-between gap-5">
-        <div className="relative w-[60%] h-[450px] md:h-[550px] lg:h-[650px]">
+        <div className="relative w-[60%] h-[350px] md:h-[450px] lg:h-[550px]">
             <Image className="aspect-auto" src={`/images/projects/bedroom.png`} fill alt=""/>
             <div className="absolute  flex left-5 bottom-5">
                 <div className="flex flex-col justify-center w-44 lg:w-52 h-32 bg-white bg-opacity-70 p-5">
@@ -26,7 +26,7 @@ const ProjectInspiration = (props: Props) => {
                 </button>
             </div>
         </div>
-        <div className="flex flex-col gap-5  w-[40%] h-[650px]">
+        <div className="flex flex-col gap-5  w-[40%] h-[550px]">
             <Image className="aspect-auto" src={`/images/projects/bedroom-table.png`}  width={300} height={600} alt=""/>
             <div className="flex gap-2 h-[24%] p-5 pl-0">
                 <div className="flex items-center justify-center p-1  w-8 h-8  border border-black rounded-full">

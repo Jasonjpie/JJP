@@ -11,7 +11,7 @@ const MoreProjectPhotos = ({images}: Props) => {
     <div className="flex  gap-2 w-full  h-[300px] xs:h-[500px] lg:h-[700px] relative">
       <div className="relative w-[70%] h-full">
         <Image
-          className="aspect-auto"
+          className="aspect-auto object-cover"
           src={images[0].url}
           fill
           alt=""
@@ -20,7 +20,7 @@ const MoreProjectPhotos = ({images}: Props) => {
       <div className="flex flex-col gap-2 w-[30%] h-full">
         <div className="w-full h-[50%] relative">
           <Image
-            className=" aspect-auto  "
+            className="aspect-auto object-cover"
             src={images[1].url}
             fill
             alt=""
@@ -28,7 +28,7 @@ const MoreProjectPhotos = ({images}: Props) => {
         </div>
         <div className="w-full h-[50%] relative">
           <Image
-            className="aspect-auto"
+            className="aspect-auto object-cover"
             src={images[2].url}
             fill
             alt=""

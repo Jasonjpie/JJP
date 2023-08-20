@@ -11,7 +11,7 @@ const ContactUs = (props: Props) => {
 
   return (
     <Container>
- <div className="w-full md:px-32 flex columns-2 bg-[#F5F5FF]  py-24">
+ <div className="w-full md:px-32 flex columns-2  py-24">
         <div className="flex flex-col gap-5 lg:w-[60%] p-10">
             <div className="text-5xl lg:text-6xl font-bold font-poppins">Contact Us</div>
             <div className="leading-loose font-poppins ">

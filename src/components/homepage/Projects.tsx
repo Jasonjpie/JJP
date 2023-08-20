@@ -36,11 +36,12 @@ const Projects = (props: Props) => {
              <div className="relative rounded-md h-[100%] overflow-hidden">
                <Image className="p-0 m-0 object-cover object-center" src={project.frontview} layout="fill" alt=''/>
              </div>
-            <div className="absolute bottom-12 left-10 text-5xl max-w-[500px] font-bold text-white leading-relaxed h-[20%] group-hover:opacity-25">
+            <div className="absolute bottom-0 left-10 text-3xl max-w-[500px] font-bold text-white h-[20%] group-hover:opacity-25">
               {project.category}
         
-              <div className="text-2xl flex">
-              View Project <RiArrowDropRightLine className="pb-3" size={50} />
+              <div className="text-lg font-semibold flex items-center">
+                <div>View Project</div>
+               <RiArrowDropRightLine className="" size={50} />
               </div>
               <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xl">
                 Description goes here

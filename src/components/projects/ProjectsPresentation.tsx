@@ -18,7 +18,7 @@ const ProjectsPresentation = ({images}: Props) => {
             <span className="text-xl font-semibold text-[#A2A3B1]">{images.length < 10 ? '0' + images.length:images.length}</span>
         </div>
         <div className="relative w-full h-[300px] xs:h-[500px] lg:h-[700px]">
-        <Image className="aspect-auto" src={images[index].url} fill alt=""/>
+        <Image className="aspect-auto object-cover" src={images[index].url} fill alt=""/>
         </div>
         <div className="flex justify-evenly w-full overflow-x-auto">
             <button disabled={index == 0} className="space-y-2 hidden xl:block p-5" onClick={() => setIndex(Math.max(index - 1, 0))}>
@@ -29,7 +29,7 @@ const ProjectsPresentation = ({images}: Props) => {
                 {
                    images.map((photo, _index) => 
                         <button onClick={() => setIndex(_index)} className={`rounded-md relative w-[100px] h-[100px] border-2 ${index === _index ? 'border-[#3AA39F]':'border-[#D1D1D8]'}`} key={_index}>
-                            <Image className="p-2 rounded-md aspect-square" src={photo.url} fill alt=""/>
+                            <Image className="p-2 rounded-md aspect-square object-cover" src={photo.url} fill alt=""/>
                         </button>
                    ) 
                 }

@@ -6,7 +6,7 @@ const HeroSection = (props: Props) => {
   return (
     <div className="w-full md:px-32  bg-[#101C3D]">
       <Container>
-      <div className="flex flex-col-reverse lg:flex-row relative pt-24">
+      <div className="flex flex-col-reverse lg:flex-row lg:justify-between relative pt-24">
               <div className="flex flex-col gap-10 font-poppins p-3 lg:py-12 ">
                   <div className="text-white text-5xl lg:text-6xl font-bold lg:max-w-xl leading-snug">
                   UNLEASH THE <span className="text-primary">POTENTIAL</span>  OF YOUR NEW SPACE

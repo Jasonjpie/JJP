@@ -8,7 +8,7 @@ const ProjectsList = (props: Props) => {
     <div className="grid md:px-32  grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5">
         {Projects.map((project, index) => 
         <Link href={`/projects/${project.id}`} key={index} className="relative w-full h-96">
-            <Image className=" aspect-video" src={project.frontview} fill alt=''/>
+            <Image className=" object-cover aspect-video" src={project.frontview} fill alt=''/>
             <div className="absolute flex flex-col justify-center bottom-5 left-6 bg-black h-24 w-[90%]">
               <div className="flex justify-between px-5">
                 <div className="text-gray-400 text-sm">Product Name</div>
