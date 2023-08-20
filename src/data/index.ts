@@ -8,7 +8,7 @@ import { Shadyglade } from "@/images/Shadyglade";
 import { Sunswept_Dr } from "@/images/SunsweptDr";
 import { ValleyVista } from "@/images/ValleyVista";
 import { Woodbridge } from "@/images/Woodbridge";
-import { Project } from "@/types";
+import { Project, Video } from "@/types";
 
 export const featuredProperties = [
   {
@@ -211,3 +211,46 @@ export const companies = [
   "mnc.svg",
   "telkomsel.svg",
 ];
+
+
+export const videos:Video[] = [
+  {
+    id:1,
+    title:"Sprite Fight",
+    source:"https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4",
+    poster:"https://res.cloudinary.com/desqmglcs/image/upload/v1692280587/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12005%20Woodbridge/SKY_PHOTOGRAPHY_LA-RR2_dl3fao.jpg"
+  },
+  {
+    id:2,
+    title:"Sprite Fight",
+    source:"https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4",
+    poster:"https://res.cloudinary.com/desqmglcs/image/upload/v1692280591/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/3958%20Sunswept%20Dr/SKY_PHOTOGRAPHY_LA-2Y_wa8nk0.jpg"
+  }
+]
+
+export const Rooms = [
+  {
+    name:'Kitchens',
+    icon:'living-house.svg'
+  },
+  {
+    name:'Bath Rooms',
+    icon:'bathroom.svg'
+  },
+  {
+    name:'Living Room',
+    icon:'living-room.svg'
+  },
+  {
+    name:'Garage',
+    icon:'garage.svg'
+  },
+  {
+    name:'Fire Place',
+    icon:'fireplace.svg'
+  },
+  {
+    name:'Backyard',
+    icon:'backyard.svg'
+  }
+]

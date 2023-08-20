@@ -9,3 +9,10 @@ export interface Project {
     address: string,
     category: string
 }
+
+export interface Video { 
+    id:number,
+    title:string,
+    source:string,
+    poster:string
+}

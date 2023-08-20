@@ -21,7 +21,7 @@ const Page = ({params}: Props) => {
   
   const project = Projects.find(project => project.id === params.id) as Project
   return (
-    <div className='mt-24 space-y-16 p-2 lg:p-5'>
+    <div className='mt-24 space-y-16 p-2 lg:p-32'>
         <div className='space-y-2'>
           <button className='flex gap-1 items-center' onClick={() => router.push(Routes.PROJECTS)}>
               <MdKeyboardArrowLeft size={30} />
