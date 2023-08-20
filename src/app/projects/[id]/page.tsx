@@ -15,8 +15,10 @@ type Props = {
   params:{id:string}
 }
 
-const page = ({params}: Props) => {
+const Page = ({params}: Props) => {
+
   const router = useRouter()
+  
   const project = Projects.find(project => project.id === params.id) as Project
   return (
     <div className='mt-24 space-y-16 p-2 lg:p-5'>
@@ -40,4 +42,4 @@ const page = ({params}: Props) => {
   )
 }
 
-export default page
+export default Page

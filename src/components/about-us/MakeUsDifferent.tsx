@@ -6,7 +6,7 @@ type Props = {}
 
 const MakeUsDifferent = (props: Props) => {
   return (
-    <div className="w-full  flex flex-col mt-24">
+    <div className="w-full md:px-32  flex flex-col mt-24">
         <div className="w-44 h-3 bg-gradient-to-r from-[#BDBFEC] to-[#051242]"/>
         <div className="flex flex-wrap lg:flex-nowrap font-poppins">
             <div className="font-semibold text-5xl p-2 lg:py-10 lg:pr-10">What Make Us Different?</div>

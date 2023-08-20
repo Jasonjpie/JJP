@@ -4,7 +4,7 @@ type Props = {}
 
 const Benefits = (props: Props) => {
   return (
-    <div className="grid grid-cols-12 w-full  bg-[#101C3D] text-white p-10">
+    <div className="grid grid-cols-12 w-full md:px-32  bg-[#101C3D] text-white p-10">
         <div className="lg:col-span-4 col-span-12 flex flex-col gap-10 w-full">
             <div className="text-3xl">What do you get?</div>
             <div className="text-5xl lg:text-6xl leading-tight font-bold">We always provide various <span className="text-primary">benefits</span> for you</div>

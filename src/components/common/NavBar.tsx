@@ -53,7 +53,7 @@ const NavBar = ({dark = true, transparent = false}: Props) => {
        }
     },[])
   return (
-    <div className={`w-full  fixed top-0 z-50 ${transparency && dark && transparent && 'bg-opacity-0'}  ${dark ? 'bg-[#101C3D]':'bg-white'} py-3 `}>
+    <div className={`w-full md:px-32 fixed top-0 z-50 ${transparency && dark && transparent && 'bg-opacity-0'}  ${dark ? 'bg-[#101C3D]':'bg-white'} py-3 `}>
         <Container>
             <div className="flex w-full">
                 <Image  src={`Icons/logo-${dark ? 'light':'color'}.svg`}  width={200} height={20} alt="JJP's Logo"/>
