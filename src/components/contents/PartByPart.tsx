@@ -43,7 +43,7 @@ const PartByPart = (props: Props) => {
               <button key={index} className="flex flex-col items-center gap-3">
                 <div className="p-1 border-4 aspect-square border-black rounded-full">
                   <div className="w-16 h-16 p-5 bg-gray-700 rounded-full">
-                    <Image className="" src={`/icons/${room.icon}`} width={50} height={50} alt=""/>
+                    <Image className="" src={`/Icons/${room.icon}`} width={50} height={50} alt=""/>
                   </div>
                 </div>
                 <div className="font-poppins font-medium text-sm">{room.name}</div>
