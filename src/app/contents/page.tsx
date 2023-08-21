@@ -9,7 +9,7 @@ type Props = {}
 
 const page = (props: Props) => {
   return (
-    <div className="flex flex-col gap-32 lg:px-32">
+    <div className="flex flex-col gap-32">
         <HeroSection/>
         <PartByPart />
         <ExploreProjects/>

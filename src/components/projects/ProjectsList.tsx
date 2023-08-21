@@ -5,7 +5,7 @@ type Props = {}
 
 const ProjectsList = (props: Props) => {
   return (
-    <div className="grid md:px-32  grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5">
+    <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5">
         {Projects.map((project, index) => 
         <Link href={`/projects/${project.id}`} key={index} className="relative w-full h-96">
             <Image className=" object-cover aspect-video" src={project.frontview} fill alt=''/>

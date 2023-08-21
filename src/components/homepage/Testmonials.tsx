@@ -2,6 +2,7 @@ import { testmonials } from '@/data'
 import Image from 'next/image'
 import { BiSolidQuoteLeft } from 'react-icons/bi'
 import { BsArrowRight,BsArrowLeft } from 'react-icons/bs'
+import Container from '../common/Container'
 type Props = {}
 
 const Testmonials = (props: Props) => {
@@ -48,9 +49,7 @@ const Testmonials = (props: Props) => {
            </div>
         </div>
       </div>
-      <div className='relative bg-[#101C3D] h-[300px] z-0'/>
-
-      
+      <div className='relative bg-[#101C3D] h-[300px] z-0'/> 
     </div>
   )
 }

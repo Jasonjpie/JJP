@@ -18,7 +18,7 @@ const PartByPart = (props: Props) => {
          <VideoComponent key={video.id} title={video.title} source={video.source} poster={video.poster} >
             <> 
                 <div className='flex flex-col lg:gap-5 font-poppins absolute media-buffering:hidden media-playing:hidden bottom-2 lg:bottom-16 left-2 lg:left-10 z-40 max-w-[90%] text-white'>
-                    <Image className=" rounded-lg" src='/icons/living-house.svg' width={30} height={30} alt=""/>
+                    <Image className=" rounded-lg" src='/Icons/living-house.svg' width={30} height={30} alt=""/>
                     <div className='text-xl lg:text-3xl font-semibold'>Watch The Journey</div>
                     <div className='text-lg lg:text-2xl'>Setup a stream to start a new live video now  </div>
                 </div>

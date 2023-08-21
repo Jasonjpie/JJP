@@ -21,7 +21,7 @@ const FeaturedProperties = (props: Props) => {
   return (
     <div className="w-full bg-[#F5F5FF]">
       <Container>
-        <div className="w-full md:px-32   p-5 py-24  space-y-10 ">
+        <div className="w-full p-5 py-24  space-y-10 ">
           <div className="grid lg:grid-cols-3 gap-5">
             <div className="font-bold text-6xl leading-normal">
               Featured Properties

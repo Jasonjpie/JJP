@@ -16,6 +16,7 @@ export default function Home() {
       <HeroSection />
       <FeaturedProperties />
       <FeaturedProjects />
+      <div id='Benefits'></div>
       <Benefits/>
       <Container>
         <Projects />

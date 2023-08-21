@@ -52,7 +52,7 @@ const HeroSection = (props: Props) => {
           }
         </div>
       <Container>
-              <div className="flex flex-wrap justify-around items-end gap-10 relative z-10 font-poppins p-3 lg:py-12 h-[700px]">
+              <div className="flex flex-wrap justify-around items-end gap-10 relative z-10 font-poppins  lg:py-16 h-[700px]">
                   <div className="text-white text-5xl lg:text-6xl font-bold lg:max-w-xl leading-relaxed">
                   UNLEASH THE <span className="text-primary">POTENTIAL</span>  OF YOUR NEW SPACE
                   </div>

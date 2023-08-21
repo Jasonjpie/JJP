@@ -10,7 +10,7 @@ const FeaturedProjects = (props: Props) => {
     const project = featuredProjects[0]
   return (
     <Container>
-        <div className="w-full my-24 md:px-32 space-y-16">
+        <div className="w-full my-24 space-y-16">
             <div className="grid lg:grid-cols-3 gap-5">
                 <div className="flex flex-col relative col-span-1 mx-auto ml-10 p-5">
                     <div className="text-md font-bold text-gray-600 tracking-[8px] font-montserrat">/ PROJECT</div>

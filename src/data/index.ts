@@ -212,18 +212,26 @@ export const companies = [
   "telkomsel.svg",
 ];
 
+export const IntroVideo:Video[] = [
+  {
+    id:1,
+    title:"Welcome to JJP",
+    source:"https://res.cloudinary.com/desqmglcs/video/upload/v1692627138/Welcome_to_BUY.BUILD.SELL_u1axki.mp4",
+    poster:"https://res.cloudinary.com/desqmglcs/image/upload/v1692628292/Screenshot_from_2023-08-21_17-30-55_koipqt.png"
+  },
+]
 
 export const videos:Video[] = [
   {
     id:1,
     title:"Sprite Fight",
-    source:"https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4",
-    poster:"https://res.cloudinary.com/desqmglcs/image/upload/v1692280587/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12005%20Woodbridge/SKY_PHOTOGRAPHY_LA-RR2_dl3fao.jpg"
+    source:"https://res.cloudinary.com/desqmglcs/video/upload/v1692527323/12005_WOODBRIDGE_ST_STUDIO_CITY_long_ezhuof.mp4",
+    poster:"https://res.cloudinary.com/desqmglcs/image/upload/v1692280586/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12005%20Woodbridge/SKY_PHOTOGRAPHY_LA-11DDF_ui9jwm.jpg"
   },
   {
     id:2,
     title:"Sprite Fight",
-    source:"https://stream.mux.com/VZtzUzGRv02OhRnZCxcNg49OilvolTqdnFLEqBsTwaxU/low.mp4",
+    source:"https://res.cloudinary.com/desqmglcs/video/upload/v1692527323/12005_WOODBRIDGE_ST_STUDIO_CITY_long_ezhuof.mp4",
     poster:"https://res.cloudinary.com/desqmglcs/image/upload/v1692280591/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/3958%20Sunswept%20Dr/SKY_PHOTOGRAPHY_LA-2Y_wa8nk0.jpg"
   }
 ]

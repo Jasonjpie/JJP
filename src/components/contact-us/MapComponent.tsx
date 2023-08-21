@@ -13,21 +13,21 @@ const MapComponent = (props: Props) => {
     iconSize:[50, 50]
   })
   return (
-    <Container>
+    // <Container>
       <div className='w-full h-[100vh]'>
-            <MapContainer center={[51.505, -0.09]} zoom={12} scrollWheelZoom={true} attributionControl={false}>
+            <MapContainer center={[34.20498034680754, -118.42644337232318]} zoom={12} scrollWheelZoom={true} attributionControl={false}>
               <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
-              <Marker position={[51.505, -0.09]} icon={customIcon}>
+              <Marker position={[34.20498034680754, -118.42644337232318]} icon={customIcon}> 
                 <Popup>
-                  A pretty CSS3 popup. <br /> Easily customizable.
+                7379 Greenbush Ave, North Hollywood, <br /> CA 91605, United States 
                 </Popup>
               </Marker>
             </MapContainer>
           </div>
-    </Container>
+    // </Container>
     
    
   )
