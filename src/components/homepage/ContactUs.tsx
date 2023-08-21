@@ -13,9 +13,9 @@ const ContactUs = (props: Props) => {
     const TEMPLATE_ID = "template_nt2q4ra";
     const PUBLIC_KEY = "PJrVfioBoNH7BNp0P";
 
-    const handleSubmit = (e) => {
+    // const handleSubmit = (e) => {
 
-    }
+    // }
 
   return (
  <div className="w-full flex columns-2  py-24">
@@ -24,7 +24,7 @@ const ContactUs = (props: Props) => {
             <div className="leading-loose font-poppins ">
                 We would be honored to help you while you make changes to your home. Get in touch with us right now to start realizing your vision.
             </div>
-            <form className="flex flex-col gap-7" onSubmit={handleSubmit}>
+            <form className="flex flex-col gap-7">
                 <div className="w-full flex flex-wrap gap-5">
                     <input value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Your Name" className="flex-1 p-2.5 border" />
                     <input value={email} onChange={(e) => setEmail(e.target.value)} type="text" placeholder="Your Email" className="flex-1 p-2.5 border" />
