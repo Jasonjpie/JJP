@@ -1,13 +1,25 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Image from "next/image"
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs"
 
 type Props = {
-    images: {url:string, name:string}[]
+    images: {url:string, name:string}[],
+    room?:string
 }
 
-const ProjectsPresentation = ({images}: Props) => {
+const ProjectsPresentation = ({images, room}: Props) => {
     const [ index, setIndex ] = useState(0)
+    useEffect(() => {
+        if(room){
+            images.forEach((image, index) => {
+                const url = image.url.split('/')
+                const _room = room.split('/')
+                if(url[url.length - 1] === _room[_room.length - 1]){
+                    setIndex(index) 
+                }
+            })
+        }
+    }, [room])
   return (
     <div className="w-full space-y-5">
         <div className="flex items-center justify-end gap-2 w-full"> 

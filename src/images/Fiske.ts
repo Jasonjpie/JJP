@@ -15,6 +15,22 @@ export const Fiske = [
         "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282216/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-36_gbb73k.jpg"
     },
     {
+        "name" : "Fiske_Street_toilet",
+        "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282266/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-46_tvscn0.jpg"
+    },
+    {
+        "name" : "Fiske_Street_living_room",
+        "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282256/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-19_uhe0rg.jpg"
+    },
+    {
+        "name" : "Fiske_Street_kitchen",
+        "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282196/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-63_bnyuqs.jpg"
+    },
+    {
+        "name" : "Fiske_Street_livingroom",
+        "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282251/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-47_ctv6d7.jpg"
+    },
+    {
         "name" : "Fiske_Street_wholehouse_view",
         "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282216/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-60_woz9zj.jpg"
     },
@@ -22,10 +38,7 @@ export const Fiske = [
         "name" : "Fiske_Street_frontdoor",
         "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282214/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-61_gpimxs.jpg"
     },
-    {
-        "name" : "Fiske_Street_toilet",
-        "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282266/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-46_tvscn0.jpg"
-    },
+
     {
         "name" : "Fiske_Street_dressing_room",
         "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282266/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-24_bu9w6l.jpg"
@@ -45,10 +58,6 @@ export const Fiske = [
     {
         "name" : "Fiske_Street_dressing_room",
         "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282258/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-29_wwl7ap.jpg"
-    },
-    {
-        "name" : "Fiske_Street_living_room",
-        "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282256/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-19_uhe0rg.jpg"
     },  
     {
         "name" : "Fiske_Street_living_room",
@@ -59,11 +68,6 @@ export const Fiske = [
         "name" : "Fiske_Street_livingroom",
         "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282251/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-47_ctv6d7.jpg"
     },
-    {
-        "name" : "Fiske_Street_livingroom",
-        "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282251/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-47_ctv6d7.jpg"
-    },
-
     {
         "name" : "Fiske_Street_window",
         "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282247/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-66_bd10no.jpg"
@@ -135,10 +139,6 @@ export const Fiske = [
     {
         "name" : "Fiske_Street_room3",
         "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282200/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-31_rylu3w.jpg"
-    },
-    {
-        "name" : "Fiske_Street_kitchen",
-        "url" : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282196/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-63_bnyuqs.jpg"
     },
     {
         "name" : "Fiske_Street_house_sideview",

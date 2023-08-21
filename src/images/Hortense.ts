@@ -15,8 +15,16 @@ export const Hortense  = [
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282125/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4570_zocmfh.jpg"
     },
     {
-        "name" : "Hortense_garden",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4499-Edit_z1ankd.jpg"
+        "name" : "Hortense_livingroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg"
+    },
+    {
+        "name" : "Hortense_toilet+bathroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg"
+    },
+    {
+        "name" : "Hortense_diningtable",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg"
     },
     {
         "name" : "Hortense_kitchen",
@@ -43,10 +51,6 @@ export const Hortense  = [
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282120/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4394-Edit_wjeinu.jpg"
     },
     {
-        "name" : "Hortense_toilet+bathroom",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg"
-    },
-    {
         "name" : "Hortense_house_outside",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282117/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4524-Edit_ijpury.jpg"
     },
@@ -57,6 +61,10 @@ export const Hortense  = [
     {
         "name" : "Hortense_toilet",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282010/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4433_n6maca.jpg"
+    },
+    {
+        "name" : "Hortense_garden",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4499-Edit_z1ankd.jpg"
     },
     {
         "name" : "Hortense_house_topview",
@@ -77,10 +85,6 @@ export const Hortense  = [
     {
         "name" : "Hortense_housefront_view",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4555_phewgt.jpg"
-    },
-    {
-        "name" : "Hortense_diningtable",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg"
     },
     {
         "name" : "Hortense_kitchen",

@@ -16,12 +16,24 @@ export const Beck = [
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280528/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_46_of_50_z6maer.jpg"
     },
     {
-        "name" : "Beck_garden",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280513/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_44_of_50_cqxcgk.jpg"
-    },
-    {
         "name" : "Beck_livingroom",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280552/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_23_of_50_ho2u5g.jpg"
+    },
+    {
+        "name" : "Beck_oven",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280545/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_17_of_50_cdh1qa.jpg"
+    },
+    {
+        "name" : "Beck_dining",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280543/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_15_of_50_wsxzkg.jpg"
+    },
+    {
+        "name" : "Beck_toilet+bathtub",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280502/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_36_of_50_ofbn52.jpg"
+    },
+    {
+        "name" : "Beck_garden",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280513/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_44_of_50_cqxcgk.jpg"
     },
     {
         "name" : "Beck_winecabinet",
@@ -36,16 +48,8 @@ export const Beck = [
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280549/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_26_of_50_kzsdgl.jpg"
     },
     {
-        "name" : "Beck_oven",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280545/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_17_of_50_cdh1qa.jpg"
-    },
-    {
         "name" : "Beck_washing",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280545/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_38_of_50_o8zg67.jpg"
-    },
-    {
-        "name" : "Beck_dining",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280543/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_15_of_50_wsxzkg.jpg"
     },
     {
         "name" : "Beck_livingroom",
@@ -134,10 +138,6 @@ export const Beck = [
     {
         "name" : "Beck_housefront_view",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280503/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_2_of_50_tgoenp.jpg"
-    },
-    {
-        "name" : "Beck_toilet+bathtub",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280502/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_36_of_50_ofbn52.jpg"
     },
     {
         "name" : "Beck_badroom",
