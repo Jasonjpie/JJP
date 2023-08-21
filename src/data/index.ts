@@ -312,7 +312,7 @@ export const Rooms = [
 ]
 
 export const backgroundImages = [
-  "https://res.cloudinary.com/desqmglcs/image/upload/v1692281531/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4405%20Sancola/4405SancolaAve_TolucaLake_CA91602_USAPre-Twilights-1_ttfutx.jpg",
+  "https://res.cloudinary.com/desqmglcs/image/upload/v1692280633/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4405%20Sancola/DJI_0076-3_eyd3jl.jpg",
   "https://res.cloudinary.com/desqmglcs/image/upload/v1692280587/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12005%20Woodbridge/SKY_PHOTOGRAPHY_LA-RR2_dl3fao.jpg",
   "https://res.cloudinary.com/desqmglcs/image/upload/v1692280591/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/3958%20Sunswept%20Dr/SKY_PHOTOGRAPHY_LA-2Y_wa8nk0.jpg"
 ]

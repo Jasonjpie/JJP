@@ -21,8 +21,8 @@ export default function Home() {
       <Container>
         <Projects />
         <ContactUs />
-        <Testmonials /> 
       </Container>
+        <Testmonials /> 
        
       <Footer />
     </div>
