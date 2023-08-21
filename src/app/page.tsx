@@ -12,7 +12,7 @@ import Container from '@/components/common/Container'
 export default function Home() {
   return (
     <div>
-      <NavBar />
+      <NavBar transparent={true} dark={true} />
       <HeroSection />
       <FeaturedProperties />
       <FeaturedProjects />

@@ -22,9 +22,14 @@ const FeaturedProjects = (props: Props) => {
                     Take a look at our many finished projects that have been so amazing, we&apos;re sure you&apos;ll want them too. Projects completed with a very experienced and professional team.
                 </div>
             </div>
-            <div className="grid lg:grid-cols-4 grid-cols-2 gap-10 h-[1100px] ">
-                
-                <div className="h-[80%] self-end p-2">
+            <div className="relative grid lg:grid-cols-4 grid-cols-2 gap-10 h-[1100px] ">
+                 <div className="absolute top-1/2 z-10 left-3 p-4 rounded-2xl bg-white cursor-pointer">
+                    <RiArrowLeftFill className="text-[#101C3D]" size={30} />
+                </div>
+                <div className="absolute top-1/2 z-10 right-3 p-4 rounded-2xl bg-white cursor-pointer">
+                    <RiArrowRightFill className="text-[#101C3D]" size={30} />
+                </div>
+                <div className="h-[80%] self-end transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-30 p-2">
                     <div className="bg-[#222831] font-montserrat h-[20%] text-[#4F8A8B] text-2xl font-bold pt-8 pl-8">
                         / 01 Kitchen
                     </div>
@@ -32,13 +37,13 @@ const FeaturedProjects = (props: Props) => {
                     <Image src={`/images/featured-projects/${project.kitchen}`} fill alt={project.name}/>
                     </div>
                     <div className="space-y-3 bg-[#222831] h-[30%]">
-                        <div className="text-white font-bold font-playfair text-2xl lg:text-5xl leading-relaxed py-5 px-10">
+                        <div className="text-white font-bold font-playfair text-2xl lg:text-4xl leading-relaxed py-5 px-10">
                             Dellacorte House
                         </div>
                         <Link className="text-gray-400 ml-10" href=''>See Details</Link>
                     </div>
                 </div>
-                <div className="h-[80%] self-start">
+                <div className="h-[80%] self-start transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-30">
                     <div className="bg-[#222831] font-montserrat h-[20%] text-[#4F8A8B] text-2xl font-bold pt-8 pl-8">
                         / 02 Bathrooms
                     </div>
@@ -46,7 +51,7 @@ const FeaturedProjects = (props: Props) => {
                     <Image src={`/images/featured-projects/${project.bathroom}`} fill alt={project.name}/>
                     </div>
                 </div>
-                <div className="h-[80%] self-end">
+                <div className="h-[80%] self-end transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-30">
                     <div className="bg-[#222831] font-montserrat h-[20%] text-[#4F8A8B] text-2xl font-bold pt-8 pl-8">
                         / 03 Living Rooms
                     </div>
@@ -54,7 +59,7 @@ const FeaturedProjects = (props: Props) => {
                     <Image src={`/images/featured-projects/${project.livingRoom}`} fill alt={project.name}/>
                     </div>
                 </div>
-                <div className="h-[80%] self-start">
+                <div className="h-[80%] self-start transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-30">
                     <div className="bg-[#222831] font-montserrat h-[20%] text-[#4F8A8B] text-2xl font-bold pt-8 pl-8">
                         / 04 Bathrooms
                     </div>
@@ -64,15 +69,6 @@ const FeaturedProjects = (props: Props) => {
                 </div>
 
             </div>
-
-        <div className="flex justify-between mt-10 z-5">
-                <div className="p-4 rounded-2xl bg-white cursor-pointer">
-                <RiArrowLeftFill className="text-primary" size={30} />
-            </div>
-            <div className="p-4 rounded-2xl bg-white cursor-pointer">
-                <RiArrowRightFill className="text-primary" size={30} />
-                </div>
-        </div>
         </div>
     </Container>
     

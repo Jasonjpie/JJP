@@ -53,12 +53,12 @@ const NavBar = ({dark = true, transparent = false}: Props) => {
        }
     },[])
   return (
-    <div className={`w-full md:px-32 fixed top-0 z-50 ${transparency && dark && transparent && 'bg-opacity-0'}  ${dark ? 'bg-[#101C3D]':'bg-white'} py-3 `}>
+    <div className={`w-full md:px-32 fixed top-0 z-50 ${transparency && dark && transparent && 'bg-opacity-0'}  ${(dark || transparent) ? 'bg-[#101C3D]': 'bg-white'} py-3 `}>
         <Container>
             <div className="flex w-full">
                 <Image  src={`Icons/logo-${dark ? 'light':'color'}.svg`}  width={200} height={20} alt="JJP's Logo"/>
                 <div className="hidden lg:flex items-center gap-2 ml-auto">
-                    {dark ? 
+                    {dark || transparent ? 
                     navigation.map((bar, index) => (
                         <Link key={index} href={bar.route} className={`flex items-center gap-3 px-4 py-2 rounded-md  ${path === bar.route ? 'bg-white text-black':'text-white'}`}>
                             <div>{bar.name}</div> 

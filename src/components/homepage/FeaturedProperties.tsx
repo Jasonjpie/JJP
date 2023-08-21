@@ -1,52 +1,22 @@
 import { Projects } from "@/data";
 import { RiArrowRightFill, RiArrowLeftFill } from "react-icons/ri";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Container from "../common/Container";
 type Props = {};
 
 const FeaturedProperties = (props: Props) => {
-  const [startIndex, setStartIndex] = useState(0);
-  const [endIndex, setEndIndex] = useState(4);
-  
- const handleNext = () => {
-    if (endIndex >= Projects.length) {
-     setStartIndex(0);
-     setEndIndex(4);
-    } else {
-      setStartIndex(startIndex + 4);
-      setEndIndex(endIndex + 4);
-    }
-  };
- 
-  const handlePrevious = () => {
-    if (startIndex <= 0) {
-      setStartIndex(Projects.length - 4);
-      setEndIndex(Projects.length);
-   } else {
-     setStartIndex(startIndex - 4);
-     setEndIndex(endIndex - 4);
-    }
-  };
 
-
-  const displayedProjects = Projects.slice(startIndex, endIndex);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (
-        window.innerHeight + document.documentElement.scrollTop >=
-        document.documentElement.offsetHeight
-      ) {
-        handleNext();
+  const container = useRef<HTMLDivElement>(null)
+  const handleScroll = (forward:boolean) => {
+    if(container.current){
+      if(forward){
+        container.current.scrollLeft = container.current.scrollLeft + container.current.clientWidth 
+      }else{
+        container.current.scrollLeft = container.current.scrollLeft - container.current.clientWidth 
       }
-    };
-    
-    window.addEventListener("scroll", handleScroll);
-    setTimeout(() => {
-      window.removeEventListener("scroll", handleScroll);
-    }, 5000);
-  });
+    }
+  }
 
   return (
     <div className="w-full bg-[#F5F5FF]">
@@ -61,28 +31,30 @@ const FeaturedProperties = (props: Props) => {
               we&apos;re sure you&apos;ll want them too.
             </div>
             <div className="flex justify-end self-start gap-3">
-              <button className="p-4 rounded-2xl bg-white" onClick={handlePrevious}>
+              <button className="p-4 rounded-2xl bg-white" onClick={() => handleScroll(false)}>
                 <RiArrowLeftFill className="text-primary" size={30} />
               </button>
-              <button className="p-4 rounded-2xl bg-primary shadow-primary shadow-2xl" onClick={handleNext}>
+              <button className="p-4 rounded-2xl bg-primary shadow-primary shadow-2xl" onClick={() => handleScroll(true)}>
                 <RiArrowRightFill className="text-white" size={30} />
               </button>
             </div>
           </div>
-          <div className="grid lg:grid-cols-4 grid-cols-2 gap-8">
-            {displayedProjects.map((property, index) => (
+          <div ref={container} className="flex scroll-smooth gap-2 lg:gap-9 w-[100%] h-[400px] py-5 px-2 overflow-x-hidden">
+            {Projects.map((property, index) => (
               <div
                 key={index}
-                className="flex flex-col gap-3 bg-white animate-slide-left overflow-hidden transition duration-300 ease-in-out hover:scale-110 shadow-lg p-3 rounded-md"
+                className="flex flex-col gap-3 h-[90%] w-[50%] xs-[30%] lg:w-[22%] shrink-0  bg-white animate-slide-left overflow-hidden transition duration-300 ease-in-out hover:scale-110 shadow-lg p-3 rounded-md"
               >
-                <Image
-                  className="transition duration-300 ease-in-out hover:scale-110 object-cover rounded-md"
-                  src={property.frontview}
-                  width={500}
-                  height={800}
-                  alt={property.name}
-                />
-                <div>
+                <div className="relative w-full h-full">
+                  <Image
+                    className="transition  object-cover rounded-md"
+                    src={property.frontview}
+                    fill
+                    alt={property.name}
+                  />
+                </div>
+                
+                <div className="h-[40%]">
                   <div className="font-bold">{property.name}</div>
                   <div className="text-gray-400">{property.address}</div>
                 </div>
