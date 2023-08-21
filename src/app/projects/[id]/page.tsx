@@ -9,7 +9,7 @@ import ProjectInspiration from '@/components/projects/ProjectInspiration'
 import { useEffect, useState } from 'react'
 import { Projects } from '@/data'
 import { Project } from '@/types'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { Routes } from '@/../Routes'
 type Props = {
   params:{id:string}
@@ -18,7 +18,9 @@ type Props = {
 const Page = ({params}: Props) => {
 
   const router = useRouter()
-  
+  const search = useSearchParams()
+  const room  = search.get('room')
+
   const project = Projects.find(project => project.id === params.id) as Project
   return (
     <div className='mt-24 space-y-16 p-2 '>
@@ -34,7 +36,7 @@ const Page = ({params}: Props) => {
             <div className='text-gray-300 font-poppins mt-2'>2821 Lake Sevilla: Palm Harbor, TX</div>
           </div>
         </div>
-        <ProjectsPresentation images={[...project.images.slice(0,Math.min(7, project.images.length))]} />
+        <ProjectsPresentation room={room as string} images={[...project.images.slice(0,Math.min(7, project.images.length))]} />
         {project.images.length >= 11 && <MoreProjectPhotos images={[...project.images.slice(8, Math.min(11, project.images.length))]} />}
         <ProjectInspiration />
         <ContactUs />

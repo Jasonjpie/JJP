@@ -7,7 +7,12 @@ export interface Project {
     frontview:string,
     images:{name:string, url:string}[]
     address: string,
-    category: string
+    category: string,
+    kitchen?:string,
+    bathroom?:string,
+    livingroom?:string,
+    diningroom?:string,
+
 }
 
 export interface Video { 

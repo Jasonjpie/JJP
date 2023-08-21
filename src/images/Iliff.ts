@@ -12,6 +12,10 @@ export const Iliff = [
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281678/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/770%20Iliff%20%282018%29/SkyFilm_73_uiqp14.jpg"
     },
     {
+        "name" : "SkyFilm_bathroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281663/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/770%20Iliff%20%282018%29/SkyFilm_34_ixmnqu.jpg"
+    },
+    {
         "name" : "SkyFilm_kitchen",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281688/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/770%20Iliff%20%282018%29/SkyFilm_37_gdnwlk.jpg" 
     },
@@ -19,7 +23,10 @@ export const Iliff = [
         "name" : "SkyFilm_livingroom",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281679/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/770%20Iliff%20%282018%29/SkyFilm_06_efdzpe.jpg"
     },
-   
+    {
+        "name" : "SkyFilm_barbecue",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281544/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/770%20Iliff%20%282018%29/SkyFilm_68_ovrryy.jpg"
+    },
     {
         "name" : "SkyFilm_livingroom",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281679/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/770%20Iliff%20%282018%29/SkyFilm_03_oamp1g.jpg"
@@ -55,10 +62,6 @@ export const Iliff = [
     {
         "name" : "SkyFilm_kitechn",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281676/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/770%20Iliff%20%282018%29/SkyFilm_10_dzssqe.jpg"
-    },
-    {
-        "name" : "SkyFilm_bathroom",
-        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692281663/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/770%20Iliff%20%282018%29/SkyFilm_34_ixmnqu.jpg"
     },
     {
         "name" : "SkyFilm_birdeye_view",
