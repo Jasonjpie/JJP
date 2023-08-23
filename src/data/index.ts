@@ -316,3 +316,128 @@ export const backgroundImages = [
   "https://res.cloudinary.com/desqmglcs/image/upload/v1692280587/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12005%20Woodbridge/SKY_PHOTOGRAPHY_LA-RR2_dl3fao.jpg",
   "https://res.cloudinary.com/desqmglcs/image/upload/v1692280591/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/3958%20Sunswept%20Dr/SKY_PHOTOGRAPHY_LA-2Y_wa8nk0.jpg"
 ]
+
+
+export const kitchens = [
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+  }
+]
+
+export const bathrooms = [
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+  }, 
+   {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+  }, 
+   {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+  },  
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+  },
+]
+
+export const livingrooms = [
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+  },
+]
+
+export const diningrooms = [
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+  },
+  {
+    project_id:'1',
+    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+  },
+]

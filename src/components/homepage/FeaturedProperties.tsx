@@ -8,6 +8,39 @@ type Props = {};
 const FeaturedProperties = (props: Props) => {
 
   const container = useRef<HTMLDivElement>(null)
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const [scrollLeft, setScrollLeft] = useState(0);
+
+  const handleMouseDown = (e: React.MouseEvent) => {
+    setIsDragging(true);
+    setStartX(e.pageX - (container.current?.offsetLeft || 0));
+    setScrollLeft(container.current?.scrollLeft || 0);
+    if (container.current) {
+      container.current.style.cursor = 'grabbing';
+    }
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+    if (container.current) {
+      container.current.style.cursor = 'grab';
+    }
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!isDragging || !container.current) return;
+    const x = e.pageX - (container.current.offsetLeft || 0);
+    const deltaX = x - startX;
+    container.current.scrollLeft = scrollLeft - deltaX;
+  };
+
+  const handleMouseLeave = () => {
+    if (isDragging && container.current) {
+      setIsDragging(false);
+      container.current.style.cursor = 'grab';
+    }
+  };
   const handleScroll = (forward:boolean) => {
     if(container.current){
       if(forward){
@@ -17,6 +50,7 @@ const FeaturedProperties = (props: Props) => {
       }
     }
   }
+
 
   return (
     <div className="w-full bg-[#F5F5FF]">
@@ -39,7 +73,10 @@ const FeaturedProperties = (props: Props) => {
               </button>
             </div>
           </div>
-          <div ref={container} className="flex scroll-smooth gap-2 lg:gap-9 w-[100%] h-[400px] py-5 px-2 overflow-x-hidden">
+          <div ref={container}       onMouseDown={handleMouseDown}
+      onMouseUp={handleMouseUp}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave} className="flex scroll-smooth gap-2 lg:gap-9 w-[100%] h-[400px] py-5 px-2 overflow-x-auto no-scrollbar">
             {Projects.map((property, index) => (
               <div
                 key={index}

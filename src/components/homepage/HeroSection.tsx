@@ -41,7 +41,7 @@ const HeroSection = (props: Props) => {
 
   return (
     <div className="w-auto  bg-[#101C3D] h-[100vh]">
-      <div ref={container} className="flex absolute z-10 top-0 w-full h-[100vh] scroll-smooth overflow-x-hidden">
+      <div ref={container} className="flex absolute top-0 w-full h-[100vh] scroll-smooth overflow-x-hidden">
           {
             Images.map((image, index) => 
             <div key={index} className="relative shrink-0 w-full h-full">
@@ -52,12 +52,12 @@ const HeroSection = (props: Props) => {
           }
         </div>
       <Container>
-              <div className="flex flex-wrap justify-around xl:items-center items-end gap-10 relative z-10 font-poppins p-3 lg:py-12 h-[100vh]">
-                  <div className="text-white text-5xl lg:text-6xl font-bold lg:max-w-xl leading-relaxed">
+              <div className="flex flex-wrap justify-around xl:items-center items-end gap-10 relative font-poppins p-3 lg:py-12 h-[100vh]">
+                  <div className="p-3 bg-[#101C3D] rounded-xl bg-opacity-40 text-white text-5xl lg:text-6xl font-bold lg:max-w-xl leading-relaxed">
                   UNLEASH THE <span className="text-primary">POTENTIAL</span>  OF YOUR NEW SPACE
                   </div>
                   <div className="flex flex-col gap-10">
-                    <div className="max-w-md text-white leading-loose font-montserrat">
+                    <div className="p-3 bg-[#101C3D] rounded-xl bg-opacity-40 max-w-md text-white leading-loose font-montserrat">
                       ​More than 100 building and housing projects that we have built. The building owner chose us over other contractors in USA, because our work is different
                     </div>
                     <div className="flex gap-3">
