@@ -9,16 +9,14 @@ type Props = {}
 
 const FeaturedProjects = (props: Props) => {
     const container = useRef<HTMLDivElement>(null)
-    const [ index, setIndex ] = useState(0)
     const [isOpen, setIsOpen] = useState(false)
     const [images, setImages] = useState<{name:string, project_id:string, url:string}[]>(kitchen)
-    const project = Projects[index]
     const handleScroll = (forward:boolean) => {
         if(container.current){
           if(forward){
-            container.current.scrollLeft = container.current.scrollLeft + container.current.clientWidth 
+            container.current.scrollLeft = container.current.scrollLeft + container.current.clientWidth / 2
           }else{
-            container.current.scrollLeft = container.current.scrollLeft - container.current.clientWidth 
+            container.current.scrollLeft = container.current.scrollLeft - container.current.clientWidth / 2
           }
         }
     }
@@ -29,7 +27,7 @@ const FeaturedProjects = (props: Props) => {
                 <div className="flex flex-col relative col-span-1 mx-auto ml-10 p-5">
                     <div className="text-md font-bold text-gray-600 tracking-[8px] font-montserrat">/ PROJECT</div>
                     <div className="font-bold text-6xl max-w-[200px] leading-relaxed">Featured <span className="text-primary">Project</span></div>
-                    <Image className="absolute -bottom-5 -left-5" src={`/Icons/ellipse.svg`} width={400} height={100} alt={project.name}/>
+                    <Image className="absolute -bottom-5 -left-5" src={`/Icons/ellipse.svg`} width={400} height={100} alt=''/>
 
                 </div>
                 <div className='col-span-2 leading-loose font-montserrat text-gray-500 text-2xl max-w-[850px] p-5'>
@@ -37,7 +35,7 @@ const FeaturedProjects = (props: Props) => {
                 </div>
             </div>
             <div className="relative">
-                <button disabled={index === 0} onClick={() => handleScroll(false)} className="absolute hidden lg:block top-1/2 z-10 left-3 p-4 rounded-2xl bg-white cursor-pointer">
+                <button onClick={() => handleScroll(false)} className="absolute hidden lg:block top-1/2 z-10 left-3 p-4 rounded-2xl bg-white">
                     <RiArrowLeftFill className="text-[#101C3D]" size={30} />
                 </button>
                 <div ref={container} className=" flex gap-2 lg:gap-10 h-[500px] sm:h-[800px] lg:h-[1100px] w-full overflow-x-scroll no-scrollbar scroll-smooth">
@@ -52,11 +50,11 @@ const FeaturedProjects = (props: Props) => {
                             {room.name}
                         </div>
                         <div className="relative h-[80%]">
-                        <Image className='object-cover' src={room.image} fill alt={project.name}/>
+                        <Image className='object-cover' src={room.image} fill alt={room.name}/>
                         </div>
                     </button>)}
                 </div>
-                <button disabled={index === Projects.length - 1} onClick={() => handleScroll(true)} className="absolute hidden lg:block top-1/2 z-10 right-3 p-4 rounded-2xl bg-white cursor-pointer">
+                <button onClick={() => handleScroll(true)} className="absolute hidden lg:block top-1/2 z-10 right-3 p-4 rounded-2xl bg-white">
                     <RiArrowRightFill className="text-[#101C3D]" size={30} />
                 </button>
             </div>
