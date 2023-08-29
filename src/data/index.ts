@@ -9,6 +9,7 @@ import { Sunswept_Dr } from "@/images/SunsweptDr";
 import { ValleyVista } from "@/images/ValleyVista";
 import { Woodbridge } from "@/images/Woodbridge";
 import { Project, Video } from "@/types";
+import { bathroom, bedroom, filmTheature, fire, homeMassage, houseGym, kitchen, livingRoom, pool, stairs, wineCabinet } from "./featuredProjects";
 
 export const featuredProperties = [
   {
@@ -304,11 +305,65 @@ export const Rooms = [
   {
     name:'Fire Place',
     icon:'fireplace.svg'
+  }
+]
+export const rooms = [
+  {
+    name:'Kitchens',
+    image:kitchen[0].url,
+    images:kitchen
   },
   {
-    name:'Backyard',
-    icon:'backyard.svg'
-  }
+    name:'BathRooms',
+    image:bathroom[0].url,
+    images:bathroom
+  },
+  {
+    name:'BedRooms',
+    image:bedroom[0].url,
+    images:bedroom
+  },
+  {
+    name:'Living Room',
+    image:livingRoom[0].url,
+    images:livingRoom
+  },
+  {
+    name:'Fire Place',
+    image:fire[0].url,
+    images:fire
+  },
+  {
+    name:'Stairs',
+    image:stairs[0].url,
+    images:stairs
+  },
+  {
+    name:'Wine Cabinet',
+    image:wineCabinet[0].url,
+    images:wineCabinet
+  },
+  {
+    name:'Pool',
+    image:pool[0].url,
+    images:pool
+  },
+  {
+    name:'Film Theatre',
+    image:filmTheature[0].url,
+    images:filmTheature
+  },
+  {
+    name:'House Gym',
+    image:houseGym[0].url,
+    images:houseGym
+  },
+  {
+    name:'House Massage',
+    image:homeMassage[0].url,
+    images:homeMassage
+  },
+
 ]
 
 export const backgroundImages = [
@@ -318,126 +373,126 @@ export const backgroundImages = [
 ]
 
 
-export const kitchens = [
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
-  }
-]
+// export const kitchens = [
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg'
+//   }
+// ]
 
-export const bathrooms = [
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
-  }, 
-   {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
-  }, 
-   {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
-  },  
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
-  },
-]
+// export const bathrooms = [
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+//   }, 
+//    {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+//   }, 
+//    {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+//   },  
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282119/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4423_xrpxph.jpg'
+//   },
+// ]
 
-export const livingrooms = [
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
-  },
-]
+// export const livingrooms = [
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281922/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4470_m2lmmu.jpg'
+//   },
+// ]
 
-export const diningrooms = [
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
-  },
-  {
-    project_id:'1',
-    url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
-  },
-]
+// export const diningrooms = [
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+//   },
+//   {
+//     project_id:'1',
+//     url:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281924/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4494_xsbazp.jpg'
+//   },
+// ]
