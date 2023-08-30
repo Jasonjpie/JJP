@@ -2,7 +2,7 @@ import { Projects, rooms } from "@/data"
 import Image from "next/image"
 import Container from "../common/Container"
 import { RiArrowLeftFill, RiArrowRightFill } from "react-icons/ri"
-import { useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import FeaturedProjectsModal from "./FeaturedProjectsModal"
 import { kitchen } from "@/data/featuredProjects"
 type Props = {}
@@ -11,6 +11,26 @@ const FeaturedProjects = (props: Props) => {
     const container = useRef<HTMLDivElement>(null)
     const [isOpen, setIsOpen] = useState(false)
     const [images, setImages] = useState<{name:string, project_id:string, url:string}[]>(kitchen)
+    const [isVisible, setIsVisible] = useState(true);
+  
+    useEffect(() => {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setIsVisible(true);
+            observer.unobserve(entry.target);
+          }
+        });
+      });
+      if(container.current){
+          observer.observe(container.current);
+          setIsVisible(false)
+      }
+      return () => {
+        observer.disconnect();
+      };
+    }, []);
+  
     const handleScroll = (forward:boolean) => {
         if(container.current){
           if(forward){
@@ -45,7 +65,7 @@ const FeaturedProjects = (props: Props) => {
                         setIsOpen(true)
                         }
                         } 
-                        className="h-[80%] w-[23%] shrink-0 even:self-end odd:self-start transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-30 p-2">
+                        className={`h-[80%] w-[23%] shrink-0 ${isVisible ? 'animate-in duration-1000 even:slide-in-from-top odd:slide-in-from-bottom':''} even:self-end odd:self-start hover:-translate-y-1 hover:scale-110 p-2`}>
                         <div className="flex items-center justify-center bg-[#222831] font-montserrat h-[20%] text-[#4F8A8B] text-lg lg:text-3xl font-bold">
                             {room.name}
                         </div>

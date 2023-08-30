@@ -53,7 +53,7 @@ const NavBar = ({dark = true, transparent = false}: Props) => {
        }
     },[])
   return (
-    <div className={`w-full fixed top-0 z-50 ${transparency && dark && transparent ? 'bg-opacity-0':''} ${path === '/' && transparency && transparent ? 'bg-opacity-40':''} ${(dark || transparent) ? 'bg-[#101C3D]': 'bg-white'} py-3 `}>
+    <div className={`w-full fixed animate-in slide-in-from-top duration-1000 top-0 z-50 ${transparency && dark && transparent ? 'bg-opacity-0':''} ${path === '/' && transparency && transparent ? 'bg-opacity-40':''} ${(dark || transparent) ? 'bg-[#101C3D]': 'bg-white'} py-3 `}>
         <Container>
             <div className="flex w-full">
                 <Link href={navigation[0].route}>

@@ -53,10 +53,10 @@ const HeroSection = (props: Props) => {
         </div>
       <Container>
               <div className="flex flex-wrap justify-around xl:items-center items-end gap-10 relative font-poppins p-3 lg:py-12 h-[100vh]">
-                  <div className="p-3 bg-[#101C3D] rounded-xl bg-opacity-40 text-white text-5xl lg:text-6xl font-bold lg:max-w-xl leading-relaxed">
+                  <div className="animate-in slide-in-from-left duration-1000  p-3 bg-[#101C3D] rounded-xl bg-opacity-40 text-white text-5xl lg:text-6xl font-bold lg:max-w-xl leading-relaxed">
                   UNLEASH THE <span className="text-primary">POTENTIAL</span>  OF YOUR NEW SPACE
                   </div>
-                  <div className="flex flex-col gap-10">
+                  <div className="animate-in slide-in-from-right duration-1000 flex flex-col gap-10">
                     <div className="p-3 bg-[#101C3D] rounded-xl bg-opacity-40 max-w-md text-white leading-loose font-montserrat">
                       ​More than 100 building and housing projects that we have built. The building owner chose us over other contractors in USA, because our work is different
                     </div>

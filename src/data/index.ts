@@ -99,6 +99,18 @@ export const testmonials = [
     testmony:
       "We like the final result this project, in extraordinary and also provides the best service to the client ",
   },
+  {
+    name: "Peter Griffin",
+    image: "jacob-molen.png",
+    testmony:
+      "I like the final result this project, in extraordinary and also provides the best service to the client ",
+  },
+  {
+    name: "Tony Stark",
+    image: "jacob-molen.png",
+    testmony:
+      "We like the final result this project, in extraordinary and also provides the best service to the client ",
+  },
 ];
 
 export const Projects: Project[] = [
