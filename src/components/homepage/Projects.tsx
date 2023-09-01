@@ -56,7 +56,7 @@ const Projects = (props: Props) => {
         <div className="text-center mx-auto font-montserrat text-gray-500 text-2xl p-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
           </div>
-        <div className="grid lg:grid-cols-3 xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5 p-2 h-fit">
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 p-2 h-fit">
             {
                 displayedProjects.map((project, index) => <ProjectCard key={index} project={project}/>)
             }
