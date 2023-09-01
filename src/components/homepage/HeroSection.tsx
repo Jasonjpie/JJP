@@ -40,7 +40,7 @@ const HeroSection = (props: Props) => {
   }, )
 
   return (
-    <div className="w-auto  bg-[#101C3D] h-[100vh]">
+    <div className="w-auto  bg-[#101C3D] min-h-[100vh]">
       <div ref={container} className="flex absolute top-0 w-full h-[100vh] scroll-smooth overflow-x-hidden">
           {
             Images.map((image, index) => 
@@ -52,7 +52,7 @@ const HeroSection = (props: Props) => {
           }
         </div>
       <Container>
-              <div className="flex flex-wrap justify-around xl:items-center items-end gap-10 relative font-poppins p-3 lg:py-12 h-[100vh]">
+              <div className="flex flex-wrap justify-around xl:items-center items-end gap-10 relative font-poppins p-3 lg:py-12 min-h-[100vh]">
                   <div className="animated fadeInLeft p-3 bg-[#101C3D] rounded-xl bg-opacity-40 text-white text-5xl lg:text-6xl font-bold lg:max-w-xl leading-relaxed">
                   UNLEASH THE <span className="text-primary">POTENTIAL</span>  OF YOUR NEW SPACE
                   </div>

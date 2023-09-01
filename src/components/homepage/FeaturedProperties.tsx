@@ -16,11 +16,11 @@ const FeaturedProperty = ({property}: FeaturedPropertyProps) => {
   return (
     <div
       ref={ref}
-      className={`flex flex-col ${inView ? 'animated fadeInUp':'opacity-0'} gap-3 h-[90%] w-[50%] xs-[30%] lg:w-[22%] shrink-0  bg-white animate-slide-left overflow-hidden transition duration-300 ease-in-out hover:scale-110 shadow-lg p-3 rounded-md`}
+      className={`flex flex-col ${inView ? 'animated fadeInUp':'opacity-0'} gap-3 h-fit w-[50%] xs:w-[30%] lg:w-[22%] shrink-0  bg-white overflow-hidden transition duration-300 ease-in-out hover:scale-110 shadow-lg p-3 rounded-2xl`}
     >
-      <div className="relative w-full h-full">
+      <div className="relative w-full aspect-square">
         <Image
-          className="transition  object-cover rounded-md"
+          className="transition  object-cover  rounded-2xl"
           src={property.frontview}
           fill
           alt={property.name}
@@ -110,7 +110,7 @@ const FeaturedProperties = (props: Props) => {
             onMouseUp={handleMouseUp}
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave} 
-            className="flex scroll-smooth gap-2 lg:gap-9 w-[100%] h-[400px] py-5 px-2 overflow-x-auto no-scrollbar">
+            className="flex scroll-smooth gap-2 lg:gap-5 xl:gap-9 w-[100%] h-fit py-5 px-2 overflow-x-auto overflow-y-clip no-scrollbar">
             {Projects.map((property, index) => <FeaturedProperty key={index} property={property}/>)}
           </div>
         </div>

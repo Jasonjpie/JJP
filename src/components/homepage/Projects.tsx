@@ -17,9 +17,9 @@ const ProjectCard = ({project}: ProjectProps) => {
       <div className="relative rounded-md h-[100%] overflow-hidden">
         <Image className="p-0 m-0 object-cover object-center" src={project.frontview} layout="fill" alt=''/>
       </div>
-      <div className="absolute bottom-0 left-10 text-3xl max-w-[500px] font-bold text-white h-[20%] group-hover:opacity-25">
+      <div className="absolute bottom-0 left-10 text-xl xl:text-3xl max-w-[500px] font-bold text-white h-[20%] group-hover:opacity-25">
         {project.category}
-        <div className="text-lg font-semibold flex items-center">
+        <div className="text-md xl:text-lg font-semibold flex items-center">
           <div>View Project</div>
           <RiArrowDropRightLine className="" size={50} />
         </div>
@@ -56,7 +56,7 @@ const Projects = (props: Props) => {
         <div className="text-center mx-auto font-montserrat text-gray-500 text-2xl p-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
           </div>
-        <div className="grid lg:grid-cols-3 grid-cols-2 gap-5 p-2 h-fit">
+        <div className="grid lg:grid-cols-3 xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5 p-2 h-fit">
             {
                 displayedProjects.map((project, index) => <ProjectCard key={index} project={project}/>)
             }

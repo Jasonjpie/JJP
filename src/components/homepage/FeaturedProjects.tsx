@@ -33,7 +33,7 @@ const FeaturedProject = ({index, room}: FeaturedProjectProps) => {
           setIsOpen(true)
           } 
           } 
-          className={`h-[80%] w-[23%] shrink-0 ${inView ? index % 2 === 0 ?'animated fadeInDown':'animated fadeInUp':'opacity-0'}  even:self-end odd:self-start hover:-translate-y-1 hover:scale-110 p-2`}>
+          className={`h-[80%] w-[50%] sm:w-[30%] lg:w-[23%] shrink-0 ${inView ? index % 2 === 0 ?'animated fadeInDown':'animated fadeInUp':'opacity-0'}  even:self-end odd:self-start hover:-translate-y-1 hover:scale-110 p-2`}>
           <div className="flex items-center justify-center bg-[#222831] font-montserrat h-[20%] text-[#4F8A8B] text-lg lg:text-3xl font-bold">
               {room.name}
           </div>
@@ -75,13 +75,13 @@ const FeaturedProjects = (props: Props) => {
                 </div>
             </div>
             <div className="relative">
-                <button onClick={() => handleScroll(false)} className="absolute hidden lg:block top-1/2 z-10 left-3 p-4 rounded-2xl bg-white">
+                <button onClick={() => handleScroll(false)} className="absolute top-1/2 z-10 left-3 p-4 rounded-2xl bg-white">
                     <RiArrowLeftFill className="text-[#101C3D]" size={30} />
                 </button>
-                <div ref={container} className=" flex gap-2 lg:gap-10 h-[500px] sm:h-[800px] lg:h-[1100px] w-full overflow-x-scroll no-scrollbar scroll-smooth">
+                <div ref={container} className=" flex gap-2 sm:gap-5 xl:gap-10 h-[500px] sm:h-[800px] lg:h-[1100px] w-full overflow-y-clip overflow-x-scroll no-scrollbar scroll-smooth">
                     { rooms.map((room, index) => <FeaturedProject key={index} index={index} room={room} />) }
                 </div>
-                <button onClick={() => handleScroll(true)} className="absolute hidden lg:block top-1/2 z-10 right-3 p-4 rounded-2xl bg-white">
+                <button onClick={() => handleScroll(true)} className="absolute top-1/2 z-10 right-3 p-4 rounded-2xl bg-white">
                     <RiArrowRightFill className="text-[#101C3D]" size={30} />
                 </button>
             </div>
