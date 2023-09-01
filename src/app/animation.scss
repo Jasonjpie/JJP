@@ -6,6 +6,7 @@
     $particleColor: hsl(180, 100%, 80%);
   
     position: absolute;
+    z-index: 1000;
     transform: translateY(-10vh);
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -21,7 +22,7 @@
         hsla(180, 100%, 80%, 0) 56%
       );
   
-      animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
+      animation: fadein-frames 100ms infinite, scale-frames 1s infinite;
   
       @keyframes fade-frames {
         0% {
@@ -39,15 +40,15 @@
   
       @keyframes scale-frames {
         0% {
-          transform: scale3d(0.4, 0.4, 1);
+          transform: scale3d(2.4, 2.4, 1);
         }
   
         50% {
-          transform: scale3d(2.2, 2.2, 1);
+          transform: scale3d(4.2, 4.2, 1);
         }
   
         100% {
-          transform: scale3d(0.4, 0.4, 1);
+          transform: scale3d(2.4, 2.4, 1);
         }
       }
     }
@@ -85,7 +86,7 @@
         }
   
         .circle {
-          animation-delay: random(4000) + ms;
+          animation-delay: random(8000) + ms;
         }
       }
     }
