@@ -5,31 +5,51 @@ import { RiArrowLeftFill, RiArrowRightFill } from "react-icons/ri"
 import { useEffect, useRef, useState } from "react"
 import FeaturedProjectsModal from "./FeaturedProjectsModal"
 import { kitchen } from "@/data/featuredProjects"
+import { useInView } from "react-intersection-observer"
+
+
+type FeaturedProjectProps = {
+  index:number,
+  room:{
+    name: string;
+    image: string;
+    images: {
+        project_id: string;
+        name: string;
+        url: string;
+    }[]
+  }
+}
+
+const FeaturedProject = ({index, room}: FeaturedProjectProps) => {
+  const { ref, inView} = useInView({ triggerOnce:true })
+  const [isOpen, setIsOpen] = useState(false)
+  const [images, setImages] = useState<{name:string, project_id:string, url:string}[]>(kitchen)
+  return (
+    <>
+
+      <button ref={ref} onClick={() =>{
+          setImages(room.images)
+          setIsOpen(true)
+          } 
+          } 
+          className={`h-[80%] w-[23%] shrink-0 ${inView ? index % 2 === 0 ?'animated fadeInDown':'animated fadeInUp':'opacity-0'}  even:self-end odd:self-start hover:-translate-y-1 hover:scale-110 p-2`}>
+          <div className="flex items-center justify-center bg-[#222831] font-montserrat h-[20%] text-[#4F8A8B] text-lg lg:text-3xl font-bold">
+              {room.name}
+          </div>
+          <div className="relative h-[80%]">
+          <Image className='object-cover' src={room.image} fill alt={room.name}/>
+          </div>
+      </button>
+      <FeaturedProjectsModal isOpen={isOpen} closeModal={() => setIsOpen(false)} images={images}/>
+    </>
+  )
+}
 type Props = {}
 
 const FeaturedProjects = (props: Props) => {
     const container = useRef<HTMLDivElement>(null)
-    const [isOpen, setIsOpen] = useState(false)
-    const [images, setImages] = useState<{name:string, project_id:string, url:string}[]>(kitchen)
-    const [isVisible, setIsVisible] = useState(true);
-  
-    useEffect(() => {
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            setIsVisible(true);
-            observer.unobserve(entry.target);
-          }
-        });
-      });
-      if(container.current){
-          observer.observe(container.current);
-          setIsVisible(false)
-      }
-      return () => {
-        observer.disconnect();
-      };
-    }, []);
+
   
     const handleScroll = (forward:boolean) => {
         if(container.current){
@@ -59,20 +79,7 @@ const FeaturedProjects = (props: Props) => {
                     <RiArrowLeftFill className="text-[#101C3D]" size={30} />
                 </button>
                 <div ref={container} className=" flex gap-2 lg:gap-10 h-[500px] sm:h-[800px] lg:h-[1100px] w-full overflow-x-scroll no-scrollbar scroll-smooth">
-                    {rooms.map((room, index) =>
-                    <button key={index} onClick={() =>{
-                        setImages(room.images)
-                        setIsOpen(true)
-                        }
-                        } 
-                        className={`h-[80%] w-[23%] shrink-0 ${isVisible ? 'animate-in duration-1000 even:slide-in-from-top odd:slide-in-from-bottom':''} even:self-end odd:self-start hover:-translate-y-1 hover:scale-110 p-2`}>
-                        <div className="flex items-center justify-center bg-[#222831] font-montserrat h-[20%] text-[#4F8A8B] text-lg lg:text-3xl font-bold">
-                            {room.name}
-                        </div>
-                        <div className="relative h-[80%]">
-                        <Image className='object-cover' src={room.image} fill alt={room.name}/>
-                        </div>
-                    </button>)}
+                    { rooms.map((room, index) => <FeaturedProject key={index} index={index} room={room} />) }
                 </div>
                 <button onClick={() => handleScroll(true)} className="absolute hidden lg:block top-1/2 z-10 right-3 p-4 rounded-2xl bg-white">
                     <RiArrowRightFill className="text-[#101C3D]" size={30} />
@@ -80,7 +87,6 @@ const FeaturedProjects = (props: Props) => {
             </div>
 
         </div>
-        <FeaturedProjectsModal isOpen={isOpen} closeModal={() => setIsOpen(false)} images={images}/>
     </Container>
 
     

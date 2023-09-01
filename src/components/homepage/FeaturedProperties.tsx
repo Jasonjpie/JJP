@@ -3,6 +3,38 @@ import { RiArrowRightFill, RiArrowLeftFill } from "react-icons/ri";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import Container from "../common/Container";
+import { Project } from "@/types";
+import { useInView } from "react-intersection-observer";
+
+
+type FeaturedPropertyProps = {
+  property:Project
+}
+
+const FeaturedProperty = ({property}: FeaturedPropertyProps) => {
+  const {ref, inView } = useInView({ triggerOnce:true })
+  return (
+    <div
+      ref={ref}
+      className={`flex flex-col ${inView ? 'animated fadeInUp':'opacity-0'} gap-3 h-[90%] w-[50%] xs-[30%] lg:w-[22%] shrink-0  bg-white animate-slide-left overflow-hidden transition duration-300 ease-in-out hover:scale-110 shadow-lg p-3 rounded-md`}
+    >
+      <div className="relative w-full h-full">
+        <Image
+          className="transition  object-cover rounded-md"
+          src={property.frontview}
+          fill
+          alt={property.name}
+        />
+      </div>
+      
+      <div className="h-[40%]">
+        <div className="font-bold">{property.name}</div>
+        <div className="text-gray-400">{property.address}</div>
+      </div>
+    </div>
+  )
+}
+
 type Props = {};
 
 const FeaturedProperties = (props: Props) => {
@@ -73,30 +105,13 @@ const FeaturedProperties = (props: Props) => {
               </button>
             </div>
           </div>
-          <div ref={container}       onMouseDown={handleMouseDown}
-      onMouseUp={handleMouseUp}
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave} className="flex scroll-smooth gap-2 lg:gap-9 w-[100%] h-[400px] py-5 px-2 overflow-x-auto no-scrollbar">
-            {Projects.map((property, index) => (
-              <div
-                key={index}
-                className="flex flex-col gap-3 h-[90%] w-[50%] xs-[30%] lg:w-[22%] shrink-0  bg-white animate-slide-left overflow-hidden transition duration-300 ease-in-out hover:scale-110 shadow-lg p-3 rounded-md"
-              >
-                <div className="relative w-full h-full">
-                  <Image
-                    className="transition  object-cover rounded-md"
-                    src={property.frontview}
-                    fill
-                    alt={property.name}
-                  />
-                </div>
-                
-                <div className="h-[40%]">
-                  <div className="font-bold">{property.name}</div>
-                  <div className="text-gray-400">{property.address}</div>
-                </div>
-              </div>
-            ))}
+          <div ref={container}       
+            onMouseDown={handleMouseDown}
+            onMouseUp={handleMouseUp}
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave} 
+            className="flex scroll-smooth gap-2 lg:gap-9 w-[100%] h-[400px] py-5 px-2 overflow-x-auto no-scrollbar">
+            {Projects.map((property, index) => <FeaturedProperty key={index} property={property}/>)}
           </div>
         </div>
       </Container>
