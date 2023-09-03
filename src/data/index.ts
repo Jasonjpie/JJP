@@ -38,19 +38,19 @@ export const benefits = [
     icon: "construction.svg",
     name: "Construction Management",
     detail:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Prioritizing clients with expert designers for great investments; book a consultation now.",
   },
   {
     icon: "customer-services.svg",
     name: "Customer Service",
     detail:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Efficiently managing the process from fence orders to C of O with pride.",
   },
   {
     icon: "development.svg",
     name: "Development",
     detail:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "We handle projects and offer full developer services from design to post-escrow construction",
   },
 ];
 

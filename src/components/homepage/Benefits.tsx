@@ -12,7 +12,7 @@ const Benefits = (props: Props) => {
             <div className="lg:col-span-4 col-span-12 flex flex-col gap-10 w-full">
                 <div className="text-3xl">What do you get?</div>
                 <div className="text-5xl lg:text-6xl leading-tight font-bold">We always provide various <span className="text-primary">benefits</span> for you</div>
-                <div className=" leading-loose text-gray-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, </div>
+                <div className=" leading-loose text-gray-400">Client-focused, efficient development with renowned designers; we handle everything from design to construction once in escrow,&apos;ensuring top-quality results. </div>
             </div>
             <div className="lg:col-span-8 col-span-12 grid lg:grid-cols-3 gap-5 w-full items-center p-16">
                 {
