@@ -25,7 +25,6 @@ const config: Config = {
     },
   },
   plugins: [
-    require('tailwindcss-animated'),
     require('vidstack/tailwind.cjs')({
       prefix: 'media', // paused:... -> media-paused:...
     }),

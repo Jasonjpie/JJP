@@ -10,11 +10,11 @@ const page = (props: Props) => {
   return (
     <div className="flex flex-col">
        <HeroSection /> 
-       {/* <Container> */}
+       <Container>
         <MakeUsDifferent /> 
         <OurTeam /> 
         <PartnerCompanies /> 
-       {/* </Container> */}
+       </Container>
        
     </div>
   )
