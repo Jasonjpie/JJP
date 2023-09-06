@@ -1,25 +1,18 @@
 "use client"
 
 import { MdKeyboardArrowLeft } from 'react-icons/md'
-import ProjectsPresentation from '@/components/projects/ProjectsPresentation'
-import MoreProjectPhotos from '@/components/projects/MoreProjectPhotos'
-import ProjectHouseTour from '@/components/projects/ProjectHouseTour'
 import ContactUs from '@/components/homepage/ContactUs'
-import ProjectInspiration from '@/components/projects/ProjectInspiration'
-import { useEffect, useState } from 'react'
 import { Projects } from '@/data'
 import { Project } from '@/types'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import { Routes } from '@/../Routes'
+import MoreProjectPhotos from '@/components/projects/MoreProjectPhotos'
 type Props = {
   params:{id:string}
 }
 
 const Page = ({params}: Props) => {
-
   const router = useRouter()
-  const search = useSearchParams()
-  const room  = search.get('room')
 
   const project = Projects.find(project => project.id === params.id) as Project
   return (
@@ -36,9 +29,7 @@ const Page = ({params}: Props) => {
             <div className='text-gray-300 font-poppins mt-2'>2821 Lake Sevilla: Palm Harbor, TX</div>
           </div>
         </div>
-        <ProjectsPresentation room={room as string} images={[...project.images.slice(0,Math.min(7, project.images.length))]} />
-        {project.images.length >= 11 && <MoreProjectPhotos id={params.id} images={[...project.images.slice(8, Math.min(11, project.images.length))]} />}
-        <ProjectInspiration />
+        {project.images.length >= 11 && <MoreProjectPhotos id={params.id} showDetails={true} images={[...project.images.slice(8, Math.min(11, project.images.length))]} />}
         <ContactUs />
     </div>
   )
