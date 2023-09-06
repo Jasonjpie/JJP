@@ -65,8 +65,8 @@ const FeaturedProjects = (props: Props) => {
         <div className="w-full my-24 space-y-16">
             <div className="grid lg:grid-cols-3 gap-5">
                 <div className="flex flex-col relative col-span-1 mx-auto ml-10 p-5">
-                    <div className="text-md font-bold text-gray-600 tracking-[8px] font-montserrat">/ PROJECT</div>
-                    <div className="font-bold text-6xl max-w-[200px] leading-relaxed">Featured <span className="text-primary">Project</span></div>
+                    <div className="text-md font-bold text-gray-600 tracking-[8px] font-montserrat">/ PART OF HOUSE</div>
+                    <div className="font-bold text-6xl max-w-[200px] leading-relaxed">Featured <span className="text-primary">Sections</span></div>
                     <Image className="absolute -bottom-5 -left-5" src={`/Icons/ellipse.svg`} width={400} height={100} alt=''/>
 
                 </div>
