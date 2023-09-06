@@ -94,22 +94,22 @@ export const featuredProjects = [
 
 export const testmonials = [
   {
-    name: "Jacob Molen",
-    image: "jacob-molen.png",
+    name: "Twilight Staging & Design",
+    image: "Testimonial1.png",
     testmony:
-      "We like the final result this project, in extraordinary and also provides the best service to the client ",
+      "Jason's workmanship, professionalism, integrity, and attention to detail make him a trusted friend in every project – a rare find in the industry. With a dedication to perfection, you'll be delighted for years to come with any project handled by Jason and JJP Construction.",
   },
   {
-    name: "Peter Griffin",
-    image: "jacob-molen.png",
+    name: "Lauren Pietruszka",
+    image: "avator.jpg",
     testmony:
-      "I like the final result this project, in extraordinary and also provides the best service to the client ",
+      "JJP AND HIS GOlandscapers team took my poorly done turf job and fixed it to be flawless! Jason is also full of excellent design ideas and suggestions",
   },
   {
-    name: "Tony Stark",
-    image: "jacob-molen.png",
+    name: "Davi Brown",
+    image: "avator.jpg",
     testmony:
-      "We like the final result this project, in extraordinary and also provides the best service to the client ",
+      "Working with Jason and his team is an absolute joy. He consistently exceeds professional expectations, goes the extra mile for top-notch results, offers exceptional patience, and maintains rapid communication. We look forward to a long-lasting partnership with JJP Construction for our family's needs.",
   },
 ];
 

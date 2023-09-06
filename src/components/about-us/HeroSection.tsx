@@ -9,7 +9,7 @@ const HeroSection = (props: Props) => {
       <Container>
         <div className="flex flex-col relative gap-10 justify-center h-full font-poppins items-center">
           <div className="relative z-10 font-bold text-6xl text-white">About JJP</div>
-            <div className="relative z-10 text-center text-white text-2xl lg:max-w-[74%]">At JJP Construction, we&apos;re more than just builders, we&apos;re your partners in turning dreams into reality. With a legacy of excellence spanning 7+ years, we&apos;ve earned a reputation as a trusted construction firm that delivers exceptional results.</div>
+            <div className="relative z-10 text-center text-white text-2xl lg:max-w-[74%]">Founded in 2010, JJP Construction is your trusted partner in Los Angeles for exceptional property and real estate projects. With unwavering integrity and a commitment to excellence, we consistently exceed expectations, offering a wide range of services to meet your needs.</div>
         </div>
       </Container>
           {Array.from({length:100}).map((_, index) => 

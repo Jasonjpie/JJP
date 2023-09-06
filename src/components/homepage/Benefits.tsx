@@ -6,7 +6,7 @@ type Props = {}
 
 const Benefits = (props: Props) => {
   return (
-    <div className="w-full bg-[#101C3D] ">
+    <div className="w-full bg-[#101C3D] " id='service'>
       <Container>
         <div className="grid grid-cols-12 w-full text-white py-10 ">
             <div className="lg:col-span-4 col-span-12 flex flex-col gap-10 w-full p-2">

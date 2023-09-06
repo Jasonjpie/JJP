@@ -90,7 +90,7 @@ const FeaturedProperties = (props: Props) => {
         <div className="w-full p-5 py-24  space-y-10 ">
           <div className="grid lg:grid-cols-3 gap-5">
             <div className="font-bold text-6xl leading-normal">
-              Featured Properties
+              Featured Projects
             </div>
             <div className=" leading-loose font-montserrat text-gray-500 text-2xl pt-5">
               Take a look at our many finished projects that have been so amazing,
