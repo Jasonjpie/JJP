@@ -20,7 +20,6 @@ const rooms = [
 
 const MoreProjectPhotos = ({id, showDetails = false, images}: Props) => {
   const [ activeRooms, setActiveRooms ] = useState<number[]>([1])
-  const photos = Projects;
   const handleSelection = (id:number) => {
     if(activeRooms.includes(id)){
       setActiveRooms(activeRooms.filter(_id => _id !== id))
@@ -76,7 +75,7 @@ const MoreProjectPhotos = ({id, showDetails = false, images}: Props) => {
         <div className="relative w-[35%] h-full">
           <Image
             className="aspect-auto object-cover"
-            src={images[0].url}
+            src={images[3].url}
             fill
             alt=""
           />
@@ -85,7 +84,7 @@ const MoreProjectPhotos = ({id, showDetails = false, images}: Props) => {
           <div className="w-full h-[50%] relative">
             <Image
               className="aspect-auto object-cover"
-              src={images[1].url}
+              src={images[4].url}
               fill
               alt=""
             />
@@ -93,7 +92,7 @@ const MoreProjectPhotos = ({id, showDetails = false, images}: Props) => {
           <div className="w-full h-[50%] relative">
             <Image
               className="aspect-auto object-cover"
-              src={images[2].url}
+              src={images[5].url}
               fill
               alt=""
             />
@@ -102,7 +101,7 @@ const MoreProjectPhotos = ({id, showDetails = false, images}: Props) => {
         <div className="relative w-[35%] h-full">
           <Image
             className="aspect-auto object-cover"
-            src={images[0].url}
+            src={images[6].url}
             fill
             alt=""
           />
@@ -114,7 +113,7 @@ const MoreProjectPhotos = ({id, showDetails = false, images}: Props) => {
           <div className="w-full h-[50%] relative">
             <Image
               className="aspect-auto object-cover"
-              src={images[1].url}
+              src={images[7].url}
               fill
               alt=""
             />
@@ -122,7 +121,7 @@ const MoreProjectPhotos = ({id, showDetails = false, images}: Props) => {
           <div className="w-full h-[50%] relative">
             <Image
               className="aspect-auto object-cover"
-              src={images[2].url}
+              src={images[8].url}
               fill
               alt=""
             />
@@ -132,7 +131,7 @@ const MoreProjectPhotos = ({id, showDetails = false, images}: Props) => {
           <div className="relative w-full h-[50%]">
             <Image
               className="aspect-auto object-cover"
-              src={images[0].url}
+              src={images[9].url}
               fill
               alt=""
             />
@@ -140,7 +139,7 @@ const MoreProjectPhotos = ({id, showDetails = false, images}: Props) => {
           <div className="relative w-full h-[50%]">
             <Image
               className="aspect-auto object-cover"
-              src={images[0].url}
+              src={images[10].url}
               fill
               alt=""
             />
