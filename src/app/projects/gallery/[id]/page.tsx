@@ -29,7 +29,7 @@ const Page = ({params}: Props) => {
             <div className='text-gray-300 font-poppins mt-2'>2821 Lake Sevilla: Palm Harbor, TX</div>
           </div>
         </div>
-        {project.images.length >= 11 && <MoreProjectPhotos id={params.id} showDetails={true} images={[...project.images.slice(0, Math.min(11, project.images.length))]} />}
+        <MoreProjectPhotos id={params.id} showDetails={true} images={[...project.images]} />
         <ContactUs />
     </div>
   )
