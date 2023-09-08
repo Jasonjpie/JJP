@@ -11,7 +11,7 @@ const FilterProjects = (props: Props) => {
             <BiFilter /> 
             <div>Filter</div>
         </button>
-     <div className="flex gap-5">
+     <div className="flex flex-wrap gap-5">
         <button  onClick={() => setCategory('all')} className={`px-7 py-2 rounded-full border border-black ${category === 'all' ? 'text-white bg-black':'bg-white'}`}>
             All
         </button>

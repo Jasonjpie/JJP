@@ -6,7 +6,7 @@ import  { MdKeyboardArrowDown } from 'react-icons/md'
 import { useEffect, useRef, useState } from "react"
 import Container from "./Container"
 import { BiMenu } from "react-icons/bi"
-import { GrClose } from "react-icons/gr"
+import { AiOutlineClose } from "react-icons/ai"
 
 const navigation = [
     {
@@ -17,10 +17,6 @@ const navigation = [
         name:'About Us',
         route:Routes.ABOUT
     },
-    // {
-    //     name:'Our Services',
-    //     route: '/#Benefits'
-    // },
     {
         name:'Projects',
         route:Routes.PROJECTS
@@ -61,21 +57,21 @@ const NavBar = ({dark = true, transparent = false}: Props) => {
   return (
     <div className={`w-full fixed animated fadeInDown top-0 z-50 ${transparency && dark && transparent ? 'bg-opacity-0':''} ${path === '/' && transparency && transparent ? 'bg-opacity-40':''} ${(dark || transparent) ? 'bg-[#101C3D]': 'bg-white'} py-3 `}>
         <Container>
-            <div className="flex w-full">
-                <div className='flex gap-3 items-center'>
-                    <BiMenu onClick={() => setShowMenu(true)} className={`lg:hidden cursor-pointer ${dark ? 'text-white':'text-black'}`} size={40} />
-                    <Link href={navigation[0].route}>
-                        <Image  src={`Icons/logo-${dark ? 'light':'color'}.svg`}  width={200} height={20} alt="JJP's Logo"/>
-                    </Link>
-                </div>
-                {showMenu && <MobileBar close={() => setShowMenu(false)}/>}
-                <div className="hidden lg:flex items-center gap-2 ml-auto">
+            <div className="flex justify-between w-full">
+                <Link href={navigation[0].route}>
+                    <Image  src={`Icons/logo-${dark ? 'light':'color'}.svg`}  width={200} height={20} alt="JJP's Logo"/>
+                </Link>
+                {!showMenu && <BiMenu onClick={() => setShowMenu(true)} className={`lg:hidden cursor-pointer ${dark ? 'text-white':'text-black'}`} size={40} />}
+
+                {showMenu &&
+                 <div className="p-1">
+                    <AiOutlineClose size={35} className={`ml-auto p-1 ${dark ? 'text-white':'text-black'}`} onClick={() => setShowMenu(false)}/>
+                </div>}
+                <div className="hidden lg:flex items-center gap-2">
                     {dark || transparent ? 
                     navigation.map((bar, index) => (
                         <Link key={index} href={bar.route} className={`flex items-center gap-3 px-4 py-2 rounded-md  ${path === bar.route ? 'bg-white text-black':'text-white'}`}>
-                            <div>{bar.name}</div> 
-                            {/* {bar.route === '/projects' && <MdKeyboardArrowDown className='text-white' />} */}
-                            
+                            <div>{bar.name}</div>                             
                         </Link>
                     
                     )):
@@ -89,6 +85,7 @@ const NavBar = ({dark = true, transparent = false}: Props) => {
                     }
                 </div>
             </div>
+        {showMenu && <MobileBar close={() => setShowMenu(false)}/>}
         </Container>
     </div>
   )
@@ -114,14 +111,12 @@ const MobileBar = ({close}: MobileBarProps) => {
         }
     })
   return (
-    <div ref={ref} className="fixed top-0 left-0 w-[50vw] h-[100vh] bg-white z-50">
-        <div className="ml-auto p-2">
-            <GrClose size={30} className='ml-auto p-1' onClick={close}/>
-        </div>
+    <div ref={ref} className=" w-full border pb-10 h-fit bg-white z-50">
+
         <div>
             {
         navigation.map((bar, index) => (
-            <Link key={index} href={bar.route} className={`flex items-center gap-3 px-4 py-2 rounded-md  ${path === bar.route && 'bg-primary bg-opacity-10 text-primary'}`}>
+            <Link key={index} href={bar.route} className={`flex justify-center gap-3 py-2 rounded-md  ${path === bar.route && 'bg-primary bg-opacity-10 text-primary'}`}>
                 <div>{bar.name}</div> 
             </Link>
                 ))

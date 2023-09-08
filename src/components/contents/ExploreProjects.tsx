@@ -40,7 +40,9 @@ const ExploreProjects = (props: Props) => {
                 
                 {
                     Projects.map(_project => 
-                        <Image key={_project.id} onClick={() => setCurrentId(parseInt(_project.id))} className={`object-cover cursor-pointer rounded-lg ${parseInt(_project.id)=== currentId && ' border-[6px] border-white'}`} src={_project.frontview} width={100} height={100} alt=""/>
+                      <div key={_project.id} className="relative w-[23%] h-[100px] shrink-0">
+                        <Image  onClick={() => setCurrentId(parseInt(_project.id))} className={`object-cover cursor-pointer rounded-lg ${parseInt(_project.id)=== currentId && ' border-[6px] border-white'}`} src={_project.frontview} fill alt=""/>
+                      </div>
                         )
                 }
             </div>
