@@ -10,34 +10,13 @@ type Props = {
   showDetails?:boolean, 
 };
 
-const rooms = [
-  {id:1, name:'All'},
-  {id:2, name:'Living Room'},
-  {id:3, name:'Kitchen'},
-  {id:4, name:'Garden'},
-  {id:5, name:'Bathroom'},
-]
 
 const MoreProjectPhotos = ({id, showDetails = false, images}: Props) => {
-  const [ activeRooms, setActiveRooms ] = useState<number[]>([1])
-  const handleSelection = (id:number) => {
-    if(activeRooms.includes(id)){
-      setActiveRooms(activeRooms.filter(_id => _id !== id))
-    }else{
-      setActiveRooms([...activeRooms, id])
-    }
-  }
+
   const moreImages = Math.ceil((images.length - 3)/8)
   return (
     <div className="flex flex-col gap-5">
-      {showDetails && 
-      <div className="flex gap-5">
-        {
-          rooms.map((room, index) => 
-          <button key={index} disabled={activeRooms.length === 3 && !activeRooms.includes(room.id)} onClick={() => handleSelection(room.id)} className={`rounded-xl border px-5 py-2 ${activeRooms.includes(room.id) ? 'bg-[#051242] text-white':'bg-white text-gray-500'}`}>{room.name}</button>
-          )
-        }
-        </div>}
+
         <div className="flex  gap-5 w-full  h-[300px] xs:h-[500px] lg:h-[700px] relative">
           <div className="relative w-[70%] h-full">
             <Image
