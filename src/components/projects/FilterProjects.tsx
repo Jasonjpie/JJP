@@ -1,10 +1,22 @@
-import { Category } from "@/types"
-import { useState } from "react"
+import { Projects } from "@/data"
+import { Category, Project } from "@/types"
+import { useEffect, useState } from "react"
 import { BiFilter, BiSolidDownArrow } from "react-icons/bi"
-type Props = {}
+type Props = {
+    setProjects:(a:Project[]) => void
+}
 
-const FilterProjects = (props: Props) => {
+const FilterProjects = ({setProjects}: Props) => {
     const [ category, setCategory ] = useState<Category>('all')
+    useEffect(() => {
+        if(category === 'all'){
+            setProjects(Projects)
+        }else{
+            setProjects(
+                Projects.filter(project => project.type === category)
+            )
+        }
+    }, [category])
   return (
     <div className="flex flex-wrap gap-10 justify-between">
         <button className="flex items-center gap-5 px-8 py-3 border border-black rounded-lg">

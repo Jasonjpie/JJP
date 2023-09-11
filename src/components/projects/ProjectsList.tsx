@@ -1,12 +1,15 @@
 import { Projects } from "@/data"
+import { Project } from "@/types"
 import Image from "next/image"
 import Link from "next/link"
-type Props = {}
+type Props = {
+  projects:Project[]
+}
 
-const ProjectsList = (props: Props) => {
+const ProjectsList = ({projects}: Props) => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5">
-        {Projects.map((project, index) => 
+        {projects.map((project, index) => 
         <Link href={`/projects/${project.id}`} key={index} className="relative w-full h-96">
             <Image className=" object-cover aspect-video" src={project.frontview} fill alt=''/>
             <div className="absolute flex flex-col justify-center bottom-5 left-6 bg-black h-24 w-[90%]">

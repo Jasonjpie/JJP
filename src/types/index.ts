@@ -8,6 +8,7 @@ export interface Project {
     images:{name:string, url:string}[]
     address: string,
     category: string,
+    type:string,
     kitchen?:string,
     bathroom?:string,
     livingroom?:string,
