@@ -5,7 +5,6 @@ import ProjectsPresentation from '@/components/projects/ProjectsPresentation'
 import MoreProjectPhotos from '@/components/projects/MoreProjectPhotos'
 import ProjectHouseTour from '@/components/projects/ProjectHouseTour'
 import ContactUs from '@/components/homepage/ContactUs'
-import ProjectInspiration from '@/components/projects/ProjectInspiration'
 import { useEffect, useState } from 'react'
 import { Projects } from '@/data'
 import { Project } from '@/types'
@@ -38,7 +37,6 @@ const Page = ({params}: Props) => {
         </div>
         <ProjectsPresentation room={room as string} images={[...project.images.slice(0,Math.min(7, project.images.length))]} />
         {project.images.length >= 11 && <MoreProjectPhotos id={params.id} images={[...project.images.slice(8, Math.min(11, project.images.length))]} />}
-        <ProjectInspiration />
         <ContactUs />
     </div>
   )

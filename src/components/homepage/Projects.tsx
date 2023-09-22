@@ -5,6 +5,8 @@ import { useEffect, useState, useRef } from "react";
 import { RiArrowDropRightLine } from 'react-icons/ri';
 import { useInView } from "react-intersection-observer";
 import '@/app/animation.css'
+import Link from "next/link";
+import { Routes } from "../../../Routes";
 
 type ProjectProps = {
   project: Project
@@ -13,7 +15,7 @@ type ProjectProps = {
 const ProjectCard = ({ project }: ProjectProps) => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0 })
   return (
-    <div ref={ref} className={`relative ${inView ? 'animated fadeInUp' : 'opacity-0'} rounded-md h-[500px] group-hover:opacity-25 shadow-lg`}>
+    <Link ref={ref} href={`${Routes.PROJECTS}/${project.id}`} className={`relative ${inView ? 'animated fadeInUp' : 'opacity-0'} rounded-md h-[500px] group-hover:opacity-25 shadow-lg`}>
       <div className="relative rounded-md h-[100%] overflow-hidden">
         <Image className="p-0 m-0 object-cover object-center" src={project.frontview} layout="fill" alt='' />
       </div>
@@ -27,7 +29,7 @@ const ProjectCard = ({ project }: ProjectProps) => {
           Description goes here
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 type Props = {}

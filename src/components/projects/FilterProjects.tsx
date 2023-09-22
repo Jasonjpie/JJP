@@ -18,11 +18,6 @@ const FilterProjects = ({setProjects}: Props) => {
         }
     }, [category])
   return (
-    <div className="flex flex-wrap gap-10 justify-between">
-        <button className="flex items-center gap-5 px-8 py-3 border border-black rounded-lg">
-            <BiFilter /> 
-            <div>Filter</div>
-        </button>
      <div className="flex flex-wrap gap-5">
         <button  onClick={() => setCategory('all')} className={`px-7 py-2 rounded-full border border-black ${category === 'all' ? 'text-white bg-black':'bg-white'}`}>
             All
@@ -35,16 +30,6 @@ const FilterProjects = ({setProjects}: Props) => {
             Modern
         </button>
      </div>
-     <div className='flex items-center gap-5'>
-        <div className="text-xl font-poppins">
-            Sorted by
-        </div>
-        <div className="flex items-center gap-2">
-            <div className="text-lg font-bold font-poppins">Last Updated</div>
-            <BiSolidDownArrow className='cursor-pointer' />
-        </div>
-     </div>
-    </div>
   )
 }
 
