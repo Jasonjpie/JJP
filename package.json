@@ -14,6 +14,7 @@
     "@types/react-dom": "18.2.7",
     "@vidstack/react": "^0.6.13",
     "autoprefixer": "10.4.14",
+    "emailjs-com": "^3.2.0",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
     "leaflet": "^1.9.4",
