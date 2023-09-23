@@ -59,7 +59,7 @@ const NavBar = ({dark = true, transparent = false}: Props) => {
         <Container>
             <div className="flex justify-between w-full">
                 <Link href={navigation[0].route}>
-                    <Image  src={`/icons/${dark ? 'logo-light.svg':'logo-color.svg'}`}  width={200} height={20} alt="JJP's Logo"/>
+                    <Image  src={`/Icons/${dark ? 'logo-light.svg':'logo-color.svg'}`}  width={200} height={20} alt="JJP's Logo"/>
                 </Link>
                 {!showMenu && <BiMenu onClick={() => setShowMenu(true)} className={`lg:hidden cursor-pointer ${dark ? 'text-white':'text-black'}`} size={40} />}
 

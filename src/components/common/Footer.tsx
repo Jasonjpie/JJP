@@ -9,7 +9,7 @@ const Footer = (props: Props) => {
 
     <div className="w-full  bg-[#101C3D]">
       <Container>
-        <div className="grid lg:grid-cols-5 gap-12 py-12">
+        <div className="grid lg:grid-cols-5 gap-12 py-12 px-5">
           <div className="text-white text-4xl self-end">JJP</div>
           <div className="flex flex-col gap-2 text-white font-bold">
             <div className="mb-3">Useful Links</div>

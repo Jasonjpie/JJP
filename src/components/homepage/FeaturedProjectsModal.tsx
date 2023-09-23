@@ -42,7 +42,7 @@ const FeaturedProjectsModal = ({images, isOpen, closeModal}: Props) => {
             <div ref={modal} className="flex flex-col max-w-[1260px] h-fit px-5 pb-5 mx-auto w-full relative z-50 border-2 bg-white overflow-y-auto">
                 <button className='absolute right-5 top-0' onClick={closeModal}><MdClose className='p-3' size={50}/></button>
                 <Link href={`${Routes.PROJECTS}/${images[index].project_id}`} className="font-bold capitalize font-playfair text-2xl lg:text-4xl leading-relaxed p-5">
-                    <button className="flex items-center gap-3 px-5 py-2 text-white bg-[#416FF4] rounded-md">
+                    <button className="flex items-center gap-3 px-5 py-2 text-white bg-[#101C3D] rounded-md">
                         <div>{images[index].name}</div>
                         <BsArrowRight size={25}/>
                     </button>

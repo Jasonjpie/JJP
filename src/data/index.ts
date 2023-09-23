@@ -101,13 +101,13 @@ export const testmonials = [
   },
   {
     name: "Lauren Pietruszka",
-    image: "avator.jpg",
+    image: "",
     testmony:
       "JJP AND HIS GOlandscapers team took my poorly done turf job and fixed it to be flawless! Jason is also full of excellent design ideas and suggestions",
   },
   {
-    name: "Davi Brown",
-    image: "avator.jpg",
+    name: "Devi Brown",
+    image: "",
     testmony:
       "Working with Jason and his team is an absolute joy. He consistently exceeds professional expectations, goes the extra mile for top-notch results, offers exceptional patience, and maintains rapid communication. We look forward to a long-lasting partnership with JJP Construction for our family's needs.",
   },
@@ -295,13 +295,13 @@ export const IntroVideo:Video[] = [
 export const videos:Video[] = [
   {
     id:1,
-    title:"Sprite Fight",
+    title:"what we do",
     source:"https://res.cloudinary.com/desqmglcs/video/upload/v1692527323/12005_WOODBRIDGE_ST_STUDIO_CITY_long_ezhuof.mp4",
     poster:"https://res.cloudinary.com/desqmglcs/image/upload/v1692280586/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12005%20Woodbridge/SKY_PHOTOGRAPHY_LA-11DDF_ui9jwm.jpg"
   },
   {
     id:2,
-    title:"Sprite Fight",
+    title:"how we can assist you?",
     source:"https://res.cloudinary.com/desqmglcs/video/upload/v1692527323/12005_WOODBRIDGE_ST_STUDIO_CITY_long_ezhuof.mp4",
     poster:"https://res.cloudinary.com/desqmglcs/image/upload/v1692280591/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/3958%20Sunswept%20Dr/SKY_PHOTOGRAPHY_LA-2Y_wa8nk0.jpg"
   }

@@ -20,7 +20,10 @@ const Testmonials = (props: Props) => {
           <div ref={ref} className='grid grid-cols-1 lg:grid-cols-2 w-full bg-gradient-to-br from-[#142C63] to-[#131C31] '>
             <div className='p-16'>
               <div className='relative flex flex-col gap-10 items-center self-center'>
-                <Image className={`${inView ? 'animated fadeInDown':'opacity-0'}`} src={`/Icons/${testmony.image}`} width={300} height={500} alt={testmony.name} />
+                {testmony.image ? <Image className={`${inView ? 'animated fadeInDown':'opacity-0'}`} src={`/Icons/${testmony.image}`} width={300} height={500} alt={testmony.name} />:
+                 <div className='flex justify-center items-center rounded-md w-[300px] h-[200px] bg-yellow-500 text-white text-8xl'>
+                  {testmony.name.charAt(0)}{testmony.name.split(' ')[1].charAt(0)}
+                 </div>}
                 <div className={`${inView ? 'animated fadeInUp':'opacity-0'} flex-col gap-1 items-center hidden lg:flex absolute top-64 left-52 w-[500px] h-[300px] bg-white px-2 pt-10`}>
                     <div className='text-3xl font-bold font-poppins text-center'>{testmony.name}</div>
                     <div className='w-[80%] font-poppins leading-loose text-gray-500 p-1'>{testmony.testmony}</div>
@@ -28,7 +31,7 @@ const Testmonials = (props: Props) => {
                       <BiSolidQuoteLeft className='text-[#0A72AD]' />
                     </div>
                 </div>
-                <div className='flex flex-col relative lg:hidden gap-1 items-center w-[300px] h-[200px] bg-white px-2 pt-10'>
+                <div className='flex flex-col relative lg:hidden gap-1 items-center w-[300px] h-fit bg-white px-2 pt-10'>
                     <div className='text-3xl font-bold font-poppins text-center'>{testmony.name}</div>
                     <div className='w-[300px] font-poppins leading-loose text-gray-500 p-5'>{testmony.testmony}</div>
                     <div className='absolute -top-8 bg-white p-6 rounded-full shadow-xl'>
