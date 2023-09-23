@@ -62,86 +62,91 @@ const MoreProjectPhotos = ({id, showDetails = false, images}: Props) => {
         {
           Array.from({length:moreImages}).map((_, index) => 
             <div className="flex flex-col gap-5" key={index}>
-              {showDetails && 
+              {showDetails && (images[(index*8) + 3] || images[(index*8) + 4] || images[(index*8) + 5]) && 
               <div className="flex  gap-5 w-full  h-[300px] xs:h-[500px] lg:h-[700px] relative">
+                {images[(index*8) + 3] && 
                 <button onClick={() => showModal(images[(index*8) + 3].url)} className="relative w-[35%] h-full">
-                  {images[(index*8) + 3] && 
                   <Image
                     className="aspect-auto object-cover"
                     src={images[(index*8) + 3].url}
                     fill
                     alt=""
-                  />}
-                </button>
-                <div className="flex flex-col gap-5 w-[30%] h-full">
-                  <button onClick={() => showModal(images[(index*8) + 4].url)} className="w-full h-[50%] relative">
-                    {images[(index*8) + 4] && 
-                    <Image
-                      className="aspect-auto object-cover"
-                      src={images[(index*8) + 4].url}
-                      fill
-                      alt=""
-                    />}
-                  </button>
-                  <button onClick={() => showModal(images[(index*8) + 5].url)} className="w-full h-[50%] relative">
-                    {images[(index*8) + 5] && <Image
-                      className="aspect-auto object-cover"
-                      src={images[(index*8) + 5].url}
-                      fill
-                      alt=""
-                    />}
-                  </button>
-                </div>
+                  />
+                </button>}
+                {(images[(index*8) + 4] || images[(index*8) + 5]) && 
+                  <div className="flex flex-col gap-5 w-[30%] h-full">
+                  {images[(index*8) + 4] &&
+                    <button onClick={() => showModal(images[(index*8) + 4].url)} className="w-full h-[50%] relative">
+                      <Image
+                        className="aspect-auto object-cover"
+                        src={images[(index*8) + 4].url}
+                        fill
+                        alt=""
+                      />
+                    </button>}
+                    {images[(index*8) + 5] && 
+                    <button onClick={() => showModal(images[(index*8) + 5].url)} className="w-full h-[50%] relative">
+                      <Image
+                        className="aspect-auto object-cover"
+                        src={images[(index*8) + 5].url}
+                        fill
+                        alt=""
+                      />
+                    </button>}
+                  </div>}
+                {images[(index*8) + 6] && 
                 <button  onClick={() => showModal(images[(index*8) + 6].url)} className="relative w-[35%] h-full">
-                  {images[(index*8) + 6] && 
                   <Image
                     className="aspect-auto object-cover"
                     src={images[(index*8) + 6].url}
                     fill
                     alt=""
-                  />}
-                </button>
+                  />
+                </button>}
               </div>}
-              {showDetails && 
+              {showDetails && (images[(index*8) + 7] || images[(index*8) + 8] || images[(index*8) + 9] || images[(index*8) + 10])  && 
               <div className="flex  gap-5 w-full  h-[300px] xs:h-[500px] lg:h-[700px] relative">
-              <div className="flex flex-col gap-5 w-[30%] h-full">
+                {(images[(index*8) + 7] || images[(index*8) + 8]) && <div className="flex flex-col gap-5 w-[30%] h-full">
+                  {images[(index*8) + 7] &&
                   <button onClick={() => showModal(images[(index*8) + 7].url)}  className="w-full h-[50%] relative">
-                    {images[(index*8) + 7] && 
                     <Image
                       className="aspect-auto object-cover"
                       src={images[(index*8) + 7].url}
                       fill
                       alt=""
-                    />}
-                  </button>
+                    />
+                  </button>}
+                  {images[(index*8) + 8] && 
                   <button onClick={() => showModal(images[(index*8) + 8].url)}  className="w-full h-[50%] relative">
-                    {images[(index*8) + 8] && <Image
+                    <Image
                       className="aspect-auto object-cover"
                       src={images[(index*8) + 8].url}
                       fill
                       alt=""
-                    />}
-                  </button>
-                </div>
-                <div className='flex flex-col gap-5 w-[70%] h-full'>
-                  <button onClick={() => showModal(images[(index*8) + 9].url)} className="relative w-full h-[50%]">
-                    {images[(index*8) + 9] && <Image
-                      className="aspect-auto object-cover"
-                      src={images[(index*8) + 9].url}
-                      fill
-                      alt=""
-                    />}
-                  </button>
-                  <button onClick={() => showModal(images[(index*8) + 10].url)}  className="relative w-full h-[50%]">
-                    {images[(index*8) + 10] && 
-                    <Image
-                      className="aspect-auto object-cover"
-                      src={images[(index*8) + 10].url}
-                      fill
-                      alt=""
-                    />}
-                  </button>
-                </div>
+                    />
+                  </button>}
+                </div>}
+                {(images[(index*8) + 9] || images[(index*8) + 10]) &&
+                  <div className='flex flex-col gap-5 w-[70%] h-full'>
+                  {images[(index*8) + 9] &&
+                    <button onClick={() => showModal(images[(index*8) + 9].url)} className="relative w-full h-[50%]">
+                      <Image
+                        className="aspect-auto object-cover"
+                        src={images[(index*8) + 9].url}
+                        fill
+                        alt=""
+                      />
+                    </button>}
+                      {images[(index*8) + 10] && 
+                      <button onClick={() => showModal(images[(index*8) + 10].url)}  className="relative w-full h-[50%]">
+                        <Image
+                          className="aspect-auto object-cover"
+                          src={images[(index*8) + 10].url}
+                          fill
+                          alt=""
+                        />
+                      </button>}
+                  </div>}
               </div>}
             </div>
           
