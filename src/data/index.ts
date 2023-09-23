@@ -395,6 +395,33 @@ export const backgroundImages = [
 ]
 
 
+export const teams = [
+  {
+      name:'Jason Pietruszka',
+      image:'/images/profile/jason_p.jpg',
+      role:'Project Manager'
+  },
+  {
+      name:'Alex M',
+      image:'',
+      role:'Project Manager'
+  },
+  {
+      name:'Ed P',
+      image:'',
+      role:'Project Manager'
+  },
+  {
+      name:'Lauren S',
+      image:'',
+      role:'Office Manager'
+  },
+  {
+      name:'Amalia E',
+      image:'',
+      role:'Office Administration'
+  },
+]
 // export const kitchens = [
 //   {
 //     project_id:'1',
