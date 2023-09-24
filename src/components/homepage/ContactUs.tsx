@@ -18,7 +18,7 @@ const ContactUs = (props: Props) => {
     const templateID = "template_lsf6ept"; // Replace with your Email.js template ID
     emailjs.init(userID); // Initialize Email.js with your user ID
 
-    const handleSubmit = (e: any) => {
+    const handleSubmit = (e: any) => {  
         e.preventDefault();
 
         // Set loading state to true while submitting
@@ -27,6 +27,7 @@ const ContactUs = (props: Props) => {
         // Use Email.js to send the email
         emailjs
             .send(serviceID, templateID, {
+                from:'jjpconstructioninc.com',
                 to_name: "Jeson P.", // Replace with recipient email
                 from_name: email,
                 from_email: email,
