@@ -34,7 +34,7 @@ const Footer = (props: Props) => {
                 height={50}
                 alt="Address"
               />
-              <div> 7379 Greenbush Ave, North Hollywood, CA 91605, US </div>
+              <div> North Hollywood, CA 91605, US </div>
             </div>
             <div className="flex items-center gap-3">
               <Image
