@@ -19,8 +19,8 @@ const HeroSection = (props: Props) => {
     <div className=" h-fit items-center justify-around relative p-3">
       
       <div ref={container} className="flex overflow-auto lg:overflow-x-hidden scroll-smooth mt-24">
-        <button onClick={() => handleScroll(false)} className="items-center hidden lg:flex justify-center absolute transform translate-y-1/3 top-1/2 left-5 media-buffering:hidden media-playing:hidden z-40  bg-white rounded-full w-6 h-6  lg:w-12 lg:h-12">
-          <BsArrowLeftShort size={30}/>
+        <button onClick={() => handleScroll(false)} className="items-center hidden lg:flex justify-center absolute transform translate-y-1/3 top-1/2 left-5 media-buffering:hidden media-playing:hidden z-40 rounded-full w-6 h-6  lg:w-12 lg:h-12">
+          {/* <BsArrowLeftShort size={30}/> */}
         </button>
         {IntroVideo.map(video => 
         <VideoComponent key={video.id} title={video.title} source={video.source} poster={video.poster} >
@@ -29,8 +29,8 @@ const HeroSection = (props: Props) => {
               <div className='text-md lg:text-2xl hidden lg:block'>Welcome to our Media Page! Here, you can embark on a journey to explore not only the beautifully crafted homes we offer but also the stories of our valued customers who have found their dream homes with us. </div>
           </div>
         </VideoComponent>)}
-        <button onClick={() => handleScroll(true)} className="items-center hidden lg:flex justify-center absolute transform translate-y-1/3 top-1/2 right-5 media-playing:hidden media-buffering:hidden  z-40  bg-white rounded-full w-6 h-6  lg:w-12 lg:h-12">
-          <BsArrowRightShort size={30} />
+        <button onClick={() => handleScroll(true)} className="items-center hidden lg:flex justify-center absolute transform translate-y-1/3 top-1/2 right-5 media-playing:hidden media-buffering:hidden  z-40 rounded-full w-6 h-6  lg:w-12 lg:h-12">
+          {/* <BsArrowRightShort size={30} /> */}
         </button>
       </div>
       

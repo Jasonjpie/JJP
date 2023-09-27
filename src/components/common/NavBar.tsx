@@ -78,7 +78,6 @@ const NavBar = ({dark = true, transparent = false}: Props) => {
                     navigation.map((bar, index) => (
                             <Link key={index} href={bar.route} className={`flex items-center gap-3 px-4 py-2 rounded-md  ${path === bar.route && 'bg-primary bg-opacity-10 text-primary'}`}>
                                 <div>{bar.name}</div> 
-                                {bar.route === '/projects' && <MdKeyboardArrowDown  />}
                             </Link>
                         
                     ))
