@@ -13,9 +13,9 @@ const ContactUs = (props: Props) => {
     const [errorMessage, setErrorMessage] = useState("");
     const [isSubmitting, setIsSubmitting] = useState(false); // Add loading state
 
-    const serviceID = "service_e3gfj5u"; // Replace with your Email.js service ID
-    const userID = "lBEGkhwko5Z_AnqC5"; // Replace with your Email.js user ID
-    const templateID = "template_lsf6ept"; // Replace with your Email.js template ID
+    const serviceID = "service_1ewdayd"; // Replace with your Email.js service ID
+    const userID = "D5maOIBS7PmgmBLyM"; // Replace with your Email.js user ID
+    const templateID = "template_s1cnbtr"; // Replace with your Email.js template ID
     emailjs.init(userID); // Initialize Email.js with your user ID
 
     const handleSubmit = (e: any) => {  
@@ -28,7 +28,7 @@ const ContactUs = (props: Props) => {
         emailjs
             .send(serviceID, templateID, {
                 from:'jjpconstructioninc.com',
-                to_name: "Jeson P.", // Replace with recipient email
+                to_name: "Jason P.", // Replace with recipient email
                 from_name: email,
                 from_email: email,
                 subject: subject,
