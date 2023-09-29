@@ -13,6 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" type='image/svg+xml' href="/icons/jjp-small-logo.svg" />
+      </head>
       <body className='max-w-auto mx-auto'>{children}</body>
     </html>
   )
