@@ -1,5 +1,5 @@
 import { Beck } from "@/images/Beck";
-import { Fiske } from "@/images/Fiske";
+import { Embury, Fiske } from "@/images/Fiske";
 import { Hortense } from "@/images/Hortense";
 import { Iliff } from "@/images/Iliff";
 import { Rancho_st } from "@/images/RanchoSt";
@@ -10,6 +10,12 @@ import { ValleyVista } from "@/images/ValleyVista";
 import { Woodbridge } from "@/images/Woodbridge";
 import { Project, Video } from "@/types";
 import { bathroom, bedroom, filmTheature, fire, homeMassage, houseGym, kitchen, livingRoom, pool, stairs, wineCabinet } from "./featuredProjects";
+import { BundyDr } from "@/images/BundyDr";
+import { ViaDaLaPaz } from "@/images/Viadelapaz";
+import { Monument } from "@/images/Monument";
+import { Milbank } from "@/images/Milbank";
+import { Embury2 } from "@/images/Embury";
+import { EncinoAve } from "@/images/EncinoAve";
 
 export const featuredProperties = [
   {
@@ -275,18 +281,18 @@ export const Projects: Project[] = [
   },
   {
     id: "11",
-    name: "1025 N. Bundy Dr",
-    year: "2018",
+    name: "1025 N.Bundy Dr",
+    year: "2018",   
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696236107/House%20Pictures%202/1025%20N.%20Bundy%20Dr%20%282018%29/JD2_3581-Edit_cpqtkf.jpg",
-    images: Woodbridge,
+    images: BundyDr,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696236114/House%20Pictures%202/1025%20N.%20Bundy%20Dr%20%282018%29/JD2_3555_wp0sfa.jpg',
-    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696236119/House%20Pictures%202/1025%20N.%20Bundy%20Dr%20%282018%29/JD2_3541_nfhqr7.jpg',
-    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696236122/House%20Pictures%202/1025%20N.%20Bundy%20Dr%20%282018%29/JD2_3548_djzstp.jpg',
-    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696236137/House%20Pictures%202/1025%20N.%20Bundy%20Dr%20%282018%29/JD2_3434_pkfjhh.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696236126/House%20Pictures%202/1025%20N.%20Bundy%20Dr%20%282018%29/JD2_3510_bgq8no.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696236098/House%20Pictures%202/1025%20N.%20Bundy%20Dr%20%282018%29/JD2_3619_frypdc.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696236113/House%20Pictures%202/1025%20N.%20Bundy%20Dr%20%282018%29/JD2_3561-Edit_zbwpdi.jpg',
   
   },
   {
@@ -295,7 +301,7 @@ export const Projects: Project[] = [
     year: "2019",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696236396/House%20Pictures%202/1038%20%20Embury%20%282019%29/1_dhfaip.jpg",
-    images: Woodbridge,
+    images: Embury,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
@@ -307,11 +313,27 @@ export const Projects: Project[] = [
   },
   {
     id: "13",
+    name: "1104 Via De La Paz",
+    year: "2023",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696410438/House%20Pictures%202/1104%20Via%20De%20La%20Paz%20%282023%29/HiRes/Phone%20Format/1104_Via_De_La_Paz_HiRes-86_zsdthh.jpg",
+    images: ViaDaLaPaz,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    // kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696246066/House%20Pictures%202/1160%20monument%20%282022%29/hi%20res/1160_Monument_HiRes-25_kggflr.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696410423/House%20Pictures%202/1104%20Via%20De%20La%20Paz%20%282023%29/HiRes/Phone%20Format/1104_Via_De_La_Paz_HiRes-116_a3v0va.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696410426/House%20Pictures%202/1104%20Via%20De%20La%20Paz%20%282023%29/HiRes/Phone%20Format/1104_Via_De_La_Paz_HiRes-93_r292ea.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696410431/House%20Pictures%202/1104%20Via%20De%20La%20Paz%20%282023%29/HiRes/Phone%20Format/1104_Via_De_La_Paz_HiRes-103_htrvvp.jpg',
+  
+  },
+  {
+    id: "14",
     name: "1160 monument",
     year: "2022",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696246426/House%20Pictures%202/1160%20monument%20%282022%29/hi%20res/1160_Monument_HiRes-65_r7znnh.jpg",
-    images: Woodbridge,
+    images: Monument,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
@@ -567,7 +589,7 @@ export const Projects: Project[] = [
     year: "-",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696341447/House%20Pictures%202/encino%20ave/12885825_10205826703773898_6168022075624116032_o_zjs9df.jpg",
-    images: Woodbridge,
+    images: EncinoAve,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
@@ -583,7 +605,7 @@ export const Projects: Project[] = [
     year: "-",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696340677/House%20Pictures%202/embury/embury%202/6_vptkyx.jpg",
-    images: Woodbridge,
+    images: Embury2,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
@@ -599,6 +621,22 @@ export const Projects: Project[] = [
     year: "-",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Milbank,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "31",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
     images: Woodbridge,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
@@ -609,6 +647,247 @@ export const Projects: Project[] = [
     diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
   
   },
+  {
+    id: "32",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "33",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "34",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "35",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "36",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "37",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "36",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "37",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "38",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "39",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "40",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "41",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "42",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "43",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  {
+    id: "44",
+    name: "Milbank",
+    year: "-",
+    frontview:
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+    images: Woodbridge,
+    address: "San Diego, California. USA",
+    category: "Perfect Landscape",
+    type:"traditional",
+    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
+    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
+    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
+    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+  
+  },
+  
 ];
 
 export const companies = [
