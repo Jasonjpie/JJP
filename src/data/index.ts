@@ -13,6 +13,9 @@ import { bathroom, bedroom, filmTheature, fire, homeMassage, houseGym, kitchen, 
 import { BundyDr } from "@/images/BundyDr";
 import { ViaDaLaPaz } from "@/images/Viadelapaz";
 import { Monument } from "@/images/Monument";
+import { Milbank } from "@/images/Milbank";
+import { Embury2 } from "@/images/Embury";
+import { EncinoAve } from "@/images/EncinoAve";
 
 export const featuredProperties = [
   {
@@ -586,7 +589,7 @@ export const Projects: Project[] = [
     year: "-",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696341447/House%20Pictures%202/encino%20ave/12885825_10205826703773898_6168022075624116032_o_zjs9df.jpg",
-    images: Woodbridge,
+    images: EncinoAve,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
@@ -602,7 +605,7 @@ export const Projects: Project[] = [
     year: "-",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696340677/House%20Pictures%202/embury/embury%202/6_vptkyx.jpg",
-    images: Woodbridge,
+    images: Embury2,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
@@ -618,7 +621,7 @@ export const Projects: Project[] = [
     year: "-",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
-    images: Woodbridge,
+    images: Milbank,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
