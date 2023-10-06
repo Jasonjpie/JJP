@@ -24,8 +24,8 @@ const FilterProjects = ({setProjects}: Props) => {
         </button>
         <button  onClick={() => setCategory('traditional')} className={`px-7 py-2 rounded-full border border-black ${category === 'traditional' ? 'text-white bg-black':'bg-white'}`}>
             Traditional
-        </button><button onClick={() => setCategory('classic')}  className={`px-7 py-2 rounded-full border border-black ${category === 'classic' ? 'text-white bg-black':'bg-white'}`}>
-            Classic
+        </button><button onClick={() => setCategory('farmhouse')}  className={`px-7 py-2 rounded-full border border-black ${category === 'farmhouse' ? 'text-white bg-black':'bg-white'}`}>
+            Farm House
         </button><button onClick={() => setCategory('modern')}  className={`px-7 py-2 rounded-full border border-black ${category === 'modern' ? 'text-white bg-black':'bg-white'}`}>
             Modern
         </button>
