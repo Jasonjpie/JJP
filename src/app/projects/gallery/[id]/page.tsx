@@ -8,7 +8,6 @@ import { useRouter } from 'next/navigation'
 import { Routes } from '@/../Routes'
 import MoreProjectPhotos from '@/components/projects/MoreProjectPhotos'
 import { useEffect, useState } from 'react'
-import { bathroom, bedroom, kitchen, livingRoom } from '@/data/featuredProjects'
 type Props = {
   params:{id:string}
 }
@@ -41,13 +40,13 @@ const Page = ({params}: Props) => {
   }
   useEffect(() => {
     if(activeRooms.includes(2)){
-      setImages([...images, ...livingRoom])
+      setImages([...images, ...project.images.filter(image => image.name === 'Living Room')])
     }else if (activeRooms.includes(3)){
-      setImages([...images, ...kitchen])
+      setImages([...images, ...project.images.filter(image => image.name === 'Kitchen')])
     }else if(activeRooms.includes(4)){
-      setImages([...images, ...bedroom])
+      setImages([...images,...project.images.filter(image => image.name === 'Bedroom')])
     }else if(activeRooms.includes(5)){
-      setImages([...images, ...bathroom])
+      setImages([...images,...project.images.filter(image => image.name === 'Bathroom')])
     }else{
       setImages([...project.images])
     }
