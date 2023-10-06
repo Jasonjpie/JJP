@@ -63,7 +63,7 @@ const Page = ({params}: Props) => {
             <div className='font-semibold text-2xl lg:text-6xl font-poppins'>
               {project?.name}
             </div>
-            <div className='text-gray-300 font-poppins mt-2'>2821 Lake Sevilla: Palm Harbor, TX</div>
+            {/* <div className='text-gray-300 font-poppins mt-2'>2821 Lake Sevilla: Palm Harbor, TX</div> */}
           </div>
         </div>
         <div className="flex gap-5">

@@ -305,3 +305,131 @@ export const Ballina = [
     }
 
 ];
+
+
+export const Fiske844 = [
+    {
+        "name" : "Front View",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201340/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes01_dwmkyv.jpg"
+    },
+    {
+        "name" : "Front Door",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201329/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes03_hs6yx0.jpg"
+    },
+    {
+        "name" : "Kitchen",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201324/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes08_mfmyos.jpg"
+    },
+    {
+        "name" : "Kitchen",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201319/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes10_srv4hy.jpg"
+    },
+    {
+        "name" : "Kitchen",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201312/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes11_owchds.jpg"
+    },
+    {
+        "name" : "Bathroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201309/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes15_udfjtd.jpg"
+    },
+    {
+        "name" : "Bathroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201304/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes17_rldfuk.jpg"
+    },
+    {
+        "name" : "Front View",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201297/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes18_dgua7z.jpg"
+    },
+    {
+        "name" : "Gardon",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201294/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes19_lk21mq.jpg"
+    },
+    {
+        "name" : "Bathroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201287/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes30_g4sc9l.jpg"
+    },
+    {
+        "name" : "Front View",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201285/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes37_wtpnjx.jpg"
+    },
+    {
+        "name" : "Front View",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201277/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes38_truspm.jpg"
+    },
+    {
+        "name" : "Front View",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201274/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes39_c9rtwf.jpg"
+    },
+    {
+        "name" : "Front View",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201104/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes04_au7zto.jpg"
+    },
+    {
+        "name" : "Living Room",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201098/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes05_h9yxof.jpg"
+    },
+    {
+        "name" : "Living Room",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201090/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes07_ka1rko.jpg"
+    },
+    {
+        "name" : "Kitchen",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201086/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes09_xrikmd.jpg"
+    },
+    {
+        "name" : "Living Room",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201082/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes12_lp989o.jpg"
+    },
+    {
+        "name" : "Drawer",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201074/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes13_l4kmqs.jpg"
+    },
+    {
+        "name" : "Hall",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201064/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes16_crvu5p.jpg"
+    },
+    {
+        "name" : "Stairs",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201061/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes20_z49dqk.jpg"
+    },
+    {
+        "name" : "Living Room",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201051/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes22_gter9e.jpg"
+    },
+    {
+        "name" : "Living Room",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201048/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes23_qrwgly.jpg"
+    },
+    {
+        "name" : "Bathroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201043/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes24_hgy3fx.jpg"
+    },
+    {
+        "name" : "Bathroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201034/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes26_dpa8rh.jpg"
+    },
+    {
+        "name" : "Bathroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201029/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes27_ialvbb.jpg"
+    },
+    {
+        "name" : "Bedroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201026/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes28_bpswgs.jpg"
+    },
+    {
+        "name" : "Bedroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201011/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes35_s7jtc7.jpg"
+    },
+    {
+        "name" : "Living Room",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201002/House%20Pictures%202/844%20fiske%20%282021%29/Image_1_pkq4aj.jpg"
+    },
+    {
+        "name" : "Bedroom",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696200997/House%20Pictures%202/844%20fiske%20%282021%29/Image_6_qyz2qu.jpg"
+    },
+    {
+        "name" : "Kitchen",
+        "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696201074/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes13_l4kmqs.jpg"
+    }
+]
