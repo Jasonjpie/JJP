@@ -1,5 +1,5 @@
 import { Beck } from "@/images/Beck";
-import { Embury, Fiske } from "@/images/Fiske";
+import { Embury, Fiske, Fiske844 } from "@/images/Fiske";
 import { Hortense } from "@/images/Hortense";
 import { Iliff } from "@/images/Iliff";
 import { Rancho_st } from "@/images/RanchoSt";
@@ -16,6 +16,8 @@ import { Monument } from "@/images/Monument";
 import { Milbank } from "@/images/Milbank";
 import { Embury2 } from "@/images/Embury";
 import { EncinoAve } from "@/images/EncinoAve";
+import { Albright } from "@/images/Albright";
+import { Hartzell } from "@/images/Hartzell";
 
 export const featuredProperties = [
   {
@@ -541,7 +543,7 @@ export const Projects: Project[] = [
     year: "2018",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696198750/House%20Pictures%202/843%20hartzell%20%282018%29/843Hartzell_LoRes-3-of-46-1024x683_bhvsud.jpg",
-    images: Woodbridge,
+    images: Hartzell,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
@@ -557,7 +559,7 @@ export const Projects: Project[] = [
     year: "2021",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696201334/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes02_ybovxs.jpg",
-    images: Woodbridge,
+    images: Fiske844,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
@@ -573,7 +575,7 @@ export const Projects: Project[] = [
     year: "-",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696191996/House%20Pictures%202/albright/15452_Albright_Street-151_thv54v.jpg",
-    images: Woodbridge,
+    images: Albright,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
@@ -633,18 +635,18 @@ export const Projects: Project[] = [
   },
   {
     id: "31",
-    name: "Milbank",
-    year: "-",
+    name: "Apartments",
+    year: "2014 - 2015",
     frontview:
-      "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
+      "https://res.cloudinary.com/desqmglcs/image/upload/v1696340451/House%20Pictures%202/Apartments/2014-09-02_14.38.24_p6dqnc.jpg",
     images: Woodbridge,
     address: "San Diego, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
-    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
-    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341955/House%20Pictures%202/Milbank/ISyjdjy4ksg3ji0000000000_shk5ke.jpg',
-    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341968/House%20Pictures%202/Milbank/ISyvirpj88bp8i0000000000_xkenlw.jpg',
-    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
+    kitchen:'',
+    bathroom:'',
+    livingroom:'',
+    diningroom:'',
   
   },
   {
