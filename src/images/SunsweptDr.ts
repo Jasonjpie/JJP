@@ -2,7 +2,7 @@
 //3958 Sunswept Dr
 export const Sunswept_Dr = [
     {
-        "name" : "Sunswept_front_house_view",
+        "name" : "Front View",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1692280591/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/3958%20Sunswept%20Dr/SKY_PHOTOGRAPHY_LA-2Y_wa8nk0.jpg"
     },
     {
@@ -166,7 +166,7 @@ export const Sunswept_Dr = [
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696191605/House%20Pictures%202/3958%20Sunswept%20Dr%20%282018%29/SKY_PHOTOGRAPHY_LA-10_ga2fq8.jpg"
     },
     {
-        "name" : "Frontview_pool",
+        "name" : "Frontview Pool",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696191604/House%20Pictures%202/3958%20Sunswept%20Dr%20%282018%29/SKY_PHOTOGRAPHY_LA-8_apofyo.jpg"
     },
     {
@@ -182,7 +182,7 @@ export const Sunswept_Dr = [
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696191600/House%20Pictures%202/3958%20Sunswept%20Dr%20%282018%29/SKY_PHOTOGRAPHY_LA-7_jfnv2l.jpg"
     },
     {
-        "name" : "Outdoor lounge",
+        "name" : "Outdoor Lounge",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696191600/House%20Pictures%202/3958%20Sunswept%20Dr%20%282018%29/SKY_PHOTOGRAPHY_LA-5_v31ldr.jpg"
     },
     {
@@ -198,7 +198,7 @@ export const Sunswept_Dr = [
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696191595/House%20Pictures%202/3958%20Sunswept%20Dr%20%282018%29/SKY_PHOTOGRAPHY_LA_q2nbmz.jpg"
     },
     {
-        "name" : "Outdoor lounge",
+        "name" : "Outdoor Lounge",
         "url"  : "https://res.cloudinary.com/desqmglcs/image/upload/v1696191594/House%20Pictures%202/3958%20Sunswept%20Dr%20%282018%29/SKY_PHOTOGRAPHY_LA-2_db4qxx.jpg"
     },
 ];
