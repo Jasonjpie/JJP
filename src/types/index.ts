@@ -1,4 +1,4 @@
-export type Category = 'all' | 'traditional' | 'farmhouse' | 'modern'
+export type Category = 'all' | 'traditional' | 'farmhouse' | 'modern' | 'apartment'
 
 export interface Project {
     id:string,
