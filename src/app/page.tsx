@@ -9,6 +9,7 @@ import Projects from '@/components/homepage/Projects'
 import ContactUs from '@/components/homepage/ContactUs'
 import Testmonials from '@/components/homepage/Testmonials'
 import Container from '@/components/common/Container'
+import ChatWidgetContainer from '@/components/common/Chat'
 export default function Home() {
   return (
     <div>
@@ -25,6 +26,8 @@ export default function Home() {
         <Testmonials /> 
        
       <Footer />
+
+
     </div>
   )
 }

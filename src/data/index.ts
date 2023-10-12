@@ -9,7 +9,7 @@ import { Sunswept_Dr } from "@/images/SunsweptDr";
 import { ValleyVista } from "@/images/ValleyVista";
 import { Woodbridge } from "@/images/Woodbridge";
 import { Project, Video } from "@/types";
-import { bathroom, bedroom, filmTheature, fire, homeMassage, houseGym, kitchen, livingRoom, pool, stairs, wineCabinet } from "./featuredProjects";
+import { bathroom, bedroom, diningRoom, filmTheature, fire, homeMassage, houseGym, kitchen, livingRoom, pool, stairs, wineCabinet } from "./featuredProjects";
 import { BundyDr } from "@/images/BundyDr";
 import { ViaDaLaPaz } from "@/images/Viadelapaz";
 import { Monument } from "@/images/Monument";
@@ -35,27 +35,28 @@ import { MulhollandTer } from "@/images/MulhollandTerr";
 import { Woodbridge2 } from "@/images/Woodbridge2";
 import { Kling } from "@/images/Kling";
 import { Rancho } from "@/images/Rancho";
+import { Galloway } from "@/images/Galloway";
 
 export const featuredProperties = [
   {
     image: "nomaden-omah-sekut.png",
     name: "Nomaden Omah Sekut",
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
   },
   {
     image: "real-bluestyle-house.png",
     name: "Real Bluestyle House",
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
   },
   {
     image: "gubuque-apique.png",
     name: "Gubuque Apique",
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
   },
   {
     image: "luxury-umahu-mantappu.png",
     name: "Luxury Umahu Mantappu",
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
   },
 ];
 
@@ -64,7 +65,7 @@ export const benefits = [
     icon: "construction.svg",
     name: "Construction Management",
     detail:
-      "Prioritizing clients with expert designers for great investments; book a consultation now.",
+      "From big or Small jobs, we can handle it all. we prioritize efficiency in our bulding process. Find out how we can help you by booking a FREE consultation TODAY!",
   },
   {
     icon: "customer-services.svg",
@@ -146,7 +147,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1692280528/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_47_of_50_ze4rn1.jpg",
     images: Beck,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Traditional House",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1692280545/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4054%20Beck/4054Beck_HiRes_17_of_50_cdh1qa.jpg',
@@ -161,7 +162,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1692282219/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-53_xmzbbu.jpg",
     images: Fiske,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Traditional House",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282196/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/900%20Fiske%20%282020%29/900_Fiske_Street-63_bnyuqs.jpg',
@@ -177,7 +178,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1692282127/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/DJI_0231_sttgjr.jpg",
     images: Hortense,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Traditional House",
     type:"modern",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg',
@@ -193,7 +194,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1692281677/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/770%20Iliff%20%282018%29/SkyFilm_65_d1ubjx.jpg",
     images: Iliff,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Traditional House",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1692281688/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/770%20Iliff%20%282018%29/SkyFilm_37_gdnwlk.jpg',
@@ -209,7 +210,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1692282373/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/17320%20Rancho%20st/1-1024x683_ir4drj.jpg",
     images: Rancho_st,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Traditional House",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg',
@@ -225,7 +226,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1692281531/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4405%20Sancola/4405SancolaAve_TolucaLake_CA91602_USAPre-Twilights-1_ttfutx.jpg",
     images: Sancola,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Traditional House",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg',
@@ -240,7 +241,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1692282384/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/4322%20shadyglade/SkyFilm-02-1024x684_l1cnti.jpg",
     images: Shadyglade,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
    category: "Modern Design" ,
    type:"farmhouse",
    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg',
@@ -257,7 +258,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1692280591/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/3958%20Sunswept%20Dr/SKY_PHOTOGRAPHY_LA-2Y_wa8nk0.jpg",
     images: Sunswept_Dr,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Modern House",
     type:"modern",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg',
@@ -273,7 +274,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1692282367/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/15125%20Valley%20Vista/15125_Valley_Vista_Boulevard_-_High_Resolution_4_km3fms.jpg",
     images: ValleyVista,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Traditional House",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg',
@@ -289,7 +290,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1692280587/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12005%20Woodbridge/SKY_PHOTOGRAPHY_LA-RR2_dl3fao.jpg",
     images: Woodbridge,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Farm House",
     type:"farmhouse",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1692282124/House%20Pictures-20230812T204648Z-002%20%28copy%29/House%20Pictures/12721%20Hortense/JD2_4462-Edit_lwxxkm.jpg',
@@ -305,7 +306,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696236107/House%20Pictures%202/1025%20N.%20Bundy%20Dr%20%282018%29/JD2_3581-Edit_cpqtkf.jpg",
     images: BundyDr,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696236114/House%20Pictures%202/1025%20N.%20Bundy%20Dr%20%282018%29/JD2_3555_wp0sfa.jpg',
@@ -321,7 +322,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696236396/House%20Pictures%202/1038%20%20Embury%20%282019%29/1_dhfaip.jpg",
     images: Embury,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Traditional House",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696236392/House%20Pictures%202/1038%20%20Embury%20%282019%29/5_rpn6x6.jpg',
@@ -337,7 +338,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696410438/House%20Pictures%202/1104%20Via%20De%20La%20Paz%20%282023%29/HiRes/Phone%20Format/1104_Via_De_La_Paz_HiRes-86_zsdthh.jpg",
     images: ViaDaLaPaz,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Farm House",
     type:"farmhouse",
     // kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696246066/House%20Pictures%202/1160%20monument%20%282022%29/hi%20res/1160_Monument_HiRes-25_kggflr.jpg',
@@ -353,7 +354,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696246426/House%20Pictures%202/1160%20monument%20%282022%29/hi%20res/1160_Monument_HiRes-65_r7znnh.jpg",
     images: Monument,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Perfect Landscape",
     type:"modern",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696246066/House%20Pictures%202/1160%20monument%20%282022%29/hi%20res/1160_Monument_HiRes-25_kggflr.jpg',
@@ -369,7 +370,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696190509/House%20Pictures%202/1332%20Glenavon%20%282020%29/Venice_CA-print-023-028-_01_24-4200x2804-300dpi_gygshy.jpg",
     images: Glenavon,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Modern House",
     type:"modern",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696187883/House%20Pictures%202/1332%20Glenavon%20%282020%29/Venice_CA-print-051-066-_01_52-4200x2802-300dpi_syshj1.jpg',
@@ -385,7 +386,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696247912/House%20Pictures%202/1371%20Marinette%20%282021%29/1371MarinetteRd_HiRes_3_of_88_tfshpv.jpg",
     images:  Marinette,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Farm House",
     type:"farmhouse",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696247810/House%20Pictures%202/1371%20Marinette%20%282021%29/1371MarinetteRd_HiRes_23_of_88_ctgaxu.jpg',
@@ -401,7 +402,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696191472/House%20Pictures%202/2484%20Louella%20%282023%29/2484_Louella_HiRes-56_cma2sg.jpg",
     images: Louella,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Modern House",
     type:"modern",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696191450/House%20Pictures%202/2484%20Louella%20%282023%29/2484_Louella_HiRes-49_mpfjfn.jpg',
@@ -417,7 +418,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696252179/House%20Pictures%202/3570%20Frances%20%282019%29/3570_Frances_Avenue-49_qwavoc.jpg",
     images: Frances,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Farm House",
     type:"farmhouse",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696252194/House%20Pictures%202/3570%20Frances%20%282019%29/3570_Frances_Avenue-10_fvboks.jpg',
@@ -433,7 +434,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696252708/House%20Pictures%202/3926%20Ballina%20Dr%20%282018%29/3926Ballina_LoRes-3-of-55-1024x683_1_xtskem.jpg",
     images: BallinaDr,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696252676/House%20Pictures%202/3926%20Ballina%20Dr%20%282018%29/3926Ballina_LoRes-26-of-55-1024x683_jtw9xl.jpg',
@@ -449,7 +450,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696274158/House%20Pictures%202/4114%20Camellia%20%282018%29/4114CamelliaAve-002_xnjkgs.jpg",
     images: Camellia,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Perfect Landscape",
     type:"farmhouse",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696273873/House%20Pictures%202/4114%20Camellia%20%282018%29/4114CamelliaAve-017_ycixh3.jpg',
@@ -465,7 +466,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696275256/House%20Pictures%202/4476Libbit_LoRes%20%282017%29/4476Libbit_LoRes_49_of_49_r0mhyr.jpg",
     images: Libbit_LoRes,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696275187/House%20Pictures%202/4476Libbit_LoRes%20%282017%29/4476Libbit_LoRes_18_of_49_vachgt.jpg',
@@ -481,7 +482,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696284558/House%20Pictures%202/5060%20%20Gloria%20%282018%29/High%20Resolution/DJI_0064_fr28t2.jpg",
     images: Gloria,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Farm House",
     type:"farmhouse",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696283120/House%20Pictures%202/5060%20%20Gloria%20%282018%29/High%20Resolution/BSS_0794_uwmk6l.jpg',
@@ -497,7 +498,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696195988/House%20Pictures%202/709%20El%20Medio%20%282018%29/709ElMedio_HiRes_51_of_51_hie63w.jpg",
     images: ElMedio,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Farm House",
     type:"farmhouse",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696195909/House%20Pictures%202/709%20El%20Medio%20%282018%29/709ElMedio_HiRes_13_of_51_rexnp8.jpg',
@@ -513,7 +514,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696196445/House%20Pictures%202/735%20Iliff%20%282022%29/735_Iliff_HiRes-149_ryv81l.jpg",
     images: Iliff,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Traditional House",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696196209/House%20Pictures%202/735%20Iliff%20%282022%29/735_Iliff_HiRes-16_udl4kq.jpg',
@@ -528,8 +529,8 @@ export const Projects: Project[] = [
     year: "2020",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696198099/House%20Pictures%202/806%20Galloway%20%282020%29/High_Res_-1_ada6xk.jpg",
-    images: Woodbridge,
-    address: "San Diego, California. USA",
+    images: Galloway,
+    address: "Los Angeles, California. USA",
     category: "Farm House",
     type:"farmhouse",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696198109/House%20Pictures%202/806%20Galloway%20%282020%29/High_Res_-5_yuurpd.jpg',
@@ -545,7 +546,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696198438/House%20Pictures%202/831%20Iliff%20%282023%29/Iliff-EXT_LoRes_5_of_8__preview_p6bcmv.jpg",
     images: Iliff831,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Traditional House",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696198343/House%20Pictures%202/831%20Iliff%20%282023%29/831Iliff__LoRes_11_of_37__preview_xl2fjs.jpg',
@@ -561,7 +562,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696198750/House%20Pictures%202/843%20hartzell%20%282018%29/843Hartzell_LoRes-3-of-46-1024x683_bhvsud.jpg",
     images: Hartzell,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Farm House",
     type:"farmhouse",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696198862/House%20Pictures%202/843%20hartzell%20%282018%29/843Hartzell_LoRes-21-of-46-1024x683_fl4n1i.jpg',
@@ -577,7 +578,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696201334/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes02_ybovxs.jpg",
     images: Fiske844,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Farm House",
     type:"farmhouse",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696201324/House%20Pictures%202/844%20fiske%20%282021%29/844_Fiske_FullRes08_mfmyos.jpg',
@@ -593,7 +594,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696191996/House%20Pictures%202/albright/15452_Albright_Street-151_thv54v.jpg",
     images: Albright,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
     kitchen:'',
@@ -609,7 +610,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696341447/House%20Pictures%202/encino%20ave/12885825_10205826703773898_6168022075624116032_o_zjs9df.jpg",
     images: EncinoAve,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696341373/House%20Pictures%202/encino%20ave/11262081_10205826654092656_9110319298915624331_o_khkuua.jpg',
@@ -625,7 +626,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696340677/House%20Pictures%202/embury/embury%202/6_vptkyx.jpg",
     images: Embury2,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696340655/House%20Pictures%202/embury/embury%202/24_plpokt.jpg',
@@ -641,7 +642,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
     images: Milbank,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Farm House",
     type:"farmhouse",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
@@ -657,7 +658,7 @@ export const Projects: Project[] = [
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696340451/House%20Pictures%202/Apartments/2014-09-02_14.38.24_p6dqnc.jpg",
     images: Apartments,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Perfect Landscape",
     type:"apartment",
     kitchen:'',
@@ -666,46 +667,46 @@ export const Projects: Project[] = [
     diningroom:'',
   
   },
+  // {
+  //   id: "34",
+  //   name: "Otsego",
+  //   year: "-",
+  //   frontview:
+  //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696352425/House%20Pictures%202/Otsego/IS2vslsbdarau90000000000_ori3ay.jpg",
+  //   images: Otsego,
+  //   address: "Los Angeles, California. USA",
+  //   category: "Perfect Landscape",
+  //   type:"traditional",
+  //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352405/House%20Pictures%202/Otsego/ISecml9s0m2ju90000000000_jdcqne.jpg',
+  //   bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352383/House%20Pictures%202/Otsego/ISy31fe396p8ia0000000000_res9ib.jpg',
+  //   livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352457/House%20Pictures%202/Otsego/ISuoq9a592jdu90000000000_sseg3l.jpg',
+  //   diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352461/House%20Pictures%202/Otsego/ISa9dlv2guo5aa0000000000_hatdv5.jpg',
+  
+  // },
+  // {
+  //   id: "35",
+  //   name: "St Cliar",
+  //   year: "-",
+  //   frontview:
+  //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696352638/House%20Pictures%202/St%20Clair/ISa99err9a8nxi1000000000_khu6f7.jpg",
+  //   images: StClair,
+  //   address: "Los Angeles, California. USA",
+  //   category: "Perfect Landscape",
+  //   type:"traditional",
+  //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352652/House%20Pictures%202/St%20Clair/IS2nm73vlcksqi1000000000_tuxsdz.jpg',
+  //   bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352694/House%20Pictures%202/St%20Clair/ISekw6zo7ntpri1000000000_majggz.jpg',
+  //   livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352804/House%20Pictures%202/St%20Clair/ISe4wnjqmmuyfj1000000000_fryrsj.jpg',
+  //   diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352765/House%20Pictures%202/St%20Clair/ISijawouvt2ypi1000000000_l9btox.jpg',
+  
+  // },
   {
     id: "34",
-    name: "Otsego",
-    year: "-",
-    frontview:
-      "https://res.cloudinary.com/desqmglcs/image/upload/v1696352425/House%20Pictures%202/Otsego/IS2vslsbdarau90000000000_ori3ay.jpg",
-    images: Otsego,
-    address: "San Diego, California. USA",
-    category: "Perfect Landscape",
-    type:"traditional",
-    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352405/House%20Pictures%202/Otsego/ISecml9s0m2ju90000000000_jdcqne.jpg',
-    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352383/House%20Pictures%202/Otsego/ISy31fe396p8ia0000000000_res9ib.jpg',
-    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352457/House%20Pictures%202/Otsego/ISuoq9a592jdu90000000000_sseg3l.jpg',
-    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352461/House%20Pictures%202/Otsego/ISa9dlv2guo5aa0000000000_hatdv5.jpg',
-  
-  },
-  {
-    id: "35",
-    name: "St Cliar",
-    year: "-",
-    frontview:
-      "https://res.cloudinary.com/desqmglcs/image/upload/v1696352638/House%20Pictures%202/St%20Clair/ISa99err9a8nxi1000000000_khu6f7.jpg",
-    images: StClair,
-    address: "San Diego, California. USA",
-    category: "Perfect Landscape",
-    type:"traditional",
-    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352652/House%20Pictures%202/St%20Clair/IS2nm73vlcksqi1000000000_tuxsdz.jpg',
-    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352694/House%20Pictures%202/St%20Clair/ISekw6zo7ntpri1000000000_majggz.jpg',
-    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352804/House%20Pictures%202/St%20Clair/ISe4wnjqmmuyfj1000000000_fryrsj.jpg',
-    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696352765/House%20Pictures%202/St%20Clair/ISijawouvt2ypi1000000000_l9btox.jpg',
-  
-  },
-  {
-    id: "36",
     name: "Mulholland Ter",
     year: "2020",
     frontview:
       "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
     images: MulhollandTer,
-    address: "San Diego, California. USA",
+    address: "Los Angeles, California. USA",
     category: "Perfect Landscape",
     type:"traditional",
     kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
@@ -714,54 +715,54 @@ export const Projects: Project[] = [
     diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342007/House%20Pictures%202/Milbank/ISybn5wuezroqh0000000000_u0ottj.jpg',
   
   },
-  {
-    id: "37",
-    name: "Woodbridge2",
-    year: "-",
-    frontview:
-      "https://res.cloudinary.com/desqmglcs/image/upload/v1696338036/House%20Pictures%202/10452%20Woodbridge%20%282018%29/10452_Woodbridge-02_swltut.jpg",
-    images: Woodbridge2,
-    address: "San Diego, California. USA",
-    category: "Perfect Landscape",
-    type:"traditional",
-    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338043/House%20Pictures%202/10452%20Woodbridge%20%282018%29/10452Woodbridge-017_aotst2.jpg',
-    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338067/House%20Pictures%202/10452%20Woodbridge%20%282018%29/10452Woodbridge-042_fbv8qo.jpg',
-    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338079/House%20Pictures%202/10452%20Woodbridge%20%282018%29/10452Woodbridge-013_jg4gpb.jpg',
-    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338082/House%20Pictures%202/10452%20Woodbridge%20%282018%29/10452Woodbridge-010_gyfzgp.jpg',
+  // {
+  //   id: "37",
+  //   name: "Woodbridge2",
+  //   year: "-",
+  //   frontview:
+  //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696338036/House%20Pictures%202/10452%20Woodbridge%20%282018%29/10452_Woodbridge-02_swltut.jpg",
+  //   images: Woodbridge2,
+  //   address: "Los Angeles, California. USA",
+  //   category: "Perfect Landscape",
+  //   type:"traditional",
+  //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338043/House%20Pictures%202/10452%20Woodbridge%20%282018%29/10452Woodbridge-017_aotst2.jpg',
+  //   bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338067/House%20Pictures%202/10452%20Woodbridge%20%282018%29/10452Woodbridge-042_fbv8qo.jpg',
+  //   livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338079/House%20Pictures%202/10452%20Woodbridge%20%282018%29/10452Woodbridge-013_jg4gpb.jpg',
+  //   diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338082/House%20Pictures%202/10452%20Woodbridge%20%282018%29/10452Woodbridge-010_gyfzgp.jpg',
   
-  },
-  {
-    id: "38",
-    name: "Kling",
-    year: "2018",
-    frontview:
-      "https://res.cloudinary.com/desqmglcs/image/upload/v1696338506/House%20Pictures%202/12618%20Kling%20%282018%29/12618Kling_HiRes_5_of_48_fsn9ns.jpg",
-    images: Kling,
-    address: "San Diego, California. USA",
-    category: "Perfect Landscape",
-    type:"traditional",
-    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338488/House%20Pictures%202/12618%20Kling%20%282018%29/12618Kling_HiRes_23_of_48_uq9pbd.jpg',
-    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338441/House%20Pictures%202/12618%20Kling%20%282018%29/12618Kling_HiRes_35_of_48_vcru2t.jpg',
-    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338494/House%20Pictures%202/12618%20Kling%20%282018%29/12618Kling_HiRes_11_of_48_zumhlj.jpg',
-    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338492/House%20Pictures%202/12618%20Kling%20%282018%29/12618Kling_HiRes_24_of_48_gftmlf.jpg',
+  // },
+  // {
+  //   id: "38",
+  //   name: "Kling",
+  //   year: "2018",
+  //   frontview:
+  //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696338506/House%20Pictures%202/12618%20Kling%20%282018%29/12618Kling_HiRes_5_of_48_fsn9ns.jpg",
+  //   images: Kling,
+  //   address: "Los Angeles, California. USA",
+  //   category: "Perfect Landscape",
+  //   type:"traditional",
+  //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338488/House%20Pictures%202/12618%20Kling%20%282018%29/12618Kling_HiRes_23_of_48_uq9pbd.jpg',
+  //   bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338441/House%20Pictures%202/12618%20Kling%20%282018%29/12618Kling_HiRes_35_of_48_vcru2t.jpg',
+  //   livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338494/House%20Pictures%202/12618%20Kling%20%282018%29/12618Kling_HiRes_11_of_48_zumhlj.jpg',
+  //   diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696338492/House%20Pictures%202/12618%20Kling%20%282018%29/12618Kling_HiRes_24_of_48_gftmlf.jpg',
   
-  },
-  {
-    id: "39",
-    name: "Rancho",
-    year: "-",
-    frontview:
-      "https://res.cloudinary.com/desqmglcs/image/upload/v1696340089/House%20Pictures%202/17328%20Rancho%20%282018%29/17328Rancho_HiRes_1_of_57_mzzplb.jpg",
-    images: Rancho,
-    address: "San Diego, California. USA",
-    category: "Perfect Landscape",
-    type:"traditional",
-    kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696340039/House%20Pictures%202/17328%20Rancho%20%282018%29/17328Rancho_HiRes_14_of_57_uxpfyg.jpg',
-    bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696340028/House%20Pictures%202/17328%20Rancho%20%282018%29/17328Rancho_HiRes_32_of_57_vnaj04.jpg',
-    livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696340141/House%20Pictures%202/17328%20Rancho%20%282018%29/17328Rancho_HiRes_8_of_57_txx1re.jpg',
-    diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696340073/House%20Pictures%202/17328%20Rancho%20%282018%29/17328Rancho_HiRes_11_of_57_ioi9vj.jpg',
+  // },
+  // {
+  //   id: "39",
+  //   name: "Rancho",
+  //   year: "-",
+  //   frontview:
+  //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696340089/House%20Pictures%202/17328%20Rancho%20%282018%29/17328Rancho_HiRes_1_of_57_mzzplb.jpg",
+  //   images: Rancho,
+  //   address: "Los Angeles, California. USA",
+  //   category: "Perfect Landscape",
+  //   type:"traditional",
+  //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696340039/House%20Pictures%202/17328%20Rancho%20%282018%29/17328Rancho_HiRes_14_of_57_uxpfyg.jpg',
+  //   bathroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696340028/House%20Pictures%202/17328%20Rancho%20%282018%29/17328Rancho_HiRes_32_of_57_vnaj04.jpg',
+  //   livingroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696340141/House%20Pictures%202/17328%20Rancho%20%282018%29/17328Rancho_HiRes_8_of_57_txx1re.jpg',
+  //   diningroom:'https://res.cloudinary.com/desqmglcs/image/upload/v1696340073/House%20Pictures%202/17328%20Rancho%20%282018%29/17328Rancho_HiRes_11_of_57_ioi9vj.jpg',
   
-  },
+  // },
   // {
   //   id: "36",
   //   name: "Milbank",
@@ -769,7 +770,7 @@ export const Projects: Project[] = [
   //   frontview:
   //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
   //   images: Woodbridge,
-  //   address: "San Diego, California. USA",
+  //   address: "Los Angeles, California. USA",
   //   category: "Perfect Landscape",
   //   type:"traditional",
   //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
@@ -785,7 +786,7 @@ export const Projects: Project[] = [
   //   frontview:
   //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
   //   images: Woodbridge,
-  //   address: "San Diego, California. USA",
+  //   address: "Los Angeles, California. USA",
   //   category: "Perfect Landscape",
   //   type:"traditional",
   //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
@@ -801,7 +802,7 @@ export const Projects: Project[] = [
   //   frontview:
   //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
   //   images: Woodbridge,
-  //   address: "San Diego, California. USA",
+  //   address: "Los Angeles, California. USA",
   //   category: "Perfect Landscape",
   //   type:"traditional",
   //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
@@ -817,7 +818,7 @@ export const Projects: Project[] = [
   //   frontview:
   //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
   //   images: Woodbridge,
-  //   address: "San Diego, California. USA",
+  //   address: "Los Angeles, California. USA",
   //   category: "Perfect Landscape",
   //   type:"traditional",
   //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
@@ -833,7 +834,7 @@ export const Projects: Project[] = [
   //   frontview:
   //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
   //   images: Woodbridge,
-  //   address: "San Diego, California. USA",
+  //   address: "Los Angeles, California. USA",
   //   category: "Perfect Landscape",
   //   type:"traditional",
   //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
@@ -849,7 +850,7 @@ export const Projects: Project[] = [
   //   frontview:
   //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
   //   images: Woodbridge,
-  //   address: "San Diego, California. USA",
+  //   address: "Los Angeles, California. USA",
   //   category: "Perfect Landscape",
   //   type:"traditional",
   //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
@@ -865,7 +866,7 @@ export const Projects: Project[] = [
   //   frontview:
   //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
   //   images: Woodbridge,
-  //   address: "San Diego, California. USA",
+  //   address: "Los Angeles, California. USA",
   //   category: "Perfect Landscape",
   //   type:"traditional",
   //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
@@ -881,7 +882,7 @@ export const Projects: Project[] = [
   //   frontview:
   //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
   //   images: Woodbridge,
-  //   address: "San Diego, California. USA",
+  //   address: "Los Angeles, California. USA",
   //   category: "Perfect Landscape",
   //   type:"traditional",
   //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
@@ -897,7 +898,7 @@ export const Projects: Project[] = [
   //   frontview:
   //     "https://res.cloudinary.com/desqmglcs/image/upload/v1696342039/House%20Pictures%202/Milbank/ISu0oj521251yi0000000000_j76ura.jpg",
   //   images: Woodbridge,
-  //   address: "San Diego, California. USA",
+  //   address: "Los Angeles, California. USA",
   //   category: "Perfect Landscape",
   //   type:"traditional",
   //   kitchen:'https://res.cloudinary.com/desqmglcs/image/upload/v1696342015/House%20Pictures%202/Milbank/ISesi1klaxakqi0000000000_asenet.jpg',
@@ -970,12 +971,17 @@ export const rooms = [
     images:kitchen
   },
   {
-    name:'BathRooms',
+    name:'Bathrooms',
     image:bathroom[0].url,
     images:bathroom
   },
   {
-    name:'BedRooms',
+    name:'Dining Table',
+    image:diningRoom[4].url,
+    images:diningRoom
+  },
+  {
+    name:'Bedrooms',
     image:bedroom[0].url,
     images:bedroom
   },

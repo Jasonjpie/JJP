@@ -10,7 +10,9 @@ const Footer = (props: Props) => {
     <div className="w-full  bg-[#101C3D]">
       <Container>
         <div className="grid lg:grid-cols-5 gap-12 py-12 px-5">
-          <div className="text-white text-4xl self-end">JJP</div>
+          <Link href={Routes.HOME}>
+            <Image src={`/Icons/logo-light.svg`} width={200} height={20} alt="JJP's Logo" />
+          </Link>
           <div className="flex flex-col gap-2 text-white font-bold">
             <div className="mb-3">Useful Links</div>
             <Link href={Routes.ABOUT}>About</Link>
@@ -43,7 +45,7 @@ const Footer = (props: Props) => {
                 height={20}
                 alt="Phone Number"
               />
-              <div> +1 818-915-1831 </div>
+              <div>Text only! +323 902 7266 </div>
             </div>
             <div className="flex items-center gap-3">
               <Image
@@ -60,46 +62,46 @@ const Footer = (props: Props) => {
             <div className="flex gap-3">
               <div className="flex items-center justify-center w-12 h-12 border border-white rounded-full">
                 <Link href='https://www.youtube.com/@JasonPie/videos'
-                target="_blank"
+                  target="_blank"
                 >
-                <Image
-                  src="/Icons/icons8-youtube.svg" alt={"Youtube"}
-                  width={30}
-                  height={20}
-                />
+                  <Image
+                    src="/Icons/icons8-youtube.svg" alt={"Youtube"}
+                    width={30}
+                    height={20}
+                  />
                 </Link>
               </div>
               <div className="flex items-center justify-center w-12 h-12 border border-white rounded-full">
-              <Link href='https://www.instagram.com/jjpconstruction/'
-              target="_blank"
-              >
-                <Image
-                  src="/Icons/icons8-instagram.svg" alt={"Instagram"}
-                  width={30}
-                  height={20}
-                />
+                <Link href='https://www.instagram.com/jjpconstruction/'
+                  target="_blank"
+                >
+                  <Image
+                    src="/Icons/icons8-instagram.svg" alt={"Instagram"}
+                    width={30}
+                    height={20}
+                  />
                 </Link>
               </div>
               <div className="flex items-center justify-center w-12 h-12 border border-white rounded-full">
-              <Link href='https://www.facebook.com/Jjpconstruction/'
-              target="_blank"
-              >
-                <Image
-                  src="/Icons/icons8-facebook-circled.svg" alt={"facebook"}
-                  width={30}
-                  height={20}
-                />
+                <Link href='https://www.facebook.com/Jjpconstruction/'
+                  target="_blank"
+                >
+                  <Image
+                    src="/Icons/icons8-facebook-circled.svg" alt={"facebook"}
+                    width={30}
+                    height={20}
+                  />
                 </Link>
               </div>
               <div className="flex items-center justify-center w-12 h-12 border border-white rounded-full">
-              <Link href='https://www.houzz.com/professionals/home-builders/jjp-construction-pfvwus-pf~724293494?'
-              target="_blank"
-              >
-                <Image
-                  src="/Icons/icons8-houzz-new.svg" alt={"Houzz"}
-                  width={30}
-                  height={20}
-                />
+                <Link href='https://www.houzz.com/professionals/home-builders/jjp-construction-pfvwus-pf~724293494?'
+                  target="_blank"
+                >
+                  <Image
+                    src="/Icons/icons8-houzz-new.svg" alt={"Houzz"}
+                    width={30}
+                    height={20}
+                  />
                 </Link>
               </div>
             </div>

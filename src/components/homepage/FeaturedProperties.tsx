@@ -97,10 +97,10 @@ const FeaturedProperties = (props: Props) => {
               we&apos;re sure you&apos;ll want them too.
             </div>
             <div className="flex justify-end self-start gap-3">
-              <button className="p-4 rounded-2xl bg-white" onClick={() => handleScroll(false)}>
+              <button className="relative z-10 p-4 rounded-2xl bg-white" onClick={() => handleScroll(false)}>
                 <RiArrowLeftFill className="text-primary" size={30} />
               </button>
-              <button className="p-4 rounded-2xl bg-primary shadow-primary shadow-2xl" onClick={() => handleScroll(true)}>
+              <button className="relative z-10 p-4 rounded-2xl bg-primary shadow-primary shadow-2xl" onClick={() => handleScroll(true)}>
                 <RiArrowRightFill className="text-white" size={30} />
               </button>
             </div>

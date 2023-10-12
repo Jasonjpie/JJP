@@ -1,3 +1,4 @@
+import ChatWidgetContainer from '@/components/common/Chat'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -16,7 +17,10 @@ export default function RootLayout({
       <head>
         <link rel="shortcut icon" type='image/svg+xml' href="/Icons/jjp-small-logo.svg" />
       </head>
-      <body className='max-w-auto mx-auto'>{children}</body>
+      <body className='max-w-auto mx-auto'>{children}
+        <ChatWidgetContainer />
+
+      </body>
     </html>
   )
 }

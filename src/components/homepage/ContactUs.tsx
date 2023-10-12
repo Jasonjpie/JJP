@@ -128,7 +128,7 @@ const ContactUs = (props: Props) => {
             <div className="relative lg:block hidden w-[40%]">
                 <Image src="/Icons/world.svg" fill alt="World Map" />
                 <Image
-                    className="absolute top-64 left-32"
+                    className="absolute top-72 left-16  "
                     src="/Icons/location-pointer.svg"
                     width={50}
                     height={50}
