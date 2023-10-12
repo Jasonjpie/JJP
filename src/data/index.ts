@@ -987,7 +987,7 @@ export const rooms = [
   },
   {
     name:'Living Room',
-    image:livingRoom[0].url,
+    image:livingRoom[3].url,
     images:livingRoom
   },
   {
